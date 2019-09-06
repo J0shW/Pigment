@@ -5,6 +5,7 @@ import SimilarColors from './SimilarColors';
 import './App.css';
 import faker from 'faker';
 import axios from 'axios';
+import SearchBar2 from './SearchBar2';
 
 class App extends React.Component {
     state = {
@@ -43,7 +44,8 @@ class App extends React.Component {
     render() {
         return (
             <div style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
-                <SearchBar onSubmit={this.onSearchSubmit} />
+                {/* <SearchBar onSubmit={this.onSearchSubmit} /> */}
+                <SearchBar2 onSubmit={this.onSearchSubmit} />
                 <div className="ui equal width center aligned padded grid" style={{ flexGrow: '1' }}>
                     <CurrentColor color={this.state.currentColor} />
                     <SimilarColors currentColor={this.state.currentColor} similarColors={this.state.similarColors} />
