@@ -1,0 +1,20 @@
+[
+    {
+        "id": "001",
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Blue",
+        "hex": "#0000FF",
+        "productcode": "WP1102",
+        "deltas": [{ "id": "123", "delta": "2.06" }, { "id": "422", "delta": "4.72" }, { "id": "144", "delta": "4.90" }]
+    },
+    {
+        "id": "002",
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Red",
+        "hex": "#FF0000",
+        "productcode": "WP1103",
+        "deltas": [{ "id": "321", "delta": "1.19" }, { "id": "224", "delta": "3.22" }, { "id": "441", "delta": "4.51" }]
+    }
+]
