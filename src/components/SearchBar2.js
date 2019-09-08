@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import _ from "lodash";
-import faker from "faker";
 import React, { Component } from "react";
 import { Search, Label } from "semantic-ui-react";
 
@@ -13,45 +12,49 @@ categoryRenderer.propTypes = {
   name: PropTypes.string
 };
 
-const resultRenderer = ({ title }) => <Label content={title} />;
+const resultRenderer = ({ title }) => <Label id={title} content={title} />;
 
 resultRenderer.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string
 };
 
-const initialState = { isLoading: false, results: [], value: "" };
-
-const getResults = () =>
-  _.times(5, () => ({
-    id: "001",
-    brand: "Vallejo",
-    productline: "Game Color",
-    name: "Red",
-    hex: "#FF0000",
-    productcode: "WP1102",
-    title: "Sotek Blue"
-    // title: faker.company.companyName(),
-    // description: faker.company.catchPhrase(),
-    // image: faker.internet.avatar(),
-    // price: faker.finance.amount(0, 100, 2, '$'),
-  }));
-
-const source = _.range(0, 3).reduce(memo => {
-  // const name = faker.hacker.noun();
-  const name = "Vallejo Game Color";
-
-  // eslint-disable-next-line no-param-reassign
-  memo[name] = {
-    name,
-    results: getResults()
-  };
-
-  return memo;
-}, {});
+let source = {};
 
 export default class SearchExampleCategory extends Component {
-  state = initialState;
+  initialState = {
+    isLoading: false,
+    results: [],
+    value: "",
+    colors: this.props.colors
+  };
+  state = this.initialState;
+
+  componentDidUpdate() {
+    if (this.state.colors.length <= 0 && this.props.colors.length > 0) {
+      this.initialState.colors = this.props.colors;
+      this.setState({ colors: this.props.colors });
+      this.setSource(this.props.colors);
+    }
+  }
+
+  setSource = colors => {
+    source = {};
+    // Put this.props.colors into the "source" variable
+    colors.forEach(color => {
+      let resArr = [];
+      if (color.brand in source) {
+        resArr = source[color.brand].results;
+      }
+
+      resArr.push(color);
+
+      source[color.brand] = {
+        name: color.brand,
+        results: resArr
+      };
+    });
+  };
 
   handleResultSelect = (e, { result }) =>
     this.setState({ value: result.title });
@@ -60,22 +63,51 @@ export default class SearchExampleCategory extends Component {
     this.setState({ isLoading: true, value });
 
     setTimeout(() => {
-      if (this.state.value.length < 1) return this.setState(initialState);
+      // Clear the state back to default values
+      if (this.state.value.length < 1) return this.setState(this.initialState);
 
-      const re = new RegExp(_.escapeRegExp(this.state.value), "i");
-      const isMatch = result => re.test(result.title);
+      let filteredResults = {};
 
-      const filteredResults = _.reduce(
-        source,
-        (memo, data, name) => {
-          const results = _.filter(data.results, isMatch);
-          if (results.length) memo[name] = { name, results }; // eslint-disable-line no-param-reassign
+      // Create an array of the words that were searched
+      const searchTerms = this.state.value.trim().split(" ");
 
-          return memo;
-        },
-        {}
-      );
+      // Loop over every color in the database
+      for (const brand in source) {
+        const name = source[brand].name;
+        const colors = source[brand].results;
 
+        // Checks for a match with the given color against all search terms
+        const isMatch = color => {
+          // split the color's name and brand into an array
+          let colorTerms = color.title
+            .split(" ")
+            .concat(color.brand.split(" "));
+
+          // return true if 'every' searchTerm matches a colorTerm
+          return searchTerms.every(term => {
+            // Create regex to check colorTerms against
+            const re = new RegExp(_.escapeRegExp(term), "i");
+
+            // return true if any of the colorTerms matches the regex
+            return colorTerms.some((colorTerm, index) => {
+              if (re.test(colorTerm)) {
+                console.log(colorTerms.splice(index, 1));
+                return true;
+              } else {
+                return false;
+              }
+            });
+          });
+        };
+
+        // Call the "isMatch" function for each color in "colors", then save the "true" results to an array
+        const results = _.filter(colors, isMatch);
+
+        // Concat the results to the filteredResults collection
+        if (results.length) filteredResults[brand] = { name, results };
+      }
+
+      // Save the results to the state
       this.setState({
         isLoading: false,
         results: filteredResults
@@ -121,36 +153,6 @@ export default class SearchExampleCategory extends Component {
           <i className="filter icon"></i>
         </button>
       </div>
-
-      //   <Grid>
-      //     <Grid.Column width={8}>
-      //       <Search
-      //         category
-      //         categoryRenderer={categoryRenderer}
-      //         loading={isLoading}
-      //         onResultSelect={this.handleResultSelect}
-      //         onSearchChange={_.debounce(this.handleSearchChange, 500, {
-      //           leading: true,
-      //         })}
-      //         resultRenderer={resultRenderer}
-      //         results={results}
-      //         value={value}
-      //         {...this.props}
-      //       />
-      //     </Grid.Column>
-      //     <Grid.Column width={8}>
-      //       <Segment>
-      //         <Header>State</Header>
-      //         <pre style={{ overflowX: 'auto' }}>
-      //           {JSON.stringify(this.state, null, 2)}
-      //         </pre>
-      //         <Header>Options</Header>
-      //         <pre style={{ overflowX: 'auto' }}>
-      //           {JSON.stringify(source, null, 2)}
-      //         </pre>
-      //       </Segment>
-      //     </Grid.Column>
-      //   </Grid>
     );
   }
 }
