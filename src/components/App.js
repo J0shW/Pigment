@@ -3,7 +3,7 @@ import CurrentColor from "./CurrentColor";
 import SimilarColors from "./SimilarColors";
 import "./App.css";
 import axios from "axios";
-import SearchBar2 from "./SearchBar2";
+import SearchBar from "./SearchBar";
 
 class App extends React.Component {
   state = {
@@ -76,10 +76,10 @@ class App extends React.Component {
     let search;
     if (this.state.colors.length > 0) {
       search = (
-        <SearchBar2 onSubmit={this.onSearchSubmit} colors={this.state.colors} />
+        <SearchBar onSubmit={this.onSearchSubmit} colors={this.state.colors} />
       );
     } else {
-      search = <SearchBar2 onSubmit={this.onSearchSubmit} colors={[]} />;
+      search = <SearchBar onSubmit={this.onSearchSubmit} colors={[]} />;
     }
 
     return (
