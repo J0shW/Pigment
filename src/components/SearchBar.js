@@ -56,8 +56,12 @@ export default class SearchExampleCategory extends Component {
     });
   };
 
-  handleResultSelect = (e, { result }) =>
-    this.setState({ value: result.title });
+  handleResultSelect = (e, { result }) => {
+    //this.setState({ value: result.title });
+    this.setState({ value: "" });
+    // Pass the searched color to App.js event handler
+    this.props.onSubmit(result);
+  };
 
   handleSearchChange = (e, { value }) => {
     this.setState({ isLoading: true, value });
@@ -91,7 +95,7 @@ export default class SearchExampleCategory extends Component {
             // return true if any of the colorTerms matches the regex
             return colorTerms.some((colorTerm, index) => {
               if (re.test(colorTerm)) {
-                console.log(colorTerms.splice(index, 1));
+                colorTerms.splice(index, 1);
                 return true;
               } else {
                 return false;

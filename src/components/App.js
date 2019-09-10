@@ -68,8 +68,16 @@ class App extends React.Component {
       });
   }
 
-  onSearchSubmit = term => {
-    this.setState({ currentColor: { name: term, hex: term } });
+  onSearchSubmit = color => {
+    this.setState({
+      currentColor: {
+        name: color.title,
+        hex: color.hex,
+        brand: color.brand,
+        productline: color.productline
+      }
+    });
+    //console.log(term);
   };
 
   render() {
