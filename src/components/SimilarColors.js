@@ -1,8 +1,10 @@
 import React from 'react';
 import ColorConvert from 'color-convert';
+import _ from 'lodash';
 var DeltaE = require('delta-e');
 
 const SimilarColors = (props) => {
+    let orderedColors = props.similarColors;
     const getDeltaE = (color1, color2) => {
         color1 = ColorConvert.hex.lab.raw(color1);
         //console.log('1: ' + color1);
@@ -16,24 +18,13 @@ const SimilarColors = (props) => {
         return Math.abs(Math.floor(DeltaE.getDeltaE00(lab1, lab2)) - 100);
     };
 
-    const compare = (a, b) => {
-        let comparison = 0;
-        if (a > b) {
-            comparison = 1;
-        } else if (a < b) {
-            comparison = -1;
-        }
-        return comparison;
-    };
-
     const orderColors = () => {
         props.similarColors.forEach((color) => {
             color.deltaE = getDeltaE(props.currentColor.hex, color.hex);
         });
-        props.similarColors.sort(compare);
-    };
 
-    const orderedColors = orderColors();
+        orderedColors = _.orderBy(props.similarColors, ['deltaE'], ['desc']);
+    };
 
     const renderColors = props.similarColors.map((color, index) => {
         return (
@@ -52,6 +43,7 @@ const SimilarColors = (props) => {
 
     return (
         <div className="row" style={{ height: '70%' }}>
+            {/* {orderColors()} */}
             {renderColors}
         </div>
     );

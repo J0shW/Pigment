@@ -1,106 +1,590 @@
 [
-  {
-    "id": "001",
-    "brand": "Vallejo",
-    "productline": "Game Color",
-    "title": "Blue",
-    "hex": "#0000FF",
-    "productcode": "WP1102",
-    "deltas": [
-      { "id": "123", "delta": "2.06" },
-      { "id": "422", "delta": "4.72" },
-      { "id": "144", "delta": "4.90" }
-    ]
-  },
-  {
-    "id": "002",
-    "brand": "Vallejo",
-    "productline": "Game Color",
-    "title": "Red",
-    "hex": "#FF0000",
-    "productcode": "WP1103",
-    "deltas": [
-      { "id": "321", "delta": "1.19" },
-      { "id": "224", "delta": "3.22" },
-      { "id": "441", "delta": "4.51" }
-    ]
-  },
-  {
-    "id": "003",
-    "brand": "Citadel",
-    "productline": "Layer & Edge",
-    "title": "Sotek Green",
-    "hex": "#0c6a74",
-    "productcode": "WP1102",
-    "deltas": [
-      { "id": "123", "delta": "2.06" },
-      { "id": "422", "delta": "4.72" },
-      { "id": "144", "delta": "4.90" }
-    ]
-  },
-  {
-    "id": "004",
-    "brand": "Reaper",
-    "productline": "HD",
-    "title": "HD Winter Blue",
-    "hex": "#1d6d74",
-    "productcode": "WP1102",
-    "deltas": [
-      { "id": "123", "delta": "2.06" },
-      { "id": "422", "delta": "4.72" },
-      { "id": "144", "delta": "4.90" }
-    ]
-  },
-  {
-    "id": "005",
-    "brand": "Reaper",
-    "productline": "MSP",
-    "title": "Marine Teal",
-    "hex": "#005f6d",
-    "productcode": "WP1102",
-    "deltas": [
-      { "id": "123", "delta": "2.06" },
-      { "id": "422", "delta": "4.72" },
-      { "id": "144", "delta": "4.90" }
-    ]
-  },
-  {
-    "id": "006",
-    "brand": "Formula P3",
-    "productline": "",
-    "title": "Coal Black",
-    "hex": "#015960",
-    "productcode": "WP1102",
-    "deltas": [
-      { "id": "123", "delta": "2.06" },
-      { "id": "422", "delta": "4.72" },
-      { "id": "144", "delta": "4.90" }
-    ]
-  },
-  {
-    "id": "007",
-    "brand": "Vallejo",
-    "productline": "Model Color",
-    "title": "Field Blue",
-    "hex": "#436872",
-    "productcode": "WP1102",
-    "deltas": [
-      { "id": "123", "delta": "2.06" },
-      { "id": "422", "delta": "4.72" },
-      { "id": "144", "delta": "4.90" }
-    ]
-  },
-  {
-    "id": "008",
-    "brand": "Citadel",
-    "productline": "Base",
-    "title": "Incubi Darkness",
-    "hex": "#0b4849",
-    "productcode": "WP1102",
-    "deltas": [
-      { "id": "123", "delta": "2.06" },
-      { "id": "422", "delta": "4.72" },
-      { "id": "144", "delta": "4.90" }
-    ]
-  }
+    {
+        "id": 1,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Dead White",
+        "hex": "#ffffff"
+    },
+    {
+        "id": 2,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Pale Flesh",
+        "hex": "#f6bdb3"
+    },
+    {
+        "id": 3,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Elf Skintone",
+        "hex": "#f8a070"
+    },
+    {
+        "id": 4,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Moon Yellow",
+        "hex": "#fff103"
+    },
+    {
+        "id": 5,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Sun Yellow",
+        "hex": "#ffcf07"
+    },
+    {
+        "id": 6,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Gold Yellow",
+        "hex": "#fdb318"
+    },
+    {
+        "id": 7,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Orange Fire",
+        "hex": "#f1652e"
+    },
+    {
+        "id": 8,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Hot Orange",
+        "hex": "#e43027"
+    },
+    {
+        "id": 9,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Bloody Red",
+        "hex": "#bf282e"
+    },
+    {
+        "id": 10,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Gory Red",
+        "hex": "#810504"
+    },
+    {
+        "id": 11,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Scarlet Red",
+        "hex": "#741330"
+    },
+    {
+        "id": 12,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Squid Pink",
+        "hex": "#da7fb5"
+    },
+    {
+        "id": 13,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Warlord Purple",
+        "hex": "#7d1a44"
+    },
+    {
+        "id": 14,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Hexed Lichen",
+        "hex": "#34274d"
+    },
+    {
+        "id": 15,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Royal Purple",
+        "hex": "#23264f"
+    },
+    {
+        "id": 16,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Dark Blue",
+        "hex": "#2b265d"
+    },
+    {
+        "id": 17,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Stormy Night",
+        "hex": "#1f1a4f"
+    },
+    {
+        "id": 18,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Night Blue",
+        "hex": "#19183f"
+    },
+    {
+        "id": 19,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Imperial Purple",
+        "hex": "#211a4b"
+    },
+    {
+        "id": 20,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Magic Blue",
+        "hex": "#024381"
+    },
+    {
+        "id": 21,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Ultramarine Blue",
+        "hex": "#373592"
+    },
+    {
+        "id": 22,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Electric Blue",
+        "hex": "#008cbf"
+    },
+    {
+        "id": 23,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Turquoise",
+        "hex": "#03676f"
+    },
+    {
+        "id": 24,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Foul Green",
+        "hex": "#239378"
+    },
+    {
+        "id": 25,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Jade Green",
+        "hex": "#128379"
+    },
+    {
+        "id": 26,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Scurvy Green",
+        "hex": "#09474e"
+    },
+    {
+        "id": 27,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Dark Green",
+        "hex": "#083c2a"
+    },
+    {
+        "id": 28,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Sick Green",
+        "hex": "#096638"
+    },
+    {
+        "id": 29,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Goblin Green",
+        "hex": "#23743c"
+    },
+    {
+        "id": 30,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Camoflage Green",
+        "hex": "#71753a"
+    },
+    {
+        "id": 31,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Scorpion Green",
+        "hex": "#48b851"
+    },
+    {
+        "id": 32,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Livery Green",
+        "hex": "#9ece65"
+    },
+    {
+        "id": 33,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Bone White",
+        "hex": "#e8be86"
+    },
+    {
+        "id": 34,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Dead Flesh",
+        "hex": "#bcb686"
+    },
+    {
+        "id": 35,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Bronze Fleshtone",
+        "hex": "#db945c"
+    },
+    {
+        "id": 36,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Filthy Brown",
+        "hex": "#f58d2b"
+    },
+    {
+        "id": 37,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Scrofulous Brown",
+        "hex": "#d68030"
+    },
+    {
+        "id": 38,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Plague Brown",
+        "hex": "#cc9b34"
+    },
+    {
+        "id": 39,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Leather Brown",
+        "hex": "#7b5d2a"
+    },
+    {
+        "id": 40,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Dwarf Skin",
+        "hex": "#cc7c67"
+    },
+    {
+        "id": 41,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Parasite Brown",
+        "hex": "#b1481f"
+    },
+    {
+        "id": 42,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Beasty Brown",
+        "hex": "#55432d"
+    },
+    {
+        "id": 43,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Dark Fleshtone",
+        "hex": "#4f2b26"
+    },
+    {
+        "id": 44,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Charred Brown",
+        "hex": "#39343b"
+    },
+    {
+        "id": 45,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Ghost Grey",
+        "hex": "#a7c5db"
+    },
+    {
+        "id": 46,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Wolf Grey",
+        "hex": "#90a2bc"
+    },
+    {
+        "id": 47,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Sombre Grey",
+        "hex": "#4c5c7d"
+    },
+    {
+        "id": 48,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Stonewall Grey",
+        "hex": "#828e95"
+    },
+    {
+        "id": 49,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Cold Grey",
+        "hex": "#54646d"
+    },
+    {
+        "id": 50,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Black",
+        "hex": "#000000"
+    },
+    {
+        "id": 51,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Khaki",
+        "hex": "#8c806d"
+    },
+    {
+        "id": 52,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Earth",
+        "hex": "#6f563d"
+    },
+    {
+        "id": 53,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Desert Yellow",
+        "hex": "#8e7845"
+    },
+    {
+        "id": 54,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Yellow Olive",
+        "hex": "#063b2f"
+    },
+    {
+        "id": 55,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Terracota",
+        "hex": "#6b1306"
+    },
+    {
+        "id": 56,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Tan",
+        "hex": "#9f4746"
+    },
+    {
+        "id": 57,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Cayman Green",
+        "hex": "#285648"
+    },
+    {
+        "id": 58,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Glacier Blue",
+        "hex": "#acd0ee"
+    },
+    {
+        "id": 59,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Verdigris",
+        "hex": "#b3ceca"
+    },
+    {
+        "id": 60,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Pale Yellow",
+        "hex": "#d5c179"
+    },
+    {
+        "id": 61,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Elfic Flesh",
+        "hex": "#cdc29c"
+    },
+    {
+        "id": 62,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Cadmium Skin",
+        "hex": "#fab78a"
+    },
+    {
+        "id": 63,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Rosy Flesh",
+        "hex": "#f89e84"
+    },
+    {
+        "id": 64,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Offwhite",
+        "hex": "#f5f4da"
+    },
+    {
+        "id": 65,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Steel Grey",
+        "hex": "#64889d"
+    },
+    {
+        "id": 66,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Fluo Yellow",
+        "hex": "#eeea50"
+    },
+    {
+        "id": 67,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Fluo Green",
+        "hex": "#9dcd64"
+    },
+    {
+        "id": 68,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Mutation Green",
+        "hex": "#296934"
+    },
+    {
+        "id": 69,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Skintone",
+        "hex": "#aa7b62"
+    },
+    {
+        "id": 70,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Red",
+        "hex": "#943238"
+    },
+    {
+        "id": 71,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Violet",
+        "hex": "#4c2e65"
+    },
+    {
+        "id": 72,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Blue",
+        "hex": "#29556d"
+    },
+    {
+        "id": 73,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Blue Grey",
+        "hex": "#9ca7a7"
+    },
+    {
+        "id": 74,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Grey",
+        "hex": "#626d54"
+    },
+    {
+        "id": 75,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Green",
+        "hex": "#566840"
+    },
+    {
+        "id": 76,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Black Green",
+        "hex": "#18433d"
+    },
+    {
+        "id": 77,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Warm Grey",
+        "hex": "#939066"
+    },
+    {
+        "id": 78,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Khaki",
+        "hex": "#9d965d"
+    },
+    {
+        "id": 79,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Ochre",
+        "hex": "#a87536"
+    },
+    {
+        "id": 80,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Gold Brown",
+        "hex": "#ba8636"
+    },
+    {
+        "id": 81,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Orange",
+        "hex": "#ee5527"
+    },
+    {
+        "id": 82,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Brown",
+        "hex": "#705d41"
+    },
+    {
+        "id": 83,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Sienna",
+        "hex": "#744642"
+    },
+    {
+        "id": 84,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Charcoal",
+        "hex": "#1c2e2e"
+    }
 ]
