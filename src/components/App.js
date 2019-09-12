@@ -4,6 +4,7 @@ import SimilarColors from './SimilarColors';
 import './App.css';
 import axios from 'axios';
 import SearchBar from './SearchBar';
+import _ from 'lodash';
 
 class App extends React.Component {
     state = {
@@ -12,6 +13,7 @@ class App extends React.Component {
             hex: '#03676f',
             brand: 'Vallejo',
             productline: 'Game Color',
+            matches: [],
         },
         similarColors: [
             {
@@ -20,36 +22,6 @@ class App extends React.Component {
                 brand: 'Citadel',
                 productline: 'Layer & Edge',
             },
-            {
-                name: 'HD Winter Blue',
-                hex: '#1d6d74',
-                brand: 'Reaper',
-                productline: 'HD',
-            },
-            {
-                name: 'Marine Teal',
-                hex: '#005f6d',
-                brand: 'Reaper',
-                productline: 'MSP',
-            },
-            {
-                name: 'Coal Black',
-                hex: '#015960',
-                brand: 'Formula P3',
-                productline: '',
-            },
-            {
-                name: 'Field Blue',
-                hex: '#436872',
-                brand: 'Vallejo',
-                productline: 'Model Color',
-            },
-            {
-                name: 'Incubi Darkness',
-                hex: '#0b4849',
-                brand: 'Citadel',
-                productline: 'Base',
-            },
         ],
         colors: [],
     };
@@ -57,10 +29,13 @@ class App extends React.Component {
     async componentDidMount() {
         // Load JSON color data
         axios
-            .get('./colors.json')
+            .get('./colorsMatched.json')
             .then((response) => {
+                //const randomColor = response.data[Math.floor(Math.random() * response.data.length)];
                 this.setState({
                     colors: response.data,
+                    //currentColor: randomColor,
+                    //similarColors: this.getSimilarColors(randomColor),
                 });
             })
             .catch(function(error) {
@@ -70,15 +45,27 @@ class App extends React.Component {
 
     onSearchSubmit = (color) => {
         this.setState({
-            currentColor: {
-                name: color.name,
-                hex: color.hex,
-                brand: color.brand,
-                productline: color.productline,
-            },
+            currentColor: color,
+            similarColors: this.getSimilarColors(color),
         });
-        //console.log(term);
     };
+
+    getSimilarColors(currentColor) {
+        if (currentColor.matches) {
+            const similarColors = currentColor.matches.map((match) => {
+                const found = _.find(this.state.colors, ['id', match.id]);
+                if (found) {
+                    found.deltaE = match.deltaE;
+                    return found;
+                } else {
+                    return;
+                }
+            });
+            return similarColors;
+        } else {
+            return null;
+        }
+    }
 
     render() {
         let search;
@@ -88,13 +75,22 @@ class App extends React.Component {
             search = <SearchBar onSubmit={this.onSearchSubmit} colors={[]} />;
         }
 
+        let similarColors;
+        if (this.state.similarColors) {
+            similarColors = <SimilarColors similarColors={this.state.similarColors} />;
+        }
+
         return (
             <div style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
-                {/* <SearchBar onSubmit={this.onSearchSubmit} /> */}
                 {search}
                 <div className="ui equal width center aligned padded grid" style={{ flexGrow: '1' }}>
                     <CurrentColor color={this.state.currentColor} />
-                    <SimilarColors currentColor={this.state.currentColor} similarColors={this.state.similarColors} />
+                    {similarColors}
+                </div>
+                <div id="myfooter">
+                    <div>Best Match</div>
+                    <div id="footerline"></div>
+                    <div>Good Match</div>
                 </div>
             </div>
         );

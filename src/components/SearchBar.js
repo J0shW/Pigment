@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import _ from 'lodash';
 import React, { Component } from 'react';
 import { Search, Label } from 'semantic-ui-react';
+import CalcDeltas from '../calcDeltas';
 
 // Semantic UI React Search Bar
 // https://react.semantic-ui.com/modules/search/#types-category-custom
@@ -37,6 +38,11 @@ export default class SearchExampleCategory extends Component {
             this.setSource(this.props.colors);
         }
     }
+
+    calculateDeltas = () => {
+        //console.log(this.state.colors);
+        new CalcDeltas();
+    };
 
     setSource = (colors) => {
         source = {};
@@ -122,11 +128,12 @@ export default class SearchExampleCategory extends Component {
 
         return (
             <div id="searchBar" className="ui secondary menu" style={{ height: '50px' }}>
-                <button className="ui item icon button">
-                    <i className="bars icon"></i>
+                <button className="ui item icon button" onClick={this.calculateDeltas}>
+                    {/* <i className="bars icon"></i> */}
+                    <i className="calculator icon"></i>
                 </button>
 
-                <form onSubmit={this.onFormSubmit} className="ui secondary menu fluid form" id="searchForm">
+                <form className="ui secondary menu fluid form" id="searchForm">
                     <Search
                         fluid
                         category
