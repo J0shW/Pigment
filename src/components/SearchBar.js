@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import _ from 'lodash';
 import React, { Component } from 'react';
-import { Search, Label } from 'semantic-ui-react';
+import { Search, Label, Dropdown, Menu } from 'semantic-ui-react';
 import CalcDeltas from '../calcDeltas';
 
 // Semantic UI React Search Bar
@@ -49,14 +49,15 @@ export default class SearchExampleCategory extends Component {
         // Put this.props.colors into the "source" variable
         colors.forEach((color) => {
             let resArr = [];
-            if (color.brand in source) {
-                resArr = source[color.brand].results;
+            const brand = `${color.brand} ${color.productline}`;
+            if (brand in source) {
+                resArr = source[brand].results;
             }
 
             resArr.push(color);
 
-            source[color.brand] = {
-                brand: color.brand,
+            source[brand] = {
+                brand: brand,
                 results: resArr,
             };
         });
@@ -150,9 +151,22 @@ export default class SearchExampleCategory extends Component {
                     />
                 </form>
 
-                <button className="ui item icon button">
+                {/* <button className="ui item icon button">
                     <i className="filter icon"></i>
-                </button>
+                </button> */}
+                <Menu>
+                    <Menu.Menu position="right">
+                        <Dropdown icon="filter" floating button direction="right" className="icon">
+                            <Dropdown.Menu>
+                                <Dropdown.Header icon="tags" content="Filter by Product Line" />
+                                <Dropdown.Divider />
+                                <Dropdown.Item icon="check" text="Important" />
+                                <Dropdown.Item icon="" text="Announcement" />
+                                <Dropdown.Item icon="check" text="Discussion" />
+                            </Dropdown.Menu>
+                        </Dropdown>
+                    </Menu.Menu>
+                </Menu>
             </div>
         );
     }

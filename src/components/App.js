@@ -31,12 +31,16 @@ class App extends React.Component {
         axios
             .get('./colorsMatched.json')
             .then((response) => {
-                //const randomColor = response.data[Math.floor(Math.random() * response.data.length)];
-                this.setState({
-                    colors: response.data,
-                    //currentColor: randomColor,
-                    //similarColors: this.getSimilarColors(randomColor),
-                });
+                const randomColor = response.data[Math.floor(Math.random() * response.data.length)];
+                this.setState(
+                    {
+                        colors: response.data,
+                        currentColor: randomColor,
+                    },
+                    () => {
+                        this.setState({ similarColors: this.getSimilarColors(randomColor) });
+                    }
+                );
             })
             .catch(function(error) {
                 console.log(error);
@@ -52,16 +56,16 @@ class App extends React.Component {
 
     getSimilarColors(currentColor) {
         if (currentColor.matches) {
-            const similarColors = currentColor.matches.map((match) => {
+            let similarColors = currentColor.matches.map((match) => {
                 const found = _.find(this.state.colors, ['id', match.id]);
                 if (found) {
                     found.deltaE = match.deltaE;
                     return found;
                 } else {
-                    return;
+                    return null;
                 }
             });
-            return similarColors;
+            return similarColors.slice(0, 5);
         } else {
             return null;
         }

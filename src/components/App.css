@@ -99,8 +99,7 @@ body,
 
 #footerline {
     flex-grow: 1;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0px 20px;
     /* border-bottom: 2px solid black; */
     height: 6px;
     border-radius: 10px;
@@ -123,5 +122,5 @@ body,
     background-image: -webkit-linear-gradient(bottom, #ffffff 0%, #00a3ef 100%);
 
     /* W3C Markup, IE10 Release Preview */
-    background-image: linear-gradient(to left, #000000 0%, #14d824 60%);
+    background-image: linear-gradient(to left, #dddddd 0%, #14d824 100%);
 }
