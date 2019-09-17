@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import _ from 'lodash';
 import React, { Component } from 'react';
-import { Search, Label, Dropdown, Menu } from 'semantic-ui-react';
+import { Search, Label, Dropdown, Menu, Icon } from 'semantic-ui-react';
 import CalcDeltas from '../calcDeltas';
 
 // Semantic UI React Search Bar
@@ -128,14 +128,15 @@ export default class SearchExampleCategory extends Component {
         const { isLoading, value, results } = this.state;
 
         return (
-            <div id="searchBar" className="ui secondary menu" style={{ height: '50px' }}>
-                <button className="ui item icon button" onClick={this.calculateDeltas}>
-                    {/* <i className="bars icon"></i> */}
-                    <i className="calculator icon"></i>
-                </button>
+            <Menu>
+                <Menu.Item name="tint">
+                    <Icon name="tint" />
+                </Menu.Item>
 
-                <form className="ui secondary menu fluid form" id="searchForm">
+                <Menu.Item id="searchItem">
+                    {/* <Input className="icon" icon="search" placeholder="Search..." /> */}
                     <Search
+                        id="searchInput"
                         fluid
                         category
                         categoryRenderer={categoryRenderer}
@@ -149,25 +150,65 @@ export default class SearchExampleCategory extends Component {
                         value={value}
                         {...this.props}
                     />
-                </form>
+                </Menu.Item>
+                <Menu.Menu position="right">
+                    <Dropdown icon="filter" item simple direction="right">
+                        <Dropdown.Menu>
+                            <Dropdown.Header content="Filter by Product Line" />
+                            {/* <Dropdown.Divider /> */}
+                            <Dropdown.Item icon="" text="Citadel Base" />
+                            <Dropdown.Item icon="check" text="Citadel Dry" />
+                            <Dropdown.Item icon="check" text="Citadel Layer &amp; Edge" />
+                            <Dropdown.Item icon="" text="Reaper HD" />
+                            <Dropdown.Item icon="" text="Reaper MSP" />
+                            <Dropdown.Item icon="" text="Reaper Pro" />
+                            <Dropdown.Item icon="check" text="Privateer Press P3" />
+                            <Dropdown.Item icon="check" text="Vallejo Game Color" />
+                            <Dropdown.Item icon="check" text="Vallejo Model Color" />
+                        </Dropdown.Menu>
+                    </Dropdown>
+                </Menu.Menu>
+            </Menu>
 
-                {/* <button className="ui item icon button">
-                    <i className="filter icon"></i>
-                </button> */}
-                <Menu>
-                    <Menu.Menu position="right">
-                        <Dropdown icon="filter" floating button direction="right" className="icon">
-                            <Dropdown.Menu>
-                                <Dropdown.Header icon="tags" content="Filter by Product Line" />
-                                <Dropdown.Divider />
-                                <Dropdown.Item icon="check" text="Important" />
-                                <Dropdown.Item icon="" text="Announcement" />
-                                <Dropdown.Item icon="check" text="Discussion" />
-                            </Dropdown.Menu>
-                        </Dropdown>
-                    </Menu.Menu>
-                </Menu>
-            </div>
+            // <div id="searchBar" className="ui secondary menu" style={{ height: '50px' }}>
+            //     <button className="ui item icon button" onClick={this.calculateDeltas}>
+            //         <i className="calculator icon"></i>
+            //     </button>
+
+            //     <form className="ui secondary menu fluid form" id="searchForm">
+            //         <Search
+            //             fluid
+            //             category
+            //             categoryRenderer={categoryRenderer}
+            //             loading={isLoading}
+            //             onResultSelect={this.handleResultSelect}
+            //             onSearchChange={_.debounce(this.handleSearchChange, 500, {
+            //                 leading: true,
+            //             })}
+            //             resultRenderer={resultRenderer}
+            //             results={results}
+            //             value={value}
+            //             {...this.props}
+            //         />
+            //     </form>
+
+            //     {/* <button className="ui item icon button">
+            //         <i className="filter icon"></i>
+            //     </button> */}
+            //     <Menu>
+            //         <Menu.Menu position="right">
+            //             <Dropdown icon="filter" floating button direction="right" className="icon">
+            //                 <Dropdown.Menu>
+            //                     <Dropdown.Header icon="tags" content="Filter by Product Line" />
+            //                     <Dropdown.Divider />
+            //                     <Dropdown.Item icon="check" text="Important" />
+            //                     <Dropdown.Item icon="" text="Announcement" />
+            //                     <Dropdown.Item icon="check" text="Discussion" />
+            //                 </Dropdown.Menu>
+            //             </Dropdown>
+            //         </Menu.Menu>
+            //     </Menu>
+            // </div>
         );
     }
 }

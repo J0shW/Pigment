@@ -32,8 +32,8 @@
 }
 
 i {
-    font-weight: 700;
-    font-size: x-large !important;
+    /* font-weight: 700; */
+    /* font-size: x-large !important; */
 }
 
 .color i {
@@ -59,7 +59,7 @@ h5 {
 }
 
 input {
-    font-size: 1.5rem !important;
+    /* font-size: 1.5rem !important; */
 }
 
 .search-colors {
@@ -67,9 +67,57 @@ input {
 }
 
 .menu {
-    padding-top: 2px !important;
-    margin-bottom: 2px !important;
+    /* padding-top: 2px !important; */
+    margin-bottom: 0px !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+    height: 50px;
 }
+
+.ui.menu .item {
+    /* padding: 0.4em 1.2em; */
+}
+
+.ui.menu .item > i.icon {
+    margin-right: 0px;
+}
+
+i.icon {
+    font-size: 1.4em;
+}
+
+#searchItem {
+    flex-grow: 1;
+}
+
+#searchItem .ui.category.fluid.search,
+#searchItem .ui.icon.input {
+    width: 100%;
+    height: 100%;
+}
+
+#searchInput {
+    width: 100%;
+}
+
+/*Filter Dropdown List*/
+/*
+.ui.simple.active.dropdown > .menu,
+.ui.simple.active.dropdown:hover .menu {
+    overflow: visible !important;
+    width: auto;
+    height: auto;
+    top: 100% !important;
+    opacity: 1 !important;
+}
+.ui.simple.dropdown:hover > .menu {
+    overflow: hidden !important;
+    width: auto;
+    height: auto;
+    top: 100% !important;
+    opacity: 0 !important;
+}
+*/
 
 html,
 body,
