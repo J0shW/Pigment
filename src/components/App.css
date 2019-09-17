@@ -88,6 +88,7 @@ i.icon {
 
 #searchItem {
     flex-grow: 1;
+    padding: 0.4em 1.2em;
 }
 
 #searchItem .ui.category.fluid.search,
@@ -98,6 +99,7 @@ i.icon {
 
 #searchInput {
     width: 100%;
+    font-size: 1.4em;
 }
 
 /*Filter Dropdown List*/

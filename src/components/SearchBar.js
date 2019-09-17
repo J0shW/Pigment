@@ -136,6 +136,7 @@ export default class SearchExampleCategory extends Component {
                 <Menu.Item id="searchItem">
                     {/* <Input className="icon" icon="search" placeholder="Search..." /> */}
                     <Search
+                        input={{ icon: 'search', iconPosition: 'left' }}
                         id="searchInput"
                         fluid
                         category
