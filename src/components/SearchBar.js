@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import _ from 'lodash';
 import React, { Component } from 'react';
-import { Search, Label, Icon } from 'semantic-ui-react';
+import { Search, Label } from 'semantic-ui-react';
 import CalcDeltas from '../calcDeltas';
 
 // Semantic UI React Search Bar
@@ -20,7 +20,7 @@ resultRenderer.propTypes = {
     description: PropTypes.string,
 };
 
-let source = {};
+let source = null;
 
 export default class SearchExampleCategory extends Component {
     initialState = {
@@ -32,7 +32,8 @@ export default class SearchExampleCategory extends Component {
     state = this.initialState;
 
     componentDidUpdate() {
-        if (this.state.colors.length <= 0 && this.props.colors.length > 0) {
+        //if (this.state.colors.length <= 0 && this.props.colors.length > 0) {
+        if ((source === null) & (this.props.colors.length > 0)) {
             this.initialState.colors = this.props.colors;
             this.setState({ colors: this.props.colors });
             this.setSource(this.props.colors);
@@ -128,32 +129,22 @@ export default class SearchExampleCategory extends Component {
         const { isLoading, value, results } = this.state;
 
         return (
-            <nav>
-                <button>
-                    <Icon name="tint" />
-                </button>
-                <div className="search-wrapper">
-                    <Search
-                        input={{ icon: 'search', iconPosition: 'left' }}
-                        id="searchInput"
-                        fluid
-                        category
-                        categoryRenderer={categoryRenderer}
-                        loading={isLoading}
-                        onResultSelect={this.handleResultSelect}
-                        onSearchChange={_.debounce(this.handleSearchChange, 500, {
-                            leading: true,
-                        })}
-                        resultRenderer={resultRenderer}
-                        results={results}
-                        value={value}
-                        {...this.props}
-                    />
-                </div>
-                <button>
-                    <Icon name="filter" />
-                </button>
-            </nav>
+            <Search
+                input={{ icon: 'search', iconPosition: 'left' }}
+                id="searchInput"
+                fluid
+                category
+                categoryRenderer={categoryRenderer}
+                loading={isLoading}
+                onResultSelect={this.handleResultSelect}
+                onSearchChange={_.debounce(this.handleSearchChange, 500, {
+                    leading: true,
+                })}
+                resultRenderer={resultRenderer}
+                results={results}
+                value={value}
+                {...this.props}
+            />
         );
     }
 }

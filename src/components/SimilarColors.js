@@ -11,7 +11,7 @@ const SimilarColors = (props) => {
                     <h2>{color.name.charAt(0).toUpperCase() + color.name.slice(1)}</h2>
                 </div>
                 <div>
-                    <h4>{`Δ=${parseFloat(Math.round(color.deltaE * 100) / 100).toFixed(2)}`}</h4>
+                    <h4>{`Δ=${parseFloat(Math.round(color.delta * 100) / 100).toFixed(2)}`}</h4>
                 </div>
             </div>
         );
