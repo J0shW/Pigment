@@ -128,13 +128,11 @@ export default class SearchExampleCategory extends Component {
         const { isLoading, value, results } = this.state;
 
         return (
-            <Menu>
-                <Menu.Item name="tint">
+            <nav>
+                <button>
                     <Icon name="tint" />
-                </Menu.Item>
-
-                <Menu.Item id="searchItem">
-                    {/* <Input className="icon" icon="search" placeholder="Search..." /> */}
+                </button>
+                <div className="search-wrapper">
                     <Search
                         input={{ icon: 'search', iconPosition: 'left' }}
                         id="searchInput"
@@ -151,25 +149,53 @@ export default class SearchExampleCategory extends Component {
                         value={value}
                         {...this.props}
                     />
-                </Menu.Item>
-                <Menu.Menu position="right">
-                    <Dropdown icon="filter" item simple direction="right">
-                        <Dropdown.Menu>
-                            <Dropdown.Header content="Filter by Product Line" />
-                            {/* <Dropdown.Divider /> */}
-                            <Dropdown.Item icon="" text="Citadel Base" />
-                            <Dropdown.Item icon="check" text="Citadel Dry" />
-                            <Dropdown.Item icon="check" text="Citadel Layer &amp; Edge" />
-                            <Dropdown.Item icon="" text="Reaper HD" />
-                            <Dropdown.Item icon="" text="Reaper MSP" />
-                            <Dropdown.Item icon="" text="Reaper Pro" />
-                            <Dropdown.Item icon="check" text="Privateer Press P3" />
-                            <Dropdown.Item icon="check" text="Vallejo Game Color" />
-                            <Dropdown.Item icon="check" text="Vallejo Model Color" />
-                        </Dropdown.Menu>
-                    </Dropdown>
-                </Menu.Menu>
-            </Menu>
+                </div>
+                <button>
+                    <Icon name="filter" />
+                </button>
+            </nav>
+
+            // <Menu fluid>
+            //     <Menu.Item name="tint">
+            //         <Icon name="tint" />
+            //     </Menu.Item>
+
+            //     <Menu.Item id="searchItem">
+            //         <Search
+            //             input={{ icon: 'search', iconPosition: 'left' }}
+            //             id="searchInput"
+            //             fluid
+            //             category
+            //             categoryRenderer={categoryRenderer}
+            //             loading={isLoading}
+            //             onResultSelect={this.handleResultSelect}
+            //             onSearchChange={_.debounce(this.handleSearchChange, 500, {
+            //                 leading: true,
+            //             })}
+            //             resultRenderer={resultRenderer}
+            //             results={results}
+            //             value={value}
+            //             {...this.props}
+            //         />
+            //     </Menu.Item>
+            //     <Menu.Menu position="right">
+            //         <Dropdown icon="filter" item simple direction="right">
+            //             <Dropdown.Menu>
+            //                 <Dropdown.Header content="Filter by Product Line" />
+            //                 {/* <Dropdown.Divider /> */}
+            //                 <Dropdown.Item icon="" text="Citadel Base" />
+            //                 <Dropdown.Item icon="check" text="Citadel Dry" />
+            //                 <Dropdown.Item icon="check" text="Citadel Layer &amp; Edge" />
+            //                 <Dropdown.Item icon="" text="Reaper HD" />
+            //                 <Dropdown.Item icon="" text="Reaper MSP" />
+            //                 <Dropdown.Item icon="" text="Reaper Pro" />
+            //                 <Dropdown.Item icon="check" text="Privateer Press P3" />
+            //                 <Dropdown.Item icon="check" text="Vallejo Game Color" />
+            //                 <Dropdown.Item icon="check" text="Vallejo Model Color" />
+            //             </Dropdown.Menu>
+            //         </Dropdown>
+            //     </Menu.Menu>
+            // </Menu>
 
             // <div id="searchBar" className="ui secondary menu" style={{ height: '50px' }}>
             //     <button className="ui item icon button" onClick={this.calculateDeltas}>

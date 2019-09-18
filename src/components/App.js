@@ -85,17 +85,19 @@ class App extends React.Component {
         }
 
         return (
-            <div style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
-                {search}
-                <div className="ui equal width center aligned padded grid" style={{ flexGrow: '1' }}>
+            <div className="wrapper">
+                <header>{search}</header>
+                <main>
+                    {/* <div className="ui equal width center aligned padded grid" style={{ flexGrow: '1' }}> */}
                     <CurrentColor color={this.state.currentColor} />
                     {similarColors}
-                </div>
-                <div id="myfooter">
+                    {/* </div> */}
+                </main>
+                <footer>
                     <div>Best Match</div>
                     <div id="footerline"></div>
                     <div>Good Match</div>
-                </div>
+                </footer>
             </div>
         );
     }
