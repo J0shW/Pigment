@@ -11,7 +11,7 @@ const InitialState = {
     currentColor: null,
     similarColors: null,
     colors: [],
-    filtersOpen: false,
+    filters: [],
 };
 
 class App extends React.Component {
@@ -25,6 +25,7 @@ class App extends React.Component {
                 .get('./colorsMatched.json')
                 .then((response) => {
                     this.setState({ colors: response.data }, () => {
+                        this.getFilters();
                         this.setRandomColor();
                     });
                 })
@@ -46,9 +47,13 @@ class App extends React.Component {
         });
     };
 
-    onFilterClick = () => {
-        this.setState({ filtersOpen: !this.state.filtersOpen });
-    };
+    getFilters() {
+        let productlines = _.uniqBy(this.state.colors, 'productline');
+        productlines = productlines.map((line) => {
+            return { productline: `${line.brand} ${line.productline}`, active: true };
+        });
+        this.setState({ filters: productlines });
+    }
 
     getSimilarColors(currentColor) {
         if (currentColor.matches) {
@@ -93,13 +98,9 @@ class App extends React.Component {
                     <div className="filter-button">
                         <Dropdown multiple icon="filter">
                             <Dropdown.Menu>
-                                <Dropdown.Header icon="tags" content="Tag Label" />
-                                <Dropdown.Divider />
-                                <Dropdown.Menu scrolling>
-                                    <Dropdown.Item icon="folder" text="Move to folder" />
-                                    <Dropdown.Item icon="folder" text="Move to folder" />
-                                    <Dropdown.Item icon="folder" text="Move to folder" />
-                                    <Dropdown.Item icon="folder" text="Move to folder" />
+                                <Dropdown.Header icon="tags" content="Filter by Product Line" />
+                                <Dropdown.Menu scrolling onChange={this.onFilterChange}>
+                                    {this.renderFilterList()}
                                 </Dropdown.Menu>
                             </Dropdown.Menu>
                         </Dropdown>
@@ -117,6 +118,17 @@ class App extends React.Component {
                 </nav>
             </header>
         );
+    }
+
+    onFilterChange = (e, { value }) => {
+        console.log(e);
+        console.log(value);
+    };
+
+    renderFilterList() {
+        return this.state.filters.map((filter, index) => {
+            return <Dropdown.Item key={index} icon={filter.active ? 'check' : ''} text={filter.productline} />;
+        });
     }
 
     renderMain() {

@@ -93,6 +93,14 @@ nav button i {
     left: unset;
     right: 0px;
 }
+
+.menu.transition.visible {
+    min-width: 200px;
+}
+
+.scrolling.menu.transition .item {
+    padding-bottom: 5px !important;
+}
 /* End Filter Dropdown */
 /* END HEADER */
 
