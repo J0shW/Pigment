@@ -31,6 +31,14 @@ nav button {
     background-color: inherit;
 }
 
+nav i,
+nav h2,
+h3,
+h4,
+h5 {
+    color: black !important;
+}
+
 nav button i {
     margin: 0px !important;
 }
@@ -61,6 +69,31 @@ nav button i {
     max-height: 50vh;
     overflow-y: scroll;
 }
+
+/* Filter Dropdown */
+.filter-button {
+    width: 50px;
+}
+
+.filter-button .ui.multiple.dropdown {
+    width: 100%;
+    height: 100%;
+}
+
+.filter-button .text {
+    position: absolute !important;
+}
+
+.filter-button .filter.icon {
+    padding-left: 11px;
+    padding-top: 13px;
+}
+
+.ui.dropdown .menu {
+    left: unset;
+    right: 0px;
+}
+/* End Filter Dropdown */
 /* END HEADER */
 
 /* MAIN */
@@ -68,7 +101,6 @@ main {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    background-color: black;
 }
 
 /* CURRENT COLOR */
@@ -150,7 +182,6 @@ footer h4 {
 #footerline {
     flex-grow: 1;
     margin: 0px 20px;
-    /* border-bottom: 2px solid black; */
     height: 6px;
     border-radius: 10px;
 }

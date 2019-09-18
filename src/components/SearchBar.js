@@ -134,6 +134,7 @@ export default class SearchExampleCategory extends Component {
                 id="searchInput"
                 fluid
                 category
+                placeholder={'Find a color'}
                 categoryRenderer={categoryRenderer}
                 loading={isLoading}
                 onResultSelect={this.handleResultSelect}
