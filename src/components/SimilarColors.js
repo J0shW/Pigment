@@ -17,13 +17,7 @@ const SimilarColors = (props) => {
         );
     });
 
-    return (
-        <section className="similar-colors-wrapper">{renderColors}</section>
-
-        // <div className="row" style={{ height: '70%' }}>
-        //     {renderColors}
-        // </div>
-    );
+    return <section className="similar-colors-wrapper">{renderColors}</section>;
 };
 
 export default SimilarColors;

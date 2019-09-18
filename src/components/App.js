@@ -94,9 +94,13 @@ class App extends React.Component {
                     {/* </div> */}
                 </main>
                 <footer>
-                    <div>Best Match</div>
+                    <div>
+                        <h4>Best Match</h4>
+                    </div>
                     <div id="footerline"></div>
-                    <div>Good Match</div>
+                    <div>
+                        <h4>Good Match</h4>
+                    </div>
                 </footer>
             </div>
         );
