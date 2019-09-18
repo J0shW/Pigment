@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "59d3e7d62df1a581a4744cf5b9ea8766",
+    "revision": "0826a3558730d2d12a134c9583a10c68",
     "url": "/MiniColors/index.html"
   },
   {
-    "revision": "137e17fb073d2f0f60a7",
-    "url": "/MiniColors/static/css/main.472899a7.chunk.css"
+    "revision": "72a7d00a4f7ca7e7ecd5",
+    "url": "/MiniColors/static/css/main.36f1b4f6.chunk.css"
   },
   {
     "revision": "61e9588ea194b053b59f",
     "url": "/MiniColors/static/js/2.37417007.chunk.js"
   },
   {
-    "revision": "137e17fb073d2f0f60a7",
-    "url": "/MiniColors/static/js/main.8440a797.chunk.js"
+    "revision": "72a7d00a4f7ca7e7ecd5",
+    "url": "/MiniColors/static/js/main.fdf1d9fa.chunk.js"
   },
   {
     "revision": "f8135620f1909b4e3087",
