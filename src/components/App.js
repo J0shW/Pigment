@@ -5,26 +5,10 @@ import './App.css';
 import axios from 'axios';
 import SearchBar from './SearchBar';
 import _ from 'lodash';
+import { Dimmer, Loader } from 'semantic-ui-react';
 
 class App extends React.Component {
-    state = {
-        currentColor: {
-            name: 'Turquoise',
-            hex: '#03676f',
-            brand: 'Vallejo',
-            productline: 'Game Color',
-            matches: [],
-        },
-        similarColors: [
-            {
-                name: 'Sotek Green',
-                hex: '#0c6a74',
-                brand: 'Citadel',
-                productline: 'Layer & Edge',
-            },
-        ],
-        colors: [],
-    };
+    state = { currentColor: null, similarColors: null, colors: null };
 
     async componentDidMount() {
         // Load JSON color data
@@ -71,37 +55,55 @@ class App extends React.Component {
         }
     }
 
-    render() {
+    renderHeader() {
         let search;
-        if (this.state.colors.length > 0) {
+        if (this.state.colors !== null) {
             search = <SearchBar onSubmit={this.onSearchSubmit} colors={this.state.colors} />;
         } else {
             search = <SearchBar onSubmit={this.onSearchSubmit} colors={[]} />;
         }
+        return <header>{search}</header>;
+    }
 
-        let similarColors;
-        if (this.state.similarColors) {
-            similarColors = <SimilarColors similarColors={this.state.similarColors} />;
+    renderMain() {
+        if (this.state.currentColor !== null && this.state.similarColors !== null) {
+            return (
+                <main>
+                    <CurrentColor color={this.state.currentColor} />
+                    <SimilarColors similarColors={this.state.similarColors} />
+                </main>
+            );
+        } else {
+            return (
+                <main>
+                    <Dimmer active inverted>
+                        <Loader inverted>Loading</Loader>
+                    </Dimmer>
+                </main>
+            );
         }
+    }
 
+    renderFooter() {
+        return (
+            <footer>
+                <div>
+                    <h4>Best Match</h4>
+                </div>
+                <div id="footerline"></div>
+                <div>
+                    <h4>Good Match</h4>
+                </div>
+            </footer>
+        );
+    }
+
+    render() {
         return (
             <div className="wrapper">
-                <header>{search}</header>
-                <main>
-                    {/* <div className="ui equal width center aligned padded grid" style={{ flexGrow: '1' }}> */}
-                    <CurrentColor color={this.state.currentColor} />
-                    {similarColors}
-                    {/* </div> */}
-                </main>
-                <footer>
-                    <div>
-                        <h4>Best Match</h4>
-                    </div>
-                    <div id="footerline"></div>
-                    <div>
-                        <h4>Good Match</h4>
-                    </div>
-                </footer>
+                {this.renderHeader()}
+                {this.renderMain()}
+                {this.renderFooter()}
             </div>
         );
     }

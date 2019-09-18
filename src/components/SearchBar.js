@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import _ from 'lodash';
 import React, { Component } from 'react';
-import { Search, Label, Dropdown, Menu, Icon } from 'semantic-ui-react';
+import { Search, Label, Icon } from 'semantic-ui-react';
 import CalcDeltas from '../calcDeltas';
 
 // Semantic UI React Search Bar
