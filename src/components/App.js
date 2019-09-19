@@ -120,16 +120,6 @@ class App extends React.Component {
                             </Dropdown.Menu>
                         </Dropdown>
                     </div>
-                    {/* <div className="dropdown">
-                        <button onClick={this.onFilterClick}>
-                            <Icon name="filter" />
-                        </button>
-                        <div className={'filter-list ' + (this.state.filtersOpen ? 'show' : '')}>
-                            <a href="#home">Home</a>
-                            <a href="#about">About</a>
-                            <a href="#contact">Contact</a>
-                        </div>
-                    </div> */}
                 </nav>
             </header>
         );
