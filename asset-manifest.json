@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MiniColors/static/css/main.40eac715.chunk.css",
-    "main.js": "/MiniColors/static/js/main.9b49f3e2.chunk.js",
-    "main.js.map": "/MiniColors/static/js/main.9b49f3e2.chunk.js.map",
+    "main.css": "/MiniColors/static/css/main.b95dba47.chunk.css",
+    "main.js": "/MiniColors/static/js/main.05c18c1f.chunk.js",
+    "main.js.map": "/MiniColors/static/js/main.05c18c1f.chunk.js.map",
     "runtime~main.js": "/MiniColors/static/js/runtime~main.51dbdca1.js",
     "runtime~main.js.map": "/MiniColors/static/js/runtime~main.51dbdca1.js.map",
     "static/js/2.d39f2801.chunk.js": "/MiniColors/static/js/2.d39f2801.chunk.js",
     "static/js/2.d39f2801.chunk.js.map": "/MiniColors/static/js/2.d39f2801.chunk.js.map",
     "index.html": "/MiniColors/index.html",
-    "precache-manifest.dbdf64bcb58b0a136ce1235eccd1c249.js": "/MiniColors/precache-manifest.dbdf64bcb58b0a136ce1235eccd1c249.js",
+    "precache-manifest.f3c8d4c432e7abd2c6d0dcea4df2b125.js": "/MiniColors/precache-manifest.f3c8d4c432e7abd2c6d0dcea4df2b125.js",
     "service-worker.js": "/MiniColors/service-worker.js",
-    "static/css/main.40eac715.chunk.css.map": "/MiniColors/static/css/main.40eac715.chunk.css.map"
+    "static/css/main.b95dba47.chunk.css.map": "/MiniColors/static/css/main.b95dba47.chunk.css.map"
   }
 }
