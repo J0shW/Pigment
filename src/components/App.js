@@ -57,16 +57,30 @@ class App extends React.Component {
 
     getSimilarColors(currentColor) {
         if (currentColor.matches) {
-            let similarColors = currentColor.matches.map((match) => {
-                const found = _.find(this.state.colors, ['id', match.id]);
-                if (found) {
-                    found.delta = match.deltaE;
-                    return found;
-                } else {
-                    return null;
+            const activeFilters = [];
+            _.forEach(this.state.filters, (filter) => {
+                if (filter.active) {
+                    activeFilters.push(filter.productline);
                 }
             });
-            return similarColors.slice(0, 5);
+            let similarColors = [];
+
+            _.forEach(currentColor.matches, (match) => {
+                const found = _.find(this.state.colors, (color) => {
+                    return color.id === match.id && _.includes(activeFilters, `${color.brand} ${color.productline}`);
+                });
+
+                if (found) {
+                    found.delta = match.deltaE;
+                    similarColors.push(found);
+                }
+            });
+
+            if (similarColors.length >= 5) {
+                return similarColors.slice(0, 5);
+            } else {
+                return similarColors.slice(0, similarColors.length);
+            }
         } else {
             return null;
         }
@@ -88,6 +102,9 @@ class App extends React.Component {
         return (
             <header>
                 <nav>
+                    <div className="brand">
+                        <h3>Pigmnt</h3>
+                    </div>
                     <button onClick={this.setRandomColor}>
                         {/* <Icon name="tint" /> */}
                         <Icon name="random" />
@@ -99,9 +116,7 @@ class App extends React.Component {
                         <Dropdown multiple icon="filter">
                             <Dropdown.Menu>
                                 <Dropdown.Header icon="tags" content="Filter by Product Line" />
-                                <Dropdown.Menu scrolling onChange={this.onFilterChange}>
-                                    {this.renderFilterList()}
-                                </Dropdown.Menu>
+                                <Dropdown.Menu scrolling>{this.renderFilterList()}</Dropdown.Menu>
                             </Dropdown.Menu>
                         </Dropdown>
                     </div>
@@ -120,14 +135,26 @@ class App extends React.Component {
         );
     }
 
-    onFilterChange = (e, { value }) => {
-        console.log(e);
-        console.log(value);
+    onFilterClick = (e, { text }) => {
+        e.stopPropagation();
+        const filters = [...this.state.filters];
+        const index = _.findIndex(filters, (item) => {
+            return `${item.brand} ${item.productline}`.indexOf(text) > -1;
+        });
+        filters[index].active = !filters[index].active;
+        this.setState({ filters, similarColors: this.getSimilarColors(this.state.currentColor) });
     };
 
     renderFilterList() {
         return this.state.filters.map((filter, index) => {
-            return <Dropdown.Item key={index} icon={filter.active ? 'check' : ''} text={filter.productline} />;
+            return (
+                <Dropdown.Item
+                    key={index}
+                    icon={filter.active ? 'check square outline' : 'square outline'}
+                    text={filter.productline}
+                    onClick={this.onFilterClick}
+                />
+            );
         });
     }
 

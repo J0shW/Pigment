@@ -18,6 +18,19 @@ header {
     height: 50px;
 }
 
+.brand {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid rgba(34, 36, 38, 0.1);
+}
+
+.brand h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: black !important;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -37,6 +50,16 @@ h3,
 h4,
 h5 {
     color: black !important;
+}
+
+nav button:hover,
+.filter-button:hover {
+    background-color: rgba(20, 30, 32, 0.1);
+    transition: opacity 0.1s ease;
+    transition-property: opacity;
+    transition-duration: 0.1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
 }
 
 nav button i {
@@ -68,6 +91,12 @@ nav button i {
 .results.transition {
     max-height: 50vh;
     overflow-y: scroll;
+
+    position: fixed !important;
+    left: 1vw !important;
+    top: 50px !important;
+    width: 98vw !important;
+    max-width: 98vw !important;
 }
 
 /* Filter Dropdown */
@@ -86,7 +115,7 @@ nav button i {
 
 .filter-button .filter.icon {
     padding-left: 11px;
-    padding-top: 13px;
+    padding-top: 14px;
 }
 
 .ui.dropdown .menu {
@@ -99,7 +128,7 @@ nav button i {
 }
 
 .scrolling.menu.transition .item {
-    padding-bottom: 5px !important;
+    height: 35px;
 }
 /* End Filter Dropdown */
 /* END HEADER */
