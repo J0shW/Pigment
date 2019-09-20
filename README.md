@@ -54,9 +54,9 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://j0shW.github.io/Pigment/)
 
-Pigment is a tool for **Miniature** and **Model** painters. It helps you find similar colors between paint brands.
+**Pigment** is a tool for *Miniature* and *Model* painters. It helps you find similar colors between paint brands.
 
-Has your favorite color been discontinued? Did a tutorial call for a certain paint or brand that your local hobbby store doesn't carry? Is Citadel paint just too rich for your blood? 
+*Has your favorite color been discontinued? Did a tutorial call for a certain paint or brand that your local hobby store doesn't carry? Is Citadel paint just too rich for your blood?* 
 
 Well now with **Pigment** you can find great alternative colors! You can search for a color and get matches immediately, so you can get back to painting instead of wasting your time fumbling with paint comparison spreadsheets.
 
