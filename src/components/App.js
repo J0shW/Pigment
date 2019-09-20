@@ -102,9 +102,9 @@ class App extends React.Component {
         return (
             <header>
                 <nav>
-                    <div className="brand">
-                        <h3>Pigmnt</h3>
-                    </div>
+                    {/* <div className="brand">
+                        <h3>Pigment</h3>
+                    </div> */}
                     <button onClick={this.setRandomColor}>
                         {/* <Icon name="tint" /> */}
                         <Icon name="random" />
