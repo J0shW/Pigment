@@ -1,8 +1,8 @@
-# Mini Colors
+# Pigment
 
-`Mini Colors` is an web app for comparing paint colors between a variety of popular model paint brands.
+`Pigment` is an web app for comparing paint colors between a variety of popular model paint brands.
 
-## Using Mini Colors
+## Using Pigment
 
 Find a specific color using the search bar, then similar colors from various brands will be shown on the screen.
 
