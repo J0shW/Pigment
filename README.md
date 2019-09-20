@@ -52,7 +52,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://j0shW.github.io/Pigment/)
 
 I built Pigment because I wanted a tool to help me find similar colors between paint brands. 
 
@@ -163,4 +163,4 @@ Project Link: [https://github.com/j0shW/Pigment](https://github.com/j0shW/Pigmen
 [license-url]: https://github.com/j0shW/Pigment/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/josh-whitney-1b2241b4/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: src/images/screenshot.png
