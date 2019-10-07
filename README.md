@@ -11,7 +11,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/j0shW/Pigment">
-    <img src="icon.png" alt="Logo" width="80" height="80">
+    <img src="src/images/icon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Pigment</h3>
@@ -52,9 +52,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://j0shW.github.io/Pigment/)
 
-I built Pigment because I wanted a tool to help me find similar colors between paint brands. 
+**Pigment** is a tool for *Miniature* and *Model* painters. It helps you find similar colors between paint brands.
+
+*Has your favorite color been discontinued? Did a tutorial call for a certain paint or brand that your local hobby store doesn't carry? Is Citadel paint just too rich for your blood?* 
+
+Well now with **Pigment** you can find great alternative colors! You can search for a color and get matches immediately, so you can get back to painting instead of wasting your time fumbling with paint comparison spreadsheets.
 
 
 ### Built With
@@ -71,7 +75,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Things you need to use the software and how to install them.
 * npm
 ```sh
 npm install npm@latest -g
@@ -163,4 +167,4 @@ Project Link: [https://github.com/j0shW/Pigment](https://github.com/j0shW/Pigmen
 [license-url]: https://github.com/j0shW/Pigment/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/josh-whitney-1b2241b4/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: src/images/screenshot.png
