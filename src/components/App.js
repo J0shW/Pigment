@@ -6,6 +6,7 @@ import axios from 'axios';
 import SearchBar from './SearchBar';
 import _ from 'lodash';
 import { Dimmer, Loader, Icon, Dropdown } from 'semantic-ui-react';
+import ReactGA from 'react-ga';
 
 const InitialState = {
     currentColor: null,
@@ -14,13 +15,26 @@ const InitialState = {
     filters: [],
 };
 
+const colorDataVersion = 0;
+
 class App extends React.Component {
     // Retrieve the last state from localStorage
-    state = localStorage.getItem('appState') ? JSON.parse(localStorage.getItem('appState')) : InitialState;
+    state = localStorage.getItem(`appState${colorDataVersion}`)
+        ? JSON.parse(localStorage.getItem(`appState${colorDataVersion}`))
+        : InitialState;
 
     async componentDidMount() {
+        ReactGA.initialize('UA-149514108-1');
+        ReactGA.pageview('/homepage');
+
         if (this.state.colors.length === 0) {
             // Load JSON color data
+
+            ReactGA.event({
+                category: 'Load Colors',
+                action: `Load Colors Version ${colorDataVersion}`,
+            });
+
             axios
                 .get('./colorsMatched.json')
                 .then((response) => {
@@ -37,10 +51,16 @@ class App extends React.Component {
 
     componentDidUpdate() {
         // Remember state for the next mount
-        localStorage.setItem('appState', JSON.stringify(this.state));
+        localStorage.clear();
+        localStorage.setItem(`appState${colorDataVersion}`, JSON.stringify(this.state));
     }
 
     onSearchSubmit = (color) => {
+        ReactGA.event({
+            category: 'Search',
+            action: 'Search Submit',
+        });
+
         this.setState({
             currentColor: color,
             similarColors: this.getSimilarColors(color),
@@ -87,6 +107,11 @@ class App extends React.Component {
     }
 
     setRandomColor = () => {
+        ReactGA.event({
+            category: 'Button',
+            action: 'Random Color Button Click',
+        });
+
         const randomColor = this.state.colors[Math.floor(Math.random() * this.state.colors.length)];
         this.setState(
             {
