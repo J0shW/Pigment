@@ -15,7 +15,7 @@ const InitialState = {
     filters: [],
 };
 
-const colorDataVersion = 0;
+const colorDataVersion = 1;
 
 class App extends React.Component {
     // Retrieve the last state from localStorage
