@@ -4,15 +4,17 @@ import _ from 'lodash';
 var DeltaE = require('delta-e');
 
 export default class CalcDeltas {
-    constructor() {
-        axios
-            .get('./colors.json')
-            .then((response) => {
-                this.startCalculation(response.data);
-            })
-            .catch(function(error) {
-                console.log(error);
-            });
+    constructor(doCalculation = true) {
+        if (doCalculation) {
+            axios
+                .get('./colors.json')
+                .then((response) => {
+                    this.startCalculation(response.data);
+                })
+                .catch(function(error) {
+                    console.log(error);
+                });
+        }
     }
 
     getDeltaE = (color1, color2) => {

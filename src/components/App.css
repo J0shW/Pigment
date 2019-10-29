@@ -140,6 +140,13 @@ main {
     flex-grow: 1;
 }
 
+main.dark h1,
+main.dark h2,
+main.dark h3,
+main.dark h4 {
+    color: black !important;
+}
+
 /* CURRENT COLOR */
 .current-color {
     display: flex;

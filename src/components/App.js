@@ -7,6 +7,7 @@ import SearchBar from './SearchBar';
 import _ from 'lodash';
 import { Dimmer, Loader, Icon, Dropdown } from 'semantic-ui-react';
 import ReactGA from 'react-ga';
+import calcDeltas from '../calcDeltas';
 
 const InitialState = {
     currentColor: null,
@@ -16,6 +17,7 @@ const InitialState = {
 };
 
 const colorDataVersion = 1;
+const calcDelta = new calcDeltas(false);
 
 class App extends React.Component {
     // Retrieve the last state from localStorage
@@ -174,9 +176,11 @@ class App extends React.Component {
     }
 
     renderMain() {
+        var deltaWhite = calcDelta.getDeltaE(this.state.currentColor.hex, '#FFFFFF');
+        console.log(deltaWhite);
         if (this.state.currentColor !== null && this.state.similarColors !== null) {
             return (
-                <main>
+                <main className={deltaWhite < 33 ? 'dark' : ''}>
                     <CurrentColor color={this.state.currentColor} />
                     <SimilarColors similarColors={this.state.similarColors} />
                 </main>
