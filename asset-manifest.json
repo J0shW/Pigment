@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Pigment/static/css/main.57570628.chunk.css",
-    "main.js": "/Pigment/static/js/main.ef6025f3.chunk.js",
-    "main.js.map": "/Pigment/static/js/main.ef6025f3.chunk.js.map",
+    "main.js": "/Pigment/static/js/main.cdd5b27c.chunk.js",
+    "main.js.map": "/Pigment/static/js/main.cdd5b27c.chunk.js.map",
     "runtime~main.js": "/Pigment/static/js/runtime~main.7195fbc3.js",
     "runtime~main.js.map": "/Pigment/static/js/runtime~main.7195fbc3.js.map",
     "static/js/2.c18ae8b9.chunk.js": "/Pigment/static/js/2.c18ae8b9.chunk.js",
     "static/js/2.c18ae8b9.chunk.js.map": "/Pigment/static/js/2.c18ae8b9.chunk.js.map",
     "index.html": "/Pigment/index.html",
-    "precache-manifest.fbeaacd46bca690845cfb397554ebce3.js": "/Pigment/precache-manifest.fbeaacd46bca690845cfb397554ebce3.js",
+    "precache-manifest.f8a11e3e47e5bbcce9768288e57dafa9.js": "/Pigment/precache-manifest.f8a11e3e47e5bbcce9768288e57dafa9.js",
     "service-worker.js": "/Pigment/service-worker.js",
     "static/css/main.57570628.chunk.css.map": "/Pigment/static/css/main.57570628.chunk.css.map"
   }
