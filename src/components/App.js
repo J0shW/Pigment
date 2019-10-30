@@ -69,6 +69,14 @@ class App extends React.Component {
         });
     };
 
+    dimmerOpen = () => {
+        var x = document.getElementById('snackbar');
+        x.className = 'show';
+        setTimeout(function() {
+            x.className = x.className.replace('show', '');
+        }, 3000);
+    };
+
     getFilters() {
         let productlines = _.uniqBy(this.state.colors, 'productline');
         productlines = productlines.map((line) => {
@@ -176,13 +184,12 @@ class App extends React.Component {
     }
 
     renderMain() {
-        var deltaWhite = calcDelta.getDeltaE(this.state.currentColor.hex, '#FFFFFF');
-        console.log(deltaWhite);
+        var deltaWhite = this.state.currentColor ? calcDelta.getDeltaE(this.state.currentColor.hex, '#FFFFFF') : 100;
         if (this.state.currentColor !== null && this.state.similarColors !== null) {
             return (
                 <main className={deltaWhite < 33 ? 'dark' : ''}>
                     <CurrentColor color={this.state.currentColor} />
-                    <SimilarColors similarColors={this.state.similarColors} />
+                    <SimilarColors similarColors={this.state.similarColors} onClick={this.dimmerOpen} />
                 </main>
             );
         } else {
@@ -216,6 +223,10 @@ class App extends React.Component {
                 {this.renderHeader()}
                 {this.renderMain()}
                 {this.renderFooter()}
+                <div id="snackbar">
+                    The Delta (Δ) value indicates the difference between two colors. The lower the number, the better
+                    the match!
+                </div>
             </div>
         );
     }

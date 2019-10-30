@@ -6,12 +6,12 @@ const SimilarColors = (props) => {
             <div key={index} className="similar-color" style={{ backgroundColor: color.hex }}>
                 <div>
                     <h4>{`${color.brand} ${color.productline}`}</h4>
-                </div>
-                <div>
                     <h2>{color.name.charAt(0).toUpperCase() + color.name.slice(1)}</h2>
                 </div>
                 <div>
-                    <h4>{`Δ=${parseFloat(Math.round(color.delta * 100) / 100).toFixed(2)}`}</h4>
+                    <h4 className="delta" onClick={props.onClick}>
+                        {`Δ=${parseFloat(Math.round(color.delta * 100) / 100).toFixed(2)}`}
+                    </h4>
                 </div>
             </div>
         );
