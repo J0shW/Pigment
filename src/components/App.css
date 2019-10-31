@@ -201,7 +201,7 @@ main.dark h4 {
 }
 
 .similar-color div:first-child h4 {
-    height: 25px;
+    height: initial;
 }
 
 .similar-color {
@@ -296,18 +296,23 @@ i.icon {
 /* SNACKBAR */
 #snackbar {
     visibility: hidden;
-    min-width: 250px;
-    margin-left: -415px;
-    background-color: #333;
-    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    border-radius: 2px;
-    padding: 16px;
     position: fixed;
     z-index: 1;
-    left: 50%;
     bottom: 30px;
     font-size: 17px;
+}
+
+#snackbar div {
+    max-width: 95vw;
+    width: max-content;
+    background-color: #333;
+    color: #fff;
+    border-radius: 2px;
+    padding: 16px;
 }
 
 #snackbar.show {

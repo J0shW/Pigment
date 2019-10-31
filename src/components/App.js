@@ -224,8 +224,10 @@ class App extends React.Component {
                 {this.renderMain()}
                 {this.renderFooter()}
                 <div id="snackbar">
-                    The Delta (Δ) value indicates the difference between two colors. The lower the number, the better
-                    the match!
+                    <div>
+                        The Delta (Δ) value indicates the difference between two colors. The lower the number, the
+                        better the match!
+                    </div>
                 </div>
             </div>
         );
