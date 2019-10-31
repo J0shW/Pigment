@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ce62ec108dd98decbb5ba5a1589cdaf",
+    "revision": "cd2c2380ddce570cd405560188d3bf0f",
     "url": "/Pigment/index.html"
   },
   {
-    "revision": "3cde98ee9765ff9bd097",
-    "url": "/Pigment/static/css/main.c03f562f.chunk.css"
+    "revision": "8317420132757be3b509",
+    "url": "/Pigment/static/css/main.30945edb.chunk.css"
   },
   {
     "revision": "3c3349a98cf26df83c24",
     "url": "/Pigment/static/js/2.c18ae8b9.chunk.js"
   },
   {
-    "revision": "3cde98ee9765ff9bd097",
-    "url": "/Pigment/static/js/main.6c8c6071.chunk.js"
+    "revision": "8317420132757be3b509",
+    "url": "/Pigment/static/js/main.545220ee.chunk.js"
   },
   {
     "revision": "6b0336b90a5ad91b9105",
