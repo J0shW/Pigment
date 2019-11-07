@@ -99,6 +99,24 @@ nav button i {
     max-width: 98vw !important;
 }
 
+.customResult {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.resultDescription,
+.resultDescription i {
+    font-size: 0.92857143em !important;
+    color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.colorCircle {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
 /* Filter Dropdown */
 .filter-button {
     width: 50px;
