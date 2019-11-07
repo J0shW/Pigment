@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Pigment/static/css/main.0f1f8eaa.chunk.css",
-    "main.js": "/Pigment/static/js/main.f1535c57.chunk.js",
-    "main.js.map": "/Pigment/static/js/main.f1535c57.chunk.js.map",
+    "main.css": "/Pigment/static/css/main.2d2d18d5.chunk.css",
+    "main.js": "/Pigment/static/js/main.13fda357.chunk.js",
+    "main.js.map": "/Pigment/static/js/main.13fda357.chunk.js.map",
     "runtime~main.js": "/Pigment/static/js/runtime~main.7195fbc3.js",
     "runtime~main.js.map": "/Pigment/static/js/runtime~main.7195fbc3.js.map",
     "static/js/2.b41999b8.chunk.js": "/Pigment/static/js/2.b41999b8.chunk.js",
     "static/js/2.b41999b8.chunk.js.map": "/Pigment/static/js/2.b41999b8.chunk.js.map",
     "index.html": "/Pigment/index.html",
-    "precache-manifest.7c4566d9d82f99615a5c10f6bcab6cd1.js": "/Pigment/precache-manifest.7c4566d9d82f99615a5c10f6bcab6cd1.js",
+    "precache-manifest.4ef07a09c668dd20afff39e866c26f2d.js": "/Pigment/precache-manifest.4ef07a09c668dd20afff39e866c26f2d.js",
     "service-worker.js": "/Pigment/service-worker.js",
-    "static/css/main.0f1f8eaa.chunk.css.map": "/Pigment/static/css/main.0f1f8eaa.chunk.css.map"
+    "static/css/main.2d2d18d5.chunk.css.map": "/Pigment/static/css/main.2d2d18d5.chunk.css.map"
   }
 }
