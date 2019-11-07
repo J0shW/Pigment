@@ -130,6 +130,7 @@ nav button i {
     height: 30px;
     width: 30px;
     border-radius: 100%;
+    border: 0.5px solid rgba(0, 0, 0, 0.15);
 }
 
 /* Filter Dropdown */
@@ -156,8 +157,12 @@ nav button i {
     right: 0px;
 }
 
+.ui.dropdown .scrolling.menu {
+    max-height: 60vh !important;
+}
+
 .menu.transition.visible {
-    min-width: 200px;
+    min-width: 220px;
 }
 
 .scrolling.menu.transition .item {

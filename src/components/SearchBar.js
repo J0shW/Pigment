@@ -80,12 +80,26 @@ export default class SearchExampleCategory extends Component {
         setTimeout(() => {
             if (this.state.value.length < 1) return this.setState(this.initialState);
 
-            const re = new RegExp(_.escapeRegExp(this.state.value), 'i');
-            const isMatch = (result) => re.test(result.title);
+            // Step 1: Get everything that STARTS WITH the searched value
+            const searchValue = _.escapeRegExp(this.state.value);
+            const re = new RegExp('^' + searchValue, 'i');
+            const isStartWith = (result) => re.test(result.title);
+
+            let matches = _.filter(source, isStartWith);
+            let sortedMatches = _.sortBy(matches, [(match) => match.title]);
+
+            // Step 2: Get everything that CONTAINS the searched value
+            const isContains = (result) => {
+                const containsValue = result.title.indexOf(this.state.value, 1) > -1;
+                return containsValue && !isStartWith(result);
+            };
+
+            matches = _.filter(source, isContains);
+            sortedMatches = [...sortedMatches, ..._.sortBy(matches, [(match) => match.title])];
 
             this.setState({
                 isLoading: false,
-                results: _.filter(source, isMatch),
+                results: sortedMatches,
             });
         }, 300);
     };
