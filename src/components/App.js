@@ -145,7 +145,7 @@ class App extends React.Component {
                         <Icon name="random" />
                     </button>
                     <div className="search-wrapper">
-                        <SearchBar onSubmit={this.onSearchSubmit} colors={this.state.colors} />;
+                        <SearchBar onSubmit={this.onSearchSubmit} colors={this.state.colors} />
                     </div>
                     <div className="filter-button">
                         <Dropdown multiple icon="filter">

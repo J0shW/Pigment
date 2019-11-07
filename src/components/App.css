@@ -88,21 +88,36 @@ nav button i {
     font-size: 1.4em;
 }
 
-.results.transition {
-    max-height: 50vh;
-    overflow-y: scroll;
+@media only screen and (max-width: 640px) {
+    .results.transition {
+        max-height: 48vh;
+        overflow-y: scroll;
 
-    position: fixed !important;
-    left: 1vw !important;
-    top: 50px !important;
-    width: 98vw !important;
-    max-width: 98vw !important;
+        position: fixed !important;
+        left: 1vw !important;
+        top: 50px !important;
+        width: 98vw !important;
+        max-width: 98vw !important;
+    }
+}
+
+@media only screen and (min-width: 641px) {
+    .results.transition {
+        max-height: 67vh;
+        overflow-y: scroll;
+        width: unset !important;
+        position: inherit !important;
+    }
 }
 
 .customResult {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.resultTitle {
+    font-size: 1.2em;
 }
 
 .resultDescription,

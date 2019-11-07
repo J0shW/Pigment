@@ -12,7 +12,7 @@ let source = null;
 const resultRenderer = (result) => (
     <div className="customResult">
         <div>
-            <div>
+            <div className="resultTitle">
                 <b>{result.title}</b>
             </div>
             <div className="resultDescription">
@@ -70,6 +70,8 @@ export default class SearchExampleCategory extends Component {
         this.setState({ value: '' });
         // Pass the searched color to App.js event handler
         this.props.onSubmit(result.color);
+
+        document.getElementById('searchInput').blur();
     };
 
     handleSearchChange = (e, { value }) => {
