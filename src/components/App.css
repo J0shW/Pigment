@@ -168,6 +168,11 @@ nav button i {
 .scrolling.menu.transition .item {
     height: 35px;
 }
+
+.filterHeader i {
+    margin-right: 15px;
+}
+
 /* End Filter Dropdown */
 /* END HEADER */
 

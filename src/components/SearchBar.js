@@ -81,17 +81,30 @@ export default class SearchExampleCategory extends Component {
             if (this.state.value.length < 1) return this.setState(this.initialState);
 
             // Step 1: Get everything that STARTS WITH the searched value
-            const searchValue = _.escapeRegExp(this.state.value);
+            const searchValue = _.escapeRegExp(this.state.value.toLowerCase());
             const re = new RegExp('^' + searchValue, 'i');
-            const isStartWith = (result) => re.test(result.title);
+            const isStartWith = (result) => re.test(result.title.toLowerCase());
 
             let matches = _.filter(source, isStartWith);
             let sortedMatches = _.sortBy(matches, [(match) => match.title]);
 
+            // Step 2: Get everything that contains the searched value as a WHOLE WORD
+            const isWholeWord = (result) => {
+                const containsValue = result.title.toLowerCase().indexOf(` ${searchValue}`, 1) > -1;
+                return containsValue && !isStartWith(result);
+            };
+
+            matches = _.filter(source, isWholeWord);
+            sortedMatches = [...sortedMatches, ..._.sortBy(matches, [(match) => match.title])];
+
             // Step 2: Get everything that CONTAINS the searched value
             const isContains = (result) => {
-                const containsValue = result.title.indexOf(this.state.value, 1) > -1;
-                return containsValue && !isStartWith(result);
+                const containsValue = result.title.toLowerCase().indexOf(searchValue, 1) > -1;
+                return (
+                    containsValue &&
+                    result.title.toLowerCase().indexOf(` ${searchValue}`, 1) === -1 &&
+                    !isStartWith(result)
+                );
             };
 
             matches = _.filter(source, isContains);

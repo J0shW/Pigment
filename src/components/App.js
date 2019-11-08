@@ -150,7 +150,11 @@ class App extends React.Component {
                     <div className="filter-button">
                         <Dropdown multiple icon="filter">
                             <Dropdown.Menu>
-                                <Dropdown.Header icon="tags" content="Filter by Product Line" />
+                                <Dropdown.Header
+                                    icon="tags"
+                                    className="filterHeader"
+                                    content="Filter by Product Line"
+                                />
                                 <Dropdown.Menu scrolling>{this.renderFilterList()}</Dropdown.Menu>
                             </Dropdown.Menu>
                         </Dropdown>
