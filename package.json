@@ -2,7 +2,7 @@
     "name": "minicolors",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://j0shW.github.io/Pigment",
+    "homepage": "http://j0shW.github.io",
     "dependencies": {
         "axios": "^0.19.0",
         "color-convert": "^2.0.1",
