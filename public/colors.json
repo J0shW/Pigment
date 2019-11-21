@@ -1,0 +1,7194 @@
+[
+    {
+        "id": 1,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Matt Black",
+        "productcode": "-",
+        "hex": "#231f20"
+    },
+    {
+        "id": 2,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Matt White",
+        "productcode": "-",
+        "hex": "#ffffff"
+    },
+    {
+        "id": 3,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Pure Red",
+        "productcode": "-",
+        "hex": "#cf2127"
+    },
+    {
+        "id": 4,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Dragon Red",
+        "productcode": "-",
+        "hex": "#9a1b1e"
+    },
+    {
+        "id": 5,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Lava Orange",
+        "productcode": "-",
+        "hex": "#e65525"
+    },
+    {
+        "id": 6,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Daemonic Yellow",
+        "productcode": "-",
+        "hex": "#fada06"
+    },
+    {
+        "id": 7,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Necrotic Flesh",
+        "productcode": "-",
+        "hex": "#bfc292"
+    },
+    {
+        "id": 8,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Goblin Green",
+        "productcode": "-",
+        "hex": "#348941"
+    },
+    {
+        "id": 9,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Army Green",
+        "productcode": "-",
+        "hex": "#6e7645"
+    },
+    {
+        "id": 10,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Greenskin",
+        "productcode": "-",
+        "hex": "#136232"
+    },
+    {
+        "id": 11,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Angel Green",
+        "productcode": "-",
+        "hex": "#0c391d"
+    },
+    {
+        "id": 12,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Electric Blue",
+        "productcode": "-",
+        "hex": "#508cbe"
+    },
+    {
+        "id": 13,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Crystal Blue",
+        "productcode": "-",
+        "hex": "#0083c2"
+    },
+    {
+        "id": 14,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Ultramarine Blue",
+        "productcode": "-",
+        "hex": "#0f4e85"
+    },
+    {
+        "id": 15,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Deep Blue",
+        "productcode": "-",
+        "hex": "#083251"
+    },
+    {
+        "id": 16,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Ash Grey",
+        "productcode": "-",
+        "hex": "#a2a5a4"
+    },
+    {
+        "id": 17,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Uniform Grey",
+        "productcode": "-",
+        "hex": "#5e6a73"
+    },
+    {
+        "id": 18,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Wolf Grey",
+        "productcode": "-",
+        "hex": "#5b8093"
+    },
+    {
+        "id": 19,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Monster Brown",
+        "productcode": "-",
+        "hex": "#855c2a"
+    },
+    {
+        "id": 20,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Desert Yellow",
+        "productcode": "-",
+        "hex": "#c7952c"
+    },
+    {
+        "id": 21,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Fur Brown",
+        "productcode": "-",
+        "hex": "#a14322"
+    },
+    {
+        "id": 22,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Leather Brown",
+        "productcode": "-",
+        "hex": "#764823"
+    },
+    {
+        "id": 23,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Oak Brown",
+        "productcode": "-",
+        "hex": "#432010"
+    },
+    {
+        "id": 24,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Skeleton Bone",
+        "productcode": "-",
+        "hex": "#d3c89d"
+    },
+    {
+        "id": 25,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Barbarian Flesh",
+        "productcode": "-",
+        "hex": "#e89c6c"
+    },
+    {
+        "id": 26,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Tanned Flesh",
+        "productcode": "-",
+        "hex": "#bc745e"
+    },
+    {
+        "id": 27,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Alien Purple",
+        "productcode": "-",
+        "hex": "#50317b"
+    },
+    {
+        "id": 28,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Hydra Turquoise",
+        "productcode": "-",
+        "hex": "#199ba3"
+    },
+    {
+        "id": 29,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Chaotic Red",
+        "productcode": "-",
+        "hex": "#6c1e10"
+    },
+    {
+        "id": 30,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Abomination Gore",
+        "productcode": "-",
+        "hex": "#6c1e10"
+    },
+    {
+        "id": 31,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Arid Earth",
+        "productcode": "-",
+        "hex": "#faecc3"
+    },
+    {
+        "id": 32,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Babe Blonde",
+        "productcode": "-",
+        "hex": "#f8dd0d"
+    },
+    {
+        "id": 33,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Banshee Brown",
+        "productcode": "-",
+        "hex": "#c3b097"
+    },
+    {
+        "id": 34,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Basilisk Brown",
+        "productcode": "-",
+        "hex": "#cd8315"
+    },
+    {
+        "id": 35,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Brainmatter Beige",
+        "productcode": "-",
+        "hex": "#f1f0e0"
+    },
+    {
+        "id": 36,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Castle Grey",
+        "productcode": "-",
+        "hex": "#f1f0e0"
+    },
+    {
+        "id": 37,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Centaur Skin",
+        "productcode": "-",
+        "hex": "#deaba0"
+    },
+    {
+        "id": 38,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Combat Fatigue",
+        "productcode": "-",
+        "hex": "#878e5c"
+    },
+    {
+        "id": 39,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Commando Green",
+        "productcode": "-",
+        "hex": "#827b39"
+    },
+    {
+        "id": 40,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Corpse Pale",
+        "productcode": "-",
+        "hex": "#edccad"
+    },
+    {
+        "id": 41,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Crusted Sore",
+        "productcode": "-",
+        "hex": "#611624"
+    },
+    {
+        "id": 42,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Crypt Wraith",
+        "productcode": "-",
+        "hex": "#606050"
+    },
+    {
+        "id": 43,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Cultist Robe",
+        "productcode": "-",
+        "hex": "#756e60"
+    },
+    {
+        "id": 44,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Dark Sky",
+        "productcode": "-",
+        "hex": "#2b4b5f"
+    },
+    {
+        "id": 45,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Dirt Spatter",
+        "productcode": "-",
+        "hex": "#5e3827"
+    },
+    {
+        "id": 46,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Drake Tooth",
+        "productcode": "-",
+        "hex": "#cfcbb4"
+    },
+    {
+        "id": 47,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Dungeon Grey",
+        "productcode": "-",
+        "hex": "#686c71"
+    },
+    {
+        "id": 48,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Elemental Bolt",
+        "productcode": "-",
+        "hex": "#009a82"
+    },
+    {
+        "id": 49,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Elf Green",
+        "productcode": "-",
+        "hex": "#495122"
+    },
+    {
+        "id": 50,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Elven Flesh",
+        "productcode": "-",
+        "hex": "#495122"
+    },
+    {
+        "id": 51,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Orc Blood",
+        "productcode": "-",
+        "hex": "#925f6e"
+    },
+    {
+        "id": 52,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Filthy Cape",
+        "productcode": "-",
+        "hex": "#7c7863"
+    },
+    {
+        "id": 53,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Dark Stone",
+        "productcode": "-",
+        "hex": "#605752"
+    },
+    {
+        "id": 54,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Fire Lizard",
+        "productcode": "-",
+        "hex": "#d67128"
+    },
+    {
+        "id": 55,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Fog Grey",
+        "productcode": "-",
+        "hex": "#6c8fac"
+    },
+    {
+        "id": 56,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Gorgon Hide",
+        "productcode": "-",
+        "hex": "#c7d2e4"
+    },
+    {
+        "id": 57,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Griffon Blue",
+        "productcode": "-",
+        "hex": "#215383"
+    },
+    {
+        "id": 58,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Hardened Carapace",
+        "productcode": "-",
+        "hex": "#4c473f"
+    },
+    {
+        "id": 59,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Hemp Rope",
+        "productcode": "-",
+        "hex": "#94763a"
+    },
+    {
+        "id": 60,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Ice Storm",
+        "productcode": "-",
+        "hex": "#639ec9"
+    },
+    {
+        "id": 61,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Jungle Green",
+        "productcode": "-",
+        "hex": "#88ac2e"
+    },
+    {
+        "id": 62,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Kobold Skin",
+        "productcode": "-",
+        "hex": "#c9a484"
+    },
+    {
+        "id": 63,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Kraken Skin",
+        "productcode": "-",
+        "hex": "#71c591"
+    },
+    {
+        "id": 64,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Mars Red",
+        "productcode": "-",
+        "hex": "#b73b37"
+    },
+    {
+        "id": 65,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Toxic Mist",
+        "productcode": "-",
+        "hex": "#39c0c5"
+    },
+    {
+        "id": 66,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Moon Dust",
+        "productcode": "-",
+        "hex": "#e8d468"
+    },
+    {
+        "id": 67,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Mouldy Clothes",
+        "productcode": "-",
+        "hex": "#447b3a"
+    },
+    {
+        "id": 68,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Mummy Robes",
+        "productcode": "-",
+        "hex": "#ebded5"
+    },
+    {
+        "id": 69,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Mutant Hue",
+        "productcode": "-",
+        "hex": "#a58084"
+    },
+    {
+        "id": 70,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Mythical Orange",
+        "productcode": "-",
+        "hex": "#e73d24"
+    },
+    {
+        "id": 71,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Necromance Cloak",
+        "productcode": "-",
+        "hex": "#3c3d37"
+    },
+    {
+        "id": 72,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Grimoire Purple",
+        "productcode": "-",
+        "hex": "#805259"
+    },
+    {
+        "id": 73,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Oozing Purple",
+        "productcode": "-",
+        "hex": "#aa94b4"
+    },
+    {
+        "id": 74,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Phoenix Flames",
+        "productcode": "-",
+        "hex": "#faa61a"
+    },
+    {
+        "id": 75,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Pixie Pink",
+        "productcode": "-",
+        "hex": "#d47a83"
+    },
+    {
+        "id": 76,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Poisonous Cloud",
+        "productcode": "-",
+        "hex": "#cdde4a"
+    },
+    {
+        "id": 77,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Royal Cloak",
+        "productcode": "-",
+        "hex": "#15999c"
+    },
+    {
+        "id": 78,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Scaly Hide",
+        "productcode": "-",
+        "hex": "#859852"
+    },
+    {
+        "id": 79,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Warlock Purple",
+        "productcode": "-",
+        "hex": "#bb5b64"
+    },
+    {
+        "id": 80,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Voidshield Blue",
+        "productcode": "-",
+        "hex": "#2ca2d9"
+    },
+    {
+        "id": 81,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Snake Scales",
+        "productcode": "-",
+        "hex": "#8ab239"
+    },
+    {
+        "id": 82,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Spaceship Exterior",
+        "productcode": "-",
+        "hex": "#cdced0"
+    },
+    {
+        "id": 83,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Stone Golem",
+        "productcode": "-",
+        "hex": "#b9bab7"
+    },
+    {
+        "id": 84,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Sulphide Ochre",
+        "productcode": "-",
+        "hex": "#c68512"
+    },
+    {
+        "id": 85,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Toxic Boils",
+        "productcode": "-",
+        "hex": "#a67284"
+    },
+    {
+        "id": 86,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Troglodyte Blue",
+        "productcode": "-",
+        "hex": "#0889ba"
+    },
+    {
+        "id": 87,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Troll Claws",
+        "productcode": "-",
+        "hex": "#cb8b4e"
+    },
+    {
+        "id": 88,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Vampire Red",
+        "productcode": "-",
+        "hex": "#981d34"
+    },
+    {
+        "id": 89,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Venom Wyrm",
+        "productcode": "-",
+        "hex": "#6a653e"
+    },
+    {
+        "id": 90,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Viking Blue",
+        "productcode": "-",
+        "hex": "#00609a"
+    },
+    {
+        "id": 91,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Wasteland Soil",
+        "productcode": "-",
+        "hex": "#774b58"
+    },
+    {
+        "id": 92,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Werewolf Fur",
+        "productcode": "-",
+        "hex": "#785e4e"
+    },
+    {
+        "id": 93,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Witch Brew",
+        "productcode": "-",
+        "hex": "#92963e"
+    },
+    {
+        "id": 94,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Wizards Orb",
+        "productcode": "-",
+        "hex": "#00726a"
+    },
+    {
+        "id": 95,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Scar Tissue",
+        "productcode": "-",
+        "hex": "#ca8772"
+    },
+    {
+        "id": 96,
+        "brand": "Army Painter",
+        "productline": "Warpaints",
+        "name": "Field Grey",
+        "productcode": "-",
+        "hex": "#787c78"
+    },
+    {
+        "id": 97,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Ceramite White",
+        "productcode": "-",
+        "hex": "#ffffff"
+    },
+    {
+        "id": 98,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Averland Sunset",
+        "productcode": "-",
+        "hex": "#fcb825"
+    },
+    {
+        "id": 99,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Jokaero Orange",
+        "productcode": "-",
+        "hex": "#ee3823"
+    },
+    {
+        "id": 100,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Mephiston Red",
+        "productcode": "-",
+        "hex": "#991115"
+    },
+    {
+        "id": 101,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Khorne Red",
+        "productcode": "-",
+        "hex": "#6a0002"
+    },
+    {
+        "id": 102,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Naggaroth Night",
+        "productcode": "-",
+        "hex": "#3e3355"
+    },
+    {
+        "id": 103,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Daemonette Hide",
+        "productcode": "-",
+        "hex": "#696685"
+    },
+    {
+        "id": 104,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Kantor Blue",
+        "productcode": "-",
+        "hex": "#002051"
+    },
+    {
+        "id": 105,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Macragge Blue",
+        "productcode": "-",
+        "hex": "#0d407f"
+    },
+    {
+        "id": 106,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Caledor Sky",
+        "productcode": "-",
+        "hex": "#396f9e"
+    },
+    {
+        "id": 107,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Stegadon Scale Green",
+        "productcode": "-",
+        "hex": "#074864"
+    },
+    {
+        "id": 108,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Incubi Darkness",
+        "productcode": "-",
+        "hex": "#0b4849"
+    },
+    {
+        "id": 109,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Caliban Green",
+        "productcode": "-",
+        "hex": "#00401e"
+    },
+    {
+        "id": 110,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Waaagh! Flesh",
+        "productcode": "-",
+        "hex": "#20552b"
+    },
+    {
+        "id": 111,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Castellan Green",
+        "productcode": "-",
+        "hex": "#304921"
+    },
+    {
+        "id": 112,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Death World Forest",
+        "productcode": "-",
+        "hex": "#496732"
+    },
+    {
+        "id": 113,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Zandri Dust",
+        "productcode": "-",
+        "hex": "#9e915c"
+    },
+    {
+        "id": 114,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Steel Legion Drab",
+        "productcode": "-",
+        "hex": "#5f5134"
+    },
+    {
+        "id": 115,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Bugman's Glow",
+        "productcode": "-",
+        "hex": "#845045"
+    },
+    {
+        "id": 116,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Ratskin Flesh",
+        "productcode": "-",
+        "hex": "#ae6b4e"
+    },
+    {
+        "id": 117,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Mournfang Brown",
+        "productcode": "-",
+        "hex": "#650a09"
+    },
+    {
+        "id": 118,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "XV-88",
+        "productcode": "-",
+        "hex": "#72481e"
+    },
+    {
+        "id": 119,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Rhinox Hide",
+        "productcode": "-",
+        "hex": "#493335"
+    },
+    {
+        "id": 120,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Dryad Bark",
+        "productcode": "-",
+        "hex": "#34312c"
+    },
+    {
+        "id": 121,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Mechanicus Standard Grey",
+        "productcode": "-",
+        "hex": "#3d4b4e"
+    },
+    {
+        "id": 122,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Celestra Grey",
+        "productcode": "-",
+        "hex": "#90a8a8"
+    },
+    {
+        "id": 123,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Abaddon Black",
+        "productcode": "-",
+        "hex": "#231f20"
+    },
+    {
+        "id": 124,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Rakarth Flesh",
+        "productcode": "-",
+        "hex": "#a29e92"
+    },
+    {
+        "id": 125,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "The Fang",
+        "productcode": "-",
+        "hex": "#436276"
+    },
+    {
+        "id": 126,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Screamer Pink",
+        "productcode": "-",
+        "hex": "#7c1645"
+    },
+    {
+        "id": 127,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Thousand Sons Blue",
+        "productcode": "-",
+        "hex": "#18ABCC"
+    },
+    {
+        "id": 128,
+        "brand": "Citadel",
+        "productline": "Base",
+        "name": "Death Guard Green",
+        "productcode": "-",
+        "hex": "#848A66"
+    },
+    {
+        "id": 129,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "White Scar",
+        "productcode": "-",
+        "hex": "#ffffff"
+    },
+    {
+        "id": 130,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Yriel Yellow",
+        "productcode": "-",
+        "hex": "#ffdb01"
+    },
+    {
+        "id": 131,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Flash Gitz Yellow",
+        "productcode": "-",
+        "hex": "#fef200"
+    },
+    {
+        "id": 132,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Troll Slayer Orange",
+        "productcode": "-",
+        "hex": "#f46c2e"
+    },
+    {
+        "id": 133,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Fire Dragon Bright",
+        "productcode": "-",
+        "hex": "#f58651"
+    },
+    {
+        "id": 134,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Evil Sunz Scarlet",
+        "productcode": "-",
+        "hex": "#c21920"
+    },
+    {
+        "id": 135,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Wild Rider Red",
+        "productcode": "-",
+        "hex": "#eb2e28"
+    },
+    {
+        "id": 136,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Wazdakka Red",
+        "productcode": "-",
+        "hex": "#8c0a0c"
+    },
+    {
+        "id": 137,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Squig Orange",
+        "productcode": "-",
+        "hex": "#a94f44"
+    },
+    {
+        "id": 138,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Xerus Purple",
+        "productcode": "-",
+        "hex": "#471f5e"
+    },
+    {
+        "id": 139,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Genestealer Purple",
+        "productcode": "-",
+        "hex": "#7761aa"
+    },
+    {
+        "id": 140,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Warpfiend Grey",
+        "productcode": "-",
+        "hex": "#6c6a75"
+    },
+    {
+        "id": 141,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Slanesh Grey",
+        "productcode": "-",
+        "hex": "#8e8c97"
+    },
+    {
+        "id": 142,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Alaitoc Blue",
+        "productcode": "-",
+        "hex": "#295788"
+    },
+    {
+        "id": 143,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Hoeth Blue",
+        "productcode": "-",
+        "hex": "#4c7fb4"
+    },
+    {
+        "id": 144,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Altdorf Guard Blue",
+        "productcode": "-",
+        "hex": "#1f56a8"
+    },
+    {
+        "id": 145,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Calgar Blue",
+        "productcode": "-",
+        "hex": "#4273b8"
+    },
+    {
+        "id": 146,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Teclis Blue",
+        "productcode": "-",
+        "hex": "#317fc1"
+    },
+    {
+        "id": 147,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Lothern Blue",
+        "productcode": "-",
+        "hex": "#33a2cf"
+    },
+    {
+        "id": 148,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Sotek Green",
+        "productcode": "-",
+        "hex": "#0c6a74"
+    },
+    {
+        "id": 149,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Temple Guard Blue",
+        "productcode": "-",
+        "hex": "#329b8d"
+    },
+    {
+        "id": 150,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Kabalite Green",
+        "productcode": "-",
+        "hex": "#028d66"
+    },
+    {
+        "id": 151,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Sybarite Green",
+        "productcode": "-",
+        "hex": "#30a66c"
+    },
+    {
+        "id": 152,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Warpstone Glow",
+        "productcode": "-",
+        "hex": "#1e7332"
+    },
+    {
+        "id": 153,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Moot Green",
+        "productcode": "-",
+        "hex": "#52b246"
+    },
+    {
+        "id": 154,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Warboss Green",
+        "productcode": "-",
+        "hex": "#3e7f5d"
+    },
+    {
+        "id": 155,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Skarsnik Green",
+        "productcode": "-",
+        "hex": "#5f936f"
+    },
+    {
+        "id": 156,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Loren Forest",
+        "productcode": "-",
+        "hex": "#51702d"
+    },
+    {
+        "id": 157,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Straken Green",
+        "productcode": "-",
+        "hex": "#628026"
+    },
+    {
+        "id": 158,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Nurgling Green",
+        "productcode": "-",
+        "hex": "#849b63"
+    },
+    {
+        "id": 159,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Elysian Green",
+        "productcode": "-",
+        "hex": "#758e3a"
+    },
+    {
+        "id": 160,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Ogryn Camo",
+        "productcode": "-",
+        "hex": "#9ea94b"
+    },
+    {
+        "id": 161,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Ushabti Bone",
+        "productcode": "-",
+        "hex": "#bcbc80"
+    },
+    {
+        "id": 162,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Screaming Skull",
+        "productcode": "-",
+        "hex": "#d4d3a3"
+    },
+    {
+        "id": 163,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Tallarn Sand",
+        "productcode": "-",
+        "hex": "#a67610"
+    },
+    {
+        "id": 164,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Karak Stone",
+        "productcode": "-",
+        "hex": "#bb9662"
+    },
+    {
+        "id": 165,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Cadian Fleshtone",
+        "productcode": "-",
+        "hex": "#c87958"
+    },
+    {
+        "id": 166,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Kislev Flesh",
+        "productcode": "-",
+        "hex": "#d6a876"
+    },
+    {
+        "id": 167,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Bestigor Flesh",
+        "productcode": "-",
+        "hex": "#d28b57"
+    },
+    {
+        "id": 168,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Ungor Flesh",
+        "productcode": "-",
+        "hex": "#d7a767"
+    },
+    {
+        "id": 169,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Skrag Brown",
+        "productcode": "-",
+        "hex": "#904a0f"
+    },
+    {
+        "id": 170,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Deathclaw Brown",
+        "productcode": "-",
+        "hex": "#b36853"
+    },
+    {
+        "id": 171,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Tau Light Ochre",
+        "productcode": "-",
+        "hex": "#bf6e1d"
+    },
+    {
+        "id": 172,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Balor Brown",
+        "productcode": "-",
+        "hex": "#8b5910"
+    },
+    {
+        "id": 173,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Zamesi Desert",
+        "productcode": "-",
+        "hex": "#dca026"
+    },
+    {
+        "id": 174,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Doombull Brown",
+        "productcode": "-",
+        "hex": "#5d000a"
+    },
+    {
+        "id": 175,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Tuskgor Fur",
+        "productcode": "-",
+        "hex": "#883736"
+    },
+    {
+        "id": 176,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Gorthor Brown",
+        "productcode": "-",
+        "hex": "#654641"
+    },
+    {
+        "id": 177,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Baneblade Brown",
+        "productcode": "-",
+        "hex": "#927f6e"
+    },
+    {
+        "id": 178,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Dawnstone",
+        "productcode": "-",
+        "hex": "#70756e"
+    },
+    {
+        "id": 179,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Administratum Grey",
+        "productcode": "-",
+        "hex": "#949b94"
+    },
+    {
+        "id": 180,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Eshin Grey",
+        "productcode": "-",
+        "hex": "#4a4f53"
+    },
+    {
+        "id": 181,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Dark Reaper",
+        "productcode": "-",
+        "hex": "#3c3c51"
+    },
+    {
+        "id": 182,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Thunderhawk Blue",
+        "productcode": "-",
+        "hex": "#417175"
+    },
+    {
+        "id": 183,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Skavenblight Dinge",
+        "productcode": "-",
+        "hex": "#48413b"
+    },
+    {
+        "id": 184,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Stormvermin Fur",
+        "productcode": "-",
+        "hex": "#736c66"
+    },
+    {
+        "id": 185,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Ulthuan Grey",
+        "productcode": "-",
+        "hex": "#c7e0da"
+    },
+    {
+        "id": 186,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Pallid Wych Flesh",
+        "productcode": "-",
+        "hex": "#cdcebe"
+    },
+    {
+        "id": 187,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Russ Grey",
+        "productcode": "-",
+        "hex": "#54758b"
+    },
+    {
+        "id": 188,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Fenrisian Grey",
+        "productcode": "-",
+        "hex": "#709cb7"
+    },
+    {
+        "id": 189,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Pink Horror",
+        "productcode": "-",
+        "hex": "#91305d"
+    },
+    {
+        "id": 190,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Emperor's Children",
+        "productcode": "-",
+        "hex": "#b94278"
+    },
+    {
+        "id": 191,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Baharroth Blue",
+        "productcode": "-",
+        "hex": "#59c1ce"
+    },
+    {
+        "id": 192,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Blue Horror",
+        "productcode": "-",
+        "hex": "#a2bad2"
+    },
+    {
+        "id": 193,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Dechala Lilac",
+        "productcode": "-",
+        "hex": "#b69fcd"
+    },
+    {
+        "id": 194,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Dorn Yellow",
+        "productcode": "-",
+        "hex": "#fff683"
+    },
+    {
+        "id": 195,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Flayed One Flesh",
+        "productcode": "-",
+        "hex": "#cdc586"
+    },
+    {
+        "id": 196,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Fulgrim Pink",
+        "productcode": "-",
+        "hex": "#f4afcc"
+    },
+    {
+        "id": 197,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Gauss Blaster Green",
+        "productcode": "-",
+        "hex": "#84c2a9"
+    },
+    {
+        "id": 198,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Krieg Khaki",
+        "productcode": "-",
+        "hex": "#bfbd82"
+    },
+    {
+        "id": 199,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Lugganath Orange",
+        "productcode": "-",
+        "hex": "#f89e86"
+    },
+    {
+        "id": 200,
+        "brand": "Citadel",
+        "productline": "Layer & Edge",
+        "name": "Ahriman Blue",
+        "productcode": "-",
+        "hex": "#1F8C9C"
+    },
+    {
+        "id": 201,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Astorath Red",
+        "productcode": "-",
+        "hex": "#DD482B"
+    },
+    {
+        "id": 202,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Changeling Pink",
+        "productcode": "-",
+        "hex": "#F4AFCD"
+    },
+    {
+        "id": 203,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Chronus Blue",
+        "productcode": "-",
+        "hex": "#72A8D1"
+    },
+    {
+        "id": 204,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Dawnstone",
+        "productcode": "-",
+        "hex": "#919C9F"
+    },
+    {
+        "id": 205,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Eldar Flesh",
+        "productcode": "-",
+        "hex": "#ECC083"
+    },
+    {
+        "id": 206,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Etherium Blue",
+        "productcode": "-",
+        "hex": "#A2BAD2"
+    },
+    {
+        "id": 207,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Golgfag Brown",
+        "productcode": "-",
+        "hex": "#C2804F"
+    },
+    {
+        "id": 208,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Hellion Green",
+        "productcode": "-",
+        "hex": "#84C3AA"
+    },
+    {
+        "id": 209,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Hexos Palesun",
+        "productcode": "-",
+        "hex": "#FFF200"
+    },
+    {
+        "id": 210,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Hoeth Blue",
+        "productcode": "-",
+        "hex": "#57A9D4"
+    },
+    {
+        "id": 211,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Imrik Blue",
+        "productcode": "-",
+        "hex": "#67AED0"
+    },
+    {
+        "id": 212,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Kindleflame",
+        "productcode": "-",
+        "hex": "#F79E86"
+    },
+    {
+        "id": 213,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Longbeard Grey",
+        "productcode": "-",
+        "hex": "#CECEAF"
+    },
+    {
+        "id": 214,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Lucius Lilac",
+        "productcode": "-",
+        "hex": "#B69FCC"
+    },
+    {
+        "id": 215,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Niblet Green",
+        "productcode": "-",
+        "hex": "#7DC734"
+    },
+    {
+        "id": 216,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Nurgling Green",
+        "productcode": "-",
+        "hex": "#B8CC82"
+    },
+    {
+        "id": 217,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Praxeti White",
+        "productcode": "-",
+        "hex": "#FFFFFF"
+    },
+    {
+        "id": 218,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Ryza Rust",
+        "productcode": "-",
+        "hex": "#EC631A"
+    },
+    {
+        "id": 219,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Sigmarite",
+        "productcode": "-",
+        "hex": "#CAAD76"
+    },
+    {
+        "id": 220,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Skink Blue",
+        "productcode": "-",
+        "hex": "#58C1CD"
+    },
+    {
+        "id": 221,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Slaanesh Grey",
+        "productcode": "-",
+        "hex": "#DBD5E6"
+    },
+    {
+        "id": 222,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Stormfang",
+        "productcode": "-",
+        "hex": "#80A7C1"
+    },
+    {
+        "id": 223,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Sylvaneth Bark",
+        "productcode": "-",
+        "hex": "#AC8262"
+    },
+    {
+        "id": 224,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Terminatus Stone",
+        "productcode": "-",
+        "hex": "#BDB192"
+    },
+    {
+        "id": 225,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Thunderhawk Blue",
+        "productcode": "-",
+        "hex": "#509BA9"
+    },
+    {
+        "id": 226,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Tyrant Skull",
+        "productcode": "-",
+        "hex": "#CDC586"
+    },
+    {
+        "id": 227,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Underhive Ash",
+        "productcode": "-",
+        "hex": "#C0BD81"
+    },
+    {
+        "id": 228,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Verminlord Hide",
+        "productcode": "-",
+        "hex": "#A16954"
+    },
+    {
+        "id": 229,
+        "brand": "Citadel",
+        "productline": "Dry",
+        "name": "Wrack White",
+        "productcode": "-",
+        "hex": "#FCFBFA"
+    },
+    {
+        "id": 230,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Sanguine Base ",
+        "productcode": 93019,
+        "hex": "#67120d"
+    },
+    {
+        "id": 231,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Skorne Red ",
+        "productcode": 93020,
+        "hex": "#ad1e22"
+    },
+    {
+        "id": 232,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Khador Red Base ",
+        "productcode": 93021,
+        "hex": "#ec2822"
+    },
+    {
+        "id": 233,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Khador Red Highlight ",
+        "productcode": 93022,
+        "hex": "#f08f41"
+    },
+    {
+        "id": 234,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Ember Orange ",
+        "productcode": 93023,
+        "hex": "#dd8828"
+    },
+    {
+        "id": 235,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Heartfire ",
+        "productcode": 93024,
+        "hex": "#e0ae43"
+    },
+    {
+        "id": 236,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Cygnus Yellow ",
+        "productcode": 93025,
+        "hex": "#f2e429"
+    },
+    {
+        "id": 237,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Sulfuric Yellow ",
+        "productcode": 93026,
+        "hex": "#edd031"
+    },
+    {
+        "id": 238,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Battlefield Brown ",
+        "productcode": 93027,
+        "hex": "#2f231a"
+    },
+    {
+        "id": 239,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Umbral Umber ",
+        "productcode": 93028,
+        "hex": "#220601"
+    },
+    {
+        "id": 240,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Bloodstone ",
+        "productcode": 93029,
+        "hex": "#9c4621"
+    },
+    {
+        "id": 241,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Bloodtracker Brown ",
+        "productcode": 93030,
+        "hex": "#a36827"
+    },
+    {
+        "id": 242,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Bootstrap Leather ",
+        "productcode": 93031,
+        "hex": "#926637"
+    },
+    {
+        "id": 243,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Hammerfall Khaki ",
+        "productcode": 93032,
+        "hex": "#c6bd95"
+    },
+    {
+        "id": 244,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Thornwood Green ",
+        "productcode": 93033,
+        "hex": "#63634a"
+    },
+    {
+        "id": 245,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Gnarls Green ",
+        "productcode": 93034,
+        "hex": "#0f5f31"
+    },
+    {
+        "id": 246,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Iosan Green ",
+        "productcode": 93035,
+        "hex": "#23a551"
+    },
+    {
+        "id": 247,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Ordic Olive ",
+        "productcode": 93036,
+        "hex": "#6c7c34"
+    },
+    {
+        "id": 248,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Traitor Green ",
+        "productcode": 93037,
+        "hex": "#7e8d63"
+    },
+    {
+        "id": 249,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Wurm Green ",
+        "productcode": 93038,
+        "hex": "#8bbc3e"
+    },
+    {
+        "id": 250,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Necrotite Green ",
+        "productcode": 93039,
+        "hex": "#7cc046"
+    },
+    {
+        "id": 251,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Exile Blue ",
+        "productcode": 93040,
+        "hex": "#1e3166"
+    },
+    {
+        "id": 252,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Cygnar Blue Base ",
+        "productcode": 93041,
+        "hex": "#124999"
+    },
+    {
+        "id": 253,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Cygnar Blue Highlight ",
+        "productcode": 93042,
+        "hex": "#1f73ba"
+    },
+    {
+        "id": 254,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Greatcoat Grey ",
+        "productcode": 93043,
+        "hex": "#4a565f"
+    },
+    {
+        "id": 255,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Ironhull Grey ",
+        "productcode": 93044,
+        "hex": "#8c949a"
+    },
+    {
+        "id": 256,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Frostbite ",
+        "productcode": 93045,
+        "hex": "#e7f2f7"
+    },
+    {
+        "id": 257,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Coal Black ",
+        "productcode": 93046,
+        "hex": "#015960"
+    },
+    {
+        "id": 258,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Trollblood Base ",
+        "productcode": 93047,
+        "hex": "#1a8799"
+    },
+    {
+        "id": 259,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Meridius Blue ",
+        "productcode": 93048,
+        "hex": "#01afb7"
+    },
+    {
+        "id": 260,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Arcane Blue ",
+        "productcode": 93049,
+        "hex": "#78cdd8"
+    },
+    {
+        "id": 261,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Underbelly Blue ",
+        "productcode": 93050,
+        "hex": "#bed2d8"
+    },
+    {
+        "id": 262,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Beaten Purple ",
+        "productcode": 93051,
+        "hex": "#532870"
+    },
+    {
+        "id": 263,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Murderous Magenta ",
+        "productcode": 93052,
+        "hex": "#a61e5d"
+    },
+    {
+        "id": 264,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Sanguine Highlight ",
+        "productcode": 93053,
+        "hex": "#c54757"
+    },
+    {
+        "id": 265,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Carnal Pink ",
+        "productcode": 93054,
+        "hex": "#f8e0ea"
+    },
+    {
+        "id": 266,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Idrian Flesh ",
+        "productcode": 93055,
+        "hex": "#995d35"
+    },
+    {
+        "id": 267,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Beast Hide ",
+        "productcode": 93056,
+        "hex": "#b09369"
+    },
+    {
+        "id": 268,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Khardic Flesh ",
+        "productcode": 93057,
+        "hex": "#c97958"
+    },
+    {
+        "id": 269,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Midlund Flesh ",
+        "productcode": 93058,
+        "hex": "#eda781"
+    },
+    {
+        "id": 270,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Ryn Flesh ",
+        "productcode": 93059,
+        "hex": "#f9e2d0"
+    },
+    {
+        "id": 271,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Battledress Green ",
+        "productcode": 93060,
+        "hex": "#737030"
+    },
+    {
+        "id": 272,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Gun Corps Brown ",
+        "productcode": 93061,
+        "hex": "#8f7b46"
+    },
+    {
+        "id": 273,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Rucksack Tan ",
+        "productcode": 93062,
+        "hex": "#b1943b"
+    },
+    {
+        "id": 274,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Moldy Ochre ",
+        "productcode": 93063,
+        "hex": "#dab33b"
+    },
+    {
+        "id": 275,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "'Jack Bone ",
+        "productcode": 93064,
+        "hex": "#d5d2a9"
+    },
+    {
+        "id": 276,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Menoth White Base ",
+        "productcode": 93065,
+        "hex": "#ecedb9"
+    },
+    {
+        "id": 277,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Menoth White Highlight ",
+        "productcode": 93066,
+        "hex": "#f2f2dc"
+    },
+    {
+        "id": 278,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Cryx Bane Base ",
+        "productcode": 93067,
+        "hex": "#2d3723"
+    },
+    {
+        "id": 279,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Bastion Grey ",
+        "productcode": 93068,
+        "hex": "#747762"
+    },
+    {
+        "id": 280,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Cryx Bane Highlight ",
+        "productcode": 93069,
+        "hex": "#908e7a"
+    },
+    {
+        "id": 281,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Trollblood Highlight ",
+        "productcode": 93070,
+        "hex": "#bab2a1"
+    },
+    {
+        "id": 282,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Thrall Flesh ",
+        "productcode": 93071,
+        "hex": "#cdd6ab"
+    },
+    {
+        "id": 283,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Thamar Black ",
+        "productcode": 93072,
+        "hex": "#0a0a08"
+    },
+    {
+        "id": 284,
+        "brand": "Privateer Press",
+        "productline": "P3",
+        "name": "Morrow White ",
+        "productcode": 93073,
+        "hex": "#fdfbfc"
+    },
+    {
+        "id": 285,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Red Brick",
+        "productcode": 9001,
+        "hex": "#501325"
+    },
+    {
+        "id": 286,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Deep Red",
+        "productcode": 9002,
+        "hex": "#9f373e"
+    },
+    {
+        "id": 287,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Blood Red",
+        "productcode": 9003,
+        "hex": "#ad1732"
+    },
+    {
+        "id": 288,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Fire Red",
+        "productcode": 9004,
+        "hex": "#c00a3b"
+    },
+    {
+        "id": 289,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Pheonix Red",
+        "productcode": 9005,
+        "hex": "#d23830"
+    },
+    {
+        "id": 290,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Fire Orange",
+        "productcode": 9006,
+        "hex": "#ea712c"
+    },
+    {
+        "id": 291,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Margold Yellow",
+        "productcode": 9007,
+        "hex": "#ee922b"
+    },
+    {
+        "id": 292,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Sun Yellow",
+        "productcode": 9008,
+        "hex": "#f6c127"
+    },
+    {
+        "id": 293,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Lemon Yellow",
+        "productcode": 9009,
+        "hex": "#f8ec1c"
+    },
+    {
+        "id": 294,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Pine Green",
+        "productcode": 9010,
+        "hex": "#015929"
+    },
+    {
+        "id": 295,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Leaf Green",
+        "productcode": 9011,
+        "hex": "#158a44"
+    },
+    {
+        "id": 296,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Pale Green",
+        "productcode": 9012,
+        "hex": "#33b54b"
+    },
+    {
+        "id": 297,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Forest Green",
+        "productcode": 9013,
+        "hex": "#024428"
+    },
+    {
+        "id": 298,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Grass Green",
+        "productcode": 9014,
+        "hex": "#047b55"
+    },
+    {
+        "id": 299,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Jade Green",
+        "productcode": 9015,
+        "hex": "#01ad63"
+    },
+    {
+        "id": 300,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Sapphire Blue",
+        "productcode": 9016,
+        "hex": "#29458f"
+    },
+    {
+        "id": 301,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "True Blue",
+        "productcode": 9017,
+        "hex": "#007cba"
+    },
+    {
+        "id": 302,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Sky Blue",
+        "productcode": 9018,
+        "hex": "#4ca2d3"
+    },
+    {
+        "id": 303,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Midnight Blue",
+        "productcode": 9019,
+        "hex": "#0c131d"
+    },
+    {
+        "id": 304,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Twilight Blue",
+        "productcode": 9020,
+        "hex": "#384963"
+    },
+    {
+        "id": 305,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Snow Shadow",
+        "productcode": 9021,
+        "hex": "#7f93ac"
+    },
+    {
+        "id": 306,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Nightshade Purple",
+        "productcode": 9022,
+        "hex": "#26192d"
+    },
+    {
+        "id": 307,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Imperial Purple",
+        "productcode": 9023,
+        "hex": "#634871"
+    },
+    {
+        "id": 308,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Amethyst Purple",
+        "productcode": 9024,
+        "hex": "#9e7daa"
+    },
+    {
+        "id": 309,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Burgundy Wine",
+        "productcode": 9025,
+        "hex": "#461f34"
+    },
+    {
+        "id": 310,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Violet Red",
+        "productcode": 9026,
+        "hex": "#611e47"
+    },
+    {
+        "id": 311,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Pale Violet Red",
+        "productcode": 9027,
+        "hex": "#92335b"
+    },
+    {
+        "id": 312,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Muddy Brown",
+        "productcode": 9028,
+        "hex": "#432e1b"
+    },
+    {
+        "id": 313,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Earth Brown",
+        "productcode": 9029,
+        "hex": "#785336"
+    },
+    {
+        "id": 314,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Leather Brown",
+        "productcode": 9030,
+        "hex": "#a5754d"
+    },
+    {
+        "id": 315,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Tanned Leather",
+        "productcode": 9031,
+        "hex": "#b78349"
+    },
+    {
+        "id": 316,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Amber Gold",
+        "productcode": 9032,
+        "hex": "#cea35e"
+    },
+    {
+        "id": 317,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Golden Blonde",
+        "productcode": 9033,
+        "hex": "#f2e295"
+    },
+    {
+        "id": 318,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Muddy Olive",
+        "productcode": 9034,
+        "hex": "#407036"
+    },
+    {
+        "id": 319,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Olive Green",
+        "productcode": 9035,
+        "hex": "#729656"
+    },
+    {
+        "id": 320,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Pale Olive",
+        "productcode": 9036,
+        "hex": "#a6b68f"
+    },
+    {
+        "id": 321,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Pure Black",
+        "productcode": 9037,
+        "hex": "#000000"
+    },
+    {
+        "id": 322,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Rainy Grey",
+        "productcode": 9038,
+        "hex": "#7f7f7f"
+    },
+    {
+        "id": 323,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Pure White",
+        "productcode": 9039,
+        "hex": "#ffffff"
+    },
+    {
+        "id": 324,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Dark Shadow",
+        "productcode": 9040,
+        "hex": "#220d0c"
+    },
+    {
+        "id": 325,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Dark Skin",
+        "productcode": 9041,
+        "hex": "#41241e"
+    },
+    {
+        "id": 326,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Dark Highlights",
+        "productcode": 9042,
+        "hex": "#422b19"
+    },
+    {
+        "id": 327,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Tanned Shadow",
+        "productcode": 9043,
+        "hex": "#a5755e"
+    },
+    {
+        "id": 328,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Tanned Skin",
+        "productcode": 9044,
+        "hex": "#bc8d6f"
+    },
+    {
+        "id": 329,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Tanned Highlight",
+        "productcode": 9045,
+        "hex": "#d2a681"
+    },
+    {
+        "id": 330,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Fair Shadow",
+        "productcode": 9046,
+        "hex": "#e7be92"
+    },
+    {
+        "id": 331,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Fair Skin",
+        "productcode": 9047,
+        "hex": "#f1d4b4"
+    },
+    {
+        "id": 332,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Fair Highlights",
+        "productcode": 9048,
+        "hex": "#f4e5ce"
+    },
+    {
+        "id": 333,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Breonne Blue",
+        "productcode": 9055,
+        "hex": "#01273c"
+    },
+    {
+        "id": 334,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Templar Blue",
+        "productcode": 9056,
+        "hex": "#314659"
+    },
+    {
+        "id": 335,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Ashen Blue",
+        "productcode": 9057,
+        "hex": "#557e90"
+    },
+    {
+        "id": 336,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Bone Shadow",
+        "productcode": 9058,
+        "hex": "#d6c6af"
+    },
+    {
+        "id": 337,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Aged Bone",
+        "productcode": 9059,
+        "hex": "#e1d7bc"
+    },
+    {
+        "id": 338,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Polished Bone",
+        "productcode": 9060,
+        "hex": "#ece1cd"
+    },
+    {
+        "id": 339,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Linen White",
+        "productcode": 9061,
+        "hex": "#fefced"
+    },
+    {
+        "id": 340,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Leather White",
+        "productcode": 9062,
+        "hex": "#ebe1d5"
+    },
+    {
+        "id": 341,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Ghost White",
+        "productcode": 9063,
+        "hex": "#eaf5fb"
+    },
+    {
+        "id": 342,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Brown Liner",
+        "productcode": 9064,
+        "hex": "#241510"
+    },
+    {
+        "id": 343,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Grey Liner",
+        "productcode": 9065,
+        "hex": "#363636"
+    },
+    {
+        "id": 344,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Blue Liner",
+        "productcode": 9066,
+        "hex": "#011422"
+    },
+    {
+        "id": 345,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Rosy Shadow",
+        "productcode": 9067,
+        "hex": "#cf9685"
+    },
+    {
+        "id": 346,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Rosy Skin",
+        "productcode": 9068,
+        "hex": "#ecae9f"
+    },
+    {
+        "id": 347,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Rosy Highlight",
+        "productcode": 9069,
+        "hex": "#f0c2aa"
+    },
+    {
+        "id": 348,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Mahogany Brown",
+        "productcode": 9070,
+        "hex": "#23110f"
+    },
+    {
+        "id": 349,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Chestnut Brown",
+        "productcode": 9071,
+        "hex": "#7f433b"
+    },
+    {
+        "id": 350,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Rust Brown",
+        "productcode": 9072,
+        "hex": "#b24a41"
+    },
+    {
+        "id": 351,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Chestnut Gold",
+        "productcode": 9073,
+        "hex": "#986a39"
+    },
+    {
+        "id": 352,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Palomino Gold",
+        "productcode": 9074,
+        "hex": "#bb962e"
+    },
+    {
+        "id": 353,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Buckskin Pale",
+        "productcode": 9075,
+        "hex": "#dcb85a"
+    },
+    {
+        "id": 354,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Deep Ocean",
+        "productcode": 9076,
+        "hex": "#1c3947"
+    },
+    {
+        "id": 355,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Marine Teal",
+        "productcode": 9077,
+        "hex": "#005f6d"
+    },
+    {
+        "id": 356,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Surf Aqua",
+        "productcode": 9078,
+        "hex": "#66b3b9"
+    },
+    {
+        "id": 357,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Jungle Moss",
+        "productcode": 9082,
+        "hex": "#28382d"
+    },
+    {
+        "id": 358,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Highland Moss",
+        "productcode": 9083,
+        "hex": "#3d504a"
+    },
+    {
+        "id": 359,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Pale Lichen",
+        "productcode": 9084,
+        "hex": "#7d978c"
+    },
+    {
+        "id": 360,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Shadowed Stone",
+        "productcode": 9085,
+        "hex": "#63605b"
+    },
+    {
+        "id": 361,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Stone Grey",
+        "productcode": 9086,
+        "hex": "#7c7771"
+    },
+    {
+        "id": 362,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Weathered Stone",
+        "productcode": 9087,
+        "hex": "#948f8c"
+    },
+    {
+        "id": 363,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Stormy Grey",
+        "productcode": 9088,
+        "hex": "#464646"
+    },
+    {
+        "id": 364,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Cloudy Grey",
+        "productcode": 9089,
+        "hex": "#707070"
+    },
+    {
+        "id": 365,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Misty Grey",
+        "productcode": 9090,
+        "hex": "#cccccc"
+    },
+    {
+        "id": 366,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Golden Shadow",
+        "productcode": 9091,
+        "hex": "#bd9564"
+    },
+    {
+        "id": 367,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Golden Skin",
+        "productcode": 9092,
+        "hex": "#d2ad83"
+    },
+    {
+        "id": 368,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Golden Highlight",
+        "productcode": 9093,
+        "hex": "#f2ce9a"
+    },
+    {
+        "id": 369,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Clear Red",
+        "productcode": 9094,
+        "hex": "#e00024"
+    },
+    {
+        "id": 370,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Clear Yellow",
+        "productcode": 9095,
+        "hex": "#f8f400"
+    },
+    {
+        "id": 371,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Clear Green",
+        "productcode": 9096,
+        "hex": "#009f3b"
+    },
+    {
+        "id": 372,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Clear Blue",
+        "productcode": 9097,
+        "hex": "#324496"
+    },
+    {
+        "id": 373,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Clear Magenta",
+        "productcode": 9098,
+        "hex": "#e4007b"
+    },
+    {
+        "id": 374,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Clear Purple",
+        "productcode": 9099,
+        "hex": "#5e0c7b"
+    },
+    {
+        "id": 375,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Ruddy Leather",
+        "productcode": 9109,
+        "hex": "#6a342a"
+    },
+    {
+        "id": 376,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Oiled Leather",
+        "productcode": 9110,
+        "hex": "#965336"
+    },
+    {
+        "id": 377,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Burnt Orange",
+        "productcode": 9111,
+        "hex": "#e18749"
+    },
+    {
+        "id": 378,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Ritterlich Blue",
+        "productcode": 9115,
+        "hex": "#003760"
+    },
+    {
+        "id": 379,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Brilliant Blue",
+        "productcode": 9116,
+        "hex": "#01588e"
+    },
+    {
+        "id": 380,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Cyan Blue",
+        "productcode": 9117,
+        "hex": "#0089d1"
+    },
+    {
+        "id": 381,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Khaki Shadow",
+        "productcode": 9121,
+        "hex": "#b4a07b"
+    },
+    {
+        "id": 382,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Terran Khaki",
+        "productcode": 9122,
+        "hex": "#c7ba9a"
+    },
+    {
+        "id": 383,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Khaki Highlight",
+        "productcode": 9123,
+        "hex": "#dbd5bd"
+    },
+    {
+        "id": 384,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Uniform Brown",
+        "productcode": 9127,
+        "hex": "#6b4e00"
+    },
+    {
+        "id": 385,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Green Ochre",
+        "productcode": 9128,
+        "hex": "#9f7319"
+    },
+    {
+        "id": 386,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Faded Khaki",
+        "productcode": 9129,
+        "hex": "#bc9224"
+    },
+    {
+        "id": 387,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Bloodstain Red",
+        "productcode": 9133,
+        "hex": "#680001"
+    },
+    {
+        "id": 388,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Clotted Red",
+        "productcode": 9134,
+        "hex": "#8b0003"
+    },
+    {
+        "id": 389,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Carnage Red",
+        "productcode": 9135,
+        "hex": "#b20d1e"
+    },
+    {
+        "id": 390,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Walnut Brown",
+        "productcode": 9136,
+        "hex": "#470000"
+    },
+    {
+        "id": 391,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Blackened Brown",
+        "productcode": 9137,
+        "hex": "#5d0400"
+    },
+    {
+        "id": 392,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Intense Brown",
+        "productcode": 9138,
+        "hex": "#8d3102"
+    },
+    {
+        "id": 393,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Stained Ivory",
+        "productcode": 9142,
+        "hex": "#c7a369"
+    },
+    {
+        "id": 394,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Yellowed Ivory",
+        "productcode": 9143,
+        "hex": "#d3bd84"
+    },
+    {
+        "id": 395,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Creamy Ivory",
+        "productcode": 9144,
+        "hex": "#e9d8a4"
+    },
+    {
+        "id": 396,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Ghoul Skin",
+        "productcode": 9148,
+        "hex": "#909473"
+    },
+    {
+        "id": 397,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Moldy Skin",
+        "productcode": 9149,
+        "hex": "#b2b580"
+    },
+    {
+        "id": 398,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Bloodless Skin",
+        "productcode": 9150,
+        "hex": "#d2cf9a"
+    },
+    {
+        "id": 399,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Olive Shadow",
+        "productcode": 9157,
+        "hex": "#4a3901"
+    },
+    {
+        "id": 400,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Olive Drab",
+        "productcode": 9158,
+        "hex": "#5b5602"
+    },
+    {
+        "id": 401,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Worn Olive",
+        "productcode": 9159,
+        "hex": "#827517"
+    },
+    {
+        "id": 402,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Woodstain Brown",
+        "productcode": 9160,
+        "hex": "#573f27"
+    },
+    {
+        "id": 403,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Shield Brown",
+        "productcode": 9161,
+        "hex": "#7d5329"
+    },
+    {
+        "id": 404,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Driftwood Brown",
+        "productcode": 9162,
+        "hex": "#a67e4d"
+    },
+    {
+        "id": 405,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Dark Elf Shadow",
+        "productcode": 6163,
+        "hex": "#473640"
+    },
+    {
+        "id": 406,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Dark Elf Skin",
+        "productcode": 6164,
+        "hex": "#64575e"
+    },
+    {
+        "id": 407,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Dark Elf Highlight",
+        "productcode": 9165,
+        "hex": "#867f87"
+    },
+    {
+        "id": 408,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Swamp Green",
+        "productcode": 9175,
+        "hex": "#2a2400"
+    },
+    {
+        "id": 409,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Military Green",
+        "productcode": 9176,
+        "hex": "#445020"
+    },
+    {
+        "id": 410,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Camoflage Green",
+        "productcode": 9177,
+        "hex": "#8c8d27"
+    },
+    {
+        "id": 411,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Ultramarine Shadow",
+        "productcode": 9187,
+        "hex": "#00223d"
+    },
+    {
+        "id": 412,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Ultramarine Blue",
+        "productcode": 9188,
+        "hex": "#004d7e"
+    },
+    {
+        "id": 413,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Ultramarine Highlight",
+        "productcode": 9189,
+        "hex": "#0076be"
+    },
+    {
+        "id": 414,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Russet Brown",
+        "productcode": 9199,
+        "hex": "#530e00"
+    },
+    {
+        "id": 415,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Harvest Brown",
+        "productcode": 9200,
+        "hex": "#8e3e00"
+    },
+    {
+        "id": 416,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Orange Brown",
+        "productcode": 9201,
+        "hex": "#c85b18"
+    },
+    {
+        "id": 417,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Magma Red",
+        "productcode": 9217,
+        "hex": "#db3a28"
+    },
+    {
+        "id": 418,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Lava Orange",
+        "productcode": 9218,
+        "hex": "#de5622"
+    },
+    {
+        "id": 419,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Explosion Orange",
+        "productcode": 9219,
+        "hex": "#de7c1b"
+    },
+    {
+        "id": 420,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Olive Skin Shadow",
+        "productcode": 9220,
+        "hex": "#745213"
+    },
+    {
+        "id": 421,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Olive Skin",
+        "productcode": 9221,
+        "hex": "#a97e1f"
+    },
+    {
+        "id": 422,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Olive Skin Highlight",
+        "productcode": 9222,
+        "hex": "#bea551"
+    },
+    {
+        "id": 423,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Redstone Shadow",
+        "productcode": 9223,
+        "hex": "#3a1f24"
+    },
+    {
+        "id": 424,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Redstone",
+        "productcode": 9224,
+        "hex": "#7e3929"
+    },
+    {
+        "id": 425,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Redstone Highlight",
+        "productcode": 9225,
+        "hex": "#a85837"
+    },
+    {
+        "id": 426,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Peacock Green",
+        "productcode": 9226,
+        "hex": "#1e2e2b"
+    },
+    {
+        "id": 427,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Brilliant Green",
+        "productcode": 9227,
+        "hex": "#00652d"
+    },
+    {
+        "id": 428,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Viper Green",
+        "productcode": 9228,
+        "hex": "#008f35"
+    },
+    {
+        "id": 429,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Worn Navy",
+        "productcode": 9229,
+        "hex": "#121315"
+    },
+    {
+        "id": 430,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Soft Blue",
+        "productcode": 9230,
+        "hex": "#13475f"
+    },
+    {
+        "id": 431,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Heather Blue",
+        "productcode": 9231,
+        "hex": "#547c95"
+    },
+    {
+        "id": 432,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Bright Skin Shadow",
+        "productcode": 9232,
+        "hex": "#de8871"
+    },
+    {
+        "id": 433,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Bright Skin",
+        "productcode": 9233,
+        "hex": "#ebaa58"
+    },
+    {
+        "id": 434,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Bright Skin Highlight",
+        "productcode": 9234,
+        "hex": "#f1d45f"
+    },
+    {
+        "id": 435,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Red Shadow",
+        "productcode": 9235,
+        "hex": "#60001d"
+    },
+    {
+        "id": 436,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Green Shadow",
+        "productcode": 9236,
+        "hex": "#011f07"
+    },
+    {
+        "id": 437,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Violet Shadow",
+        "productcode": 9237,
+        "hex": "#440039"
+    },
+    {
+        "id": 438,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Regal Purple",
+        "productcode": 9238,
+        "hex": "#2e001d"
+    },
+    {
+        "id": 439,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Monarch Purple",
+        "productcode": 9239,
+        "hex": "#4d0034"
+    },
+    {
+        "id": 440,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Royal Purple",
+        "productcode": 9240,
+        "hex": "#840053"
+    },
+    {
+        "id": 441,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Auburn Shadow",
+        "productcode": 9241,
+        "hex": "#81301f"
+    },
+    {
+        "id": 442,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Carrottop Red",
+        "productcode": 9242,
+        "hex": "#c14917"
+    },
+    {
+        "id": 443,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Highlight Orange",
+        "productcode": 9243,
+        "hex": "#e27814"
+    },
+    {
+        "id": 444,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Muddy Soil",
+        "productcode": 9244,
+        "hex": "#1b1603"
+    },
+    {
+        "id": 445,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Basic Dirt",
+        "productcode": 9245,
+        "hex": "#57432b"
+    },
+    {
+        "id": 446,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Brown Sand",
+        "productcode": 9246,
+        "hex": "#8a693e"
+    },
+    {
+        "id": 447,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Saffron Sunset",
+        "productcode": 9247,
+        "hex": "#eea500"
+    },
+    {
+        "id": 448,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Moth Green",
+        "productcode": 9248,
+        "hex": "#6cc128"
+    },
+    {
+        "id": 449,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Sandy Brown",
+        "productcode": 9249,
+        "hex": "#b88532"
+    },
+    {
+        "id": 450,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Dusky Skin Shadow",
+        "productcode": 9250,
+        "hex": "#46373a"
+    },
+    {
+        "id": 451,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Dusky Skin",
+        "productcode": 9251,
+        "hex": "#766160"
+    },
+    {
+        "id": 452,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Dusky Skin Highlight",
+        "productcode": 9252,
+        "hex": "#a89496"
+    },
+    {
+        "id": 453,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Blonde Shadow",
+        "productcode": 9256,
+        "hex": "#a54201"
+    },
+    {
+        "id": 454,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Blonde Hair",
+        "productcode": 9257,
+        "hex": "#d98d2d"
+    },
+    {
+        "id": 455,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Blone Highlight",
+        "productcode": 9258,
+        "hex": "#f3c160"
+    },
+    {
+        "id": 456,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Bronzed Skin Shadow",
+        "productcode": 9259,
+        "hex": "#a73300"
+    },
+    {
+        "id": 457,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Bronzed Skin",
+        "productcode": 9260,
+        "hex": "#d05e17"
+    },
+    {
+        "id": 458,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Bronzed Skin Highlight",
+        "productcode": 9261,
+        "hex": "#e5a039"
+    },
+    {
+        "id": 459,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Blush Pink",
+        "productcode": 9262,
+        "hex": "#ff41ad"
+    },
+    {
+        "id": 460,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Mint Green",
+        "productcode": 9263,
+        "hex": "#80fe80"
+    },
+    {
+        "id": 461,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Light Blue",
+        "productcode": 9264,
+        "hex": "#73d9e5"
+    },
+    {
+        "id": 462,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Deep Twilight",
+        "productcode": 9265,
+        "hex": "#080e28"
+    },
+    {
+        "id": 463,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Violet Light",
+        "productcode": 9266,
+        "hex": "#162872"
+    },
+    {
+        "id": 464,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Sunset Purple",
+        "productcode": 9267,
+        "hex": "#5a62b3"
+    },
+    {
+        "id": 465,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Volcano Brown",
+        "productcode": 9268,
+        "hex": "#472428"
+    },
+    {
+        "id": 466,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Military Blue",
+        "productcode": 9269,
+        "hex": "#14514c"
+    },
+    {
+        "id": 467,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Shadow Green",
+        "productcode": 9270,
+        "hex": "#286009"
+    },
+    {
+        "id": 468,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Dirty Bone",
+        "productcode": 9271,
+        "hex": "#a89867"
+    },
+    {
+        "id": 469,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Graveyard Bone",
+        "productcode": 9272,
+        "hex": "#c9b88d"
+    },
+    {
+        "id": 470,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Splintered Bone",
+        "productcode": 9273,
+        "hex": "#dbceae"
+    },
+    {
+        "id": 471,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Vampiric Shadow",
+        "productcode": 9274,
+        "hex": "#a9998a"
+    },
+    {
+        "id": 472,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Vampiric Skin",
+        "productcode": 9275,
+        "hex": "#d1bfa9"
+    },
+    {
+        "id": 473,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Vampiric Highlight",
+        "productcode": 9276,
+        "hex": "#e7dac7"
+    },
+    {
+        "id": 474,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Spattered Crimson",
+        "productcode": 9277,
+        "hex": "#6f0f1a"
+    },
+    {
+        "id": 475,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Gory Red",
+        "productcode": 9278,
+        "hex": "#85111a"
+    },
+    {
+        "id": 476,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Fresh Blood",
+        "productcode": 9279,
+        "hex": "#be1a21"
+    },
+    {
+        "id": 477,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Nightmare Black",
+        "productcode": 9280,
+        "hex": "#000f24"
+    },
+    {
+        "id": 478,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Braaaaiins Pink",
+        "productcode": 9281,
+        "hex": "#c88e8d"
+    },
+    {
+        "id": 479,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Maggot White",
+        "productcode": 9282,
+        "hex": "#ddefe1"
+    },
+    {
+        "id": 480,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Old West Rose",
+        "productcode": 9283,
+        "hex": "#a44243"
+    },
+    {
+        "id": 481,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Lonestar Leather",
+        "productcode": 9284,
+        "hex": "#6c6322"
+    },
+    {
+        "id": 482,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Denim Blue",
+        "productcode": 9285,
+        "hex": "#083151"
+    },
+    {
+        "id": 483,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Punk Rock Pink",
+        "productcode": 9286,
+        "hex": "#c43257"
+    },
+    {
+        "id": 484,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Neon Yellow",
+        "productcode": 9287,
+        "hex": "#d6e041"
+    },
+    {
+        "id": 485,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "LED Blue",
+        "productcode": 9288,
+        "hex": "#9ac3bd"
+    },
+    {
+        "id": 486,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Noir Black",
+        "productcode": 9289,
+        "hex": "#26211e"
+    },
+    {
+        "id": 487,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Aircraft Grey",
+        "productcode": 9290,
+        "hex": "#b5aaa8"
+    },
+    {
+        "id": 488,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "IMEF Olive",
+        "productcode": 9291,
+        "hex": "#505c2e"
+    },
+    {
+        "id": 489,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Bathalian Chitin",
+        "productcode": 9292,
+        "hex": "#e7bb70"
+    },
+    {
+        "id": 490,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Alien Flesh",
+        "productcode": 9293,
+        "hex": "#a98972"
+    },
+    {
+        "id": 491,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Alien Goo",
+        "productcode": 9294,
+        "hex": "#c1f91c"
+    },
+    {
+        "id": 492,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Terra Nova Tundra",
+        "productcode": 61101,
+        "hex": "#cb862b"
+    },
+    {
+        "id": 493,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "MacAllen Brown",
+        "productcode": 61102,
+        "hex": "#552f08"
+    },
+    {
+        "id": 494,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Redrider Crimson",
+        "productcode": 61103,
+        "hex": "#9b090c"
+    },
+    {
+        "id": 495,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Dune Shadow",
+        "productcode": 61104,
+        "hex": "#725626"
+    },
+    {
+        "id": 496,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Mekong Moss [HD]",
+        "productcode": 61105,
+        "hex": "#a0a00c"
+    },
+    {
+        "id": 497,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Giant Fern",
+        "productcode": 61106,
+        "hex": "#00632d"
+    },
+    {
+        "id": 498,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Okavango Swamp",
+        "productcode": 61107,
+        "hex": "#6c6c2e"
+    },
+    {
+        "id": 499,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Republique Red",
+        "productcode": 61108,
+        "hex": "#ef4023"
+    },
+    {
+        "id": 500,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Armadillo Tusk [HD]",
+        "productcode": 61109,
+        "hex": "#f1cfa2"
+    },
+    {
+        "id": 501,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "White Sand",
+        "productcode": 61110,
+        "hex": "#fde9d0"
+    },
+    {
+        "id": 502,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Paxton Red",
+        "productcode": 61111,
+        "hex": "#8c3a22"
+    },
+    {
+        "id": 503,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "War Paint Red",
+        "productcode": 61112,
+        "hex": "#ca471b"
+    },
+    {
+        "id": 504,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Arthurian Blue",
+        "productcode": 61113,
+        "hex": "#01366c"
+    },
+    {
+        "id": 505,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Blue Crescent",
+        "productcode": 61114,
+        "hex": "#0093d8"
+    },
+    {
+        "id": 506,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Atlantean Aqua",
+        "productcode": 61115,
+        "hex": "#71cde2"
+    },
+    {
+        "id": 507,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Coated Armor",
+        "productcode": 61116,
+        "hex": "#4c7183"
+    },
+    {
+        "id": 508,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Factory White",
+        "productcode": 61117,
+        "hex": "#dbf1fc"
+    },
+    {
+        "id": 509,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "GREL Flesh",
+        "productcode": 61118,
+        "hex": "#c9bbd2"
+    },
+    {
+        "id": 510,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Afterburn Grey",
+        "productcode": 61119,
+        "hex": "#566165"
+    },
+    {
+        "id": 511,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Hazard Yellow [HD]",
+        "productcode": 61120,
+        "hex": "#fdb016"
+    },
+    {
+        "id": 512,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "R.A.M. Black [HD]",
+        "productcode": 61121,
+        "hex": "#00394d"
+    },
+    {
+        "id": 513,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Beacon Yellow",
+        "productcode": 61124,
+        "hex": "#ffe401"
+    },
+    {
+        "id": 514,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Fallout Grey",
+        "productcode": 61125,
+        "hex": "#888888"
+    },
+    {
+        "id": 515,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Ash Grey",
+        "productcode": 61126,
+        "hex": "#d0cfcd"
+    },
+    {
+        "id": 516,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Waveform Aquamarine",
+        "productcode": 61127,
+        "hex": "#0082a2"
+    },
+    {
+        "id": 517,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Coalition Blue",
+        "productcode": 61129,
+        "hex": "#014e9c"
+    },
+    {
+        "id": 518,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Cat's Eye Base",
+        "productcode": 61130,
+        "hex": "#9d580a"
+    },
+    {
+        "id": 519,
+        "brand": "Reaper",
+        "productline": "MSP",
+        "name": "Red Dust",
+        "productcode": 61131,
+        "hex": "#f26b3e"
+    },
+    {
+        "id": 520,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Crimson Red ",
+        "productcode": 29801,
+        "hex": "#721213"
+    },
+    {
+        "id": 521,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Brilliant Red ",
+        "productcode": 29802,
+        "hex": "#e92028"
+    },
+    {
+        "id": 522,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Entrail Pink ",
+        "productcode": 29803,
+        "hex": "#c15d5d"
+    },
+    {
+        "id": 523,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Rusty Red ",
+        "productcode": 29804,
+        "hex": "#b82f25"
+    },
+    {
+        "id": 524,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Burning Orange ",
+        "productcode": 29805,
+        "hex": "#ca4f26"
+    },
+    {
+        "id": 525,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Fireball Orange ",
+        "productcode": 29806,
+        "hex": "#ef6f24"
+    },
+    {
+        "id": 526,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Mustard Yellow ",
+        "productcode": 29807,
+        "hex": "#e8b623"
+    },
+    {
+        "id": 527,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Golden Yellow ",
+        "productcode": 29808,
+        "hex": "#f7b719"
+    },
+    {
+        "id": 528,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Pale Saffron ",
+        "productcode": 29809,
+        "hex": "#ffde2f"
+    },
+    {
+        "id": 529,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Mossy Green ",
+        "productcode": 29810,
+        "hex": "#21502c"
+    },
+    {
+        "id": 530,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Turf Green ",
+        "productcode": 29811,
+        "hex": "#28813f"
+    },
+    {
+        "id": 531,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Meadow Green ",
+        "productcode": 29812,
+        "hex": "#6c923b"
+    },
+    {
+        "id": 532,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Bright Turquoise ",
+        "productcode": 29813,
+        "hex": "#025c5d"
+    },
+    {
+        "id": 533,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Ice Blue ",
+        "productcode": 29814,
+        "hex": "#4197d2"
+    },
+    {
+        "id": 534,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Dragon Blue ",
+        "productcode": 29815,
+        "hex": "#086cb7"
+    },
+    {
+        "id": 535,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Solid Blue ",
+        "productcode": 29816,
+        "hex": "#015861"
+    },
+    {
+        "id": 536,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Winter Blue ",
+        "productcode": 29817,
+        "hex": "#1d6d74"
+    },
+    {
+        "id": 537,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Nightsky Blue ",
+        "productcode": 29818,
+        "hex": "#053c5b"
+    },
+    {
+        "id": 538,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Twilight Purple ",
+        "productcode": 29819,
+        "hex": "#213165"
+    },
+    {
+        "id": 539,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Gem Purple ",
+        "productcode": 29820,
+        "hex": "#47286e"
+    },
+    {
+        "id": 540,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Sunburn Flesh ",
+        "productcode": 29821,
+        "hex": "#bb6437"
+    },
+    {
+        "id": 541,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Suntan Flesh ",
+        "productcode": 29822,
+        "hex": "#b26b29"
+    },
+    {
+        "id": 542,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Caucasian Flesh ",
+        "productcode": 29823,
+        "hex": "#e6b17b"
+    },
+    {
+        "id": 543,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Maiden Flesh ",
+        "productcode": 29824,
+        "hex": "#f2e0c8"
+    },
+    {
+        "id": 544,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Tusk Ivory ",
+        "productcode": 29825,
+        "hex": "#dfbe6f"
+    },
+    {
+        "id": 545,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Desert Tan ",
+        "productcode": 29826,
+        "hex": "#ba9159"
+    },
+    {
+        "id": 546,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Griffon Tan ",
+        "productcode": 29827,
+        "hex": "#c48639"
+    },
+    {
+        "id": 547,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Woodland Brown ",
+        "productcode": 29828,
+        "hex": "#a17035"
+    },
+    {
+        "id": 548,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Golden Brown ",
+        "productcode": 29829,
+        "hex": "#6c4a1d"
+    },
+    {
+        "id": 549,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Ruddy Brown ",
+        "productcode": 29830,
+        "hex": "#722314"
+    },
+    {
+        "id": 550,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Ashen Brown ",
+        "productcode": 29831,
+        "hex": "#74685a"
+    },
+    {
+        "id": 551,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Concrete Grey ",
+        "productcode": 29832,
+        "hex": "#bcc1c4"
+    },
+    {
+        "id": 552,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Ash Grey ",
+        "productcode": 29833,
+        "hex": "#3a4d54"
+    },
+    {
+        "id": 553,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Field Grey ",
+        "productcode": 29834,
+        "hex": "#97a08f"
+    },
+    {
+        "id": 554,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Dirty Grey ",
+        "productcode": 29835,
+        "hex": "#7f756b"
+    },
+    {
+        "id": 555,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Military Grey ",
+        "productcode": 29836,
+        "hex": "#506c78"
+    },
+    {
+        "id": 556,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Armor Grey ",
+        "productcode": 29837,
+        "hex": "#0e181a"
+    },
+    {
+        "id": 557,
+        "brand": "Reaper",
+        "productline": "HD",
+        "name": "HD Stained Olive ",
+        "productcode": 29838,
+        "hex": "#3b431c"
+    },
+    {
+        "id": 558,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Armor Grey",
+        "productcode": 19084,
+        "hex": "#0b161a"
+    },
+    {
+        "id": 559,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Ash Grey",
+        "productcode": 19083,
+        "hex": "#3a4d54"
+    },
+    {
+        "id": 560,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Autumn Orange",
+        "productcode": 19012,
+        "hex": "#d2721c"
+    },
+    {
+        "id": 561,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Bleached Olive",
+        "productcode": 19029,
+        "hex": "#829836"
+    },
+    {
+        "id": 562,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Blood Black",
+        "productcode": 19091,
+        "hex": "#230001"
+    },
+    {
+        "id": 563,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Blood Red",
+        "productcode": 19002,
+        "hex": "#960202"
+    },
+    {
+        "id": 564,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Blushing Flesh",
+        "productcode": 19067,
+        "hex": "#e86f54"
+    },
+    {
+        "id": 565,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Bright Blue",
+        "productcode": 19035,
+        "hex": "#005a99"
+    },
+    {
+        "id": 566,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Bright Red",
+        "productcode": 19003,
+        "hex": "#eb1c24"
+    },
+    {
+        "id": 567,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Brutal Purple",
+        "productcode": 19048,
+        "hex": "#381627"
+    },
+    {
+        "id": 568,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Burning Orange",
+        "productcode": 19011,
+        "hex": "#c64c1b"
+    },
+    {
+        "id": 569,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Candleflame Orange",
+        "productcode": 19010,
+        "hex": "#f7811f"
+    },
+    {
+        "id": 570,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Cat's Eye Green",
+        "productcode": 19023,
+        "hex": "#8cc63e"
+    },
+    {
+        "id": 571,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Chestnut Brown",
+        "productcode": 19067,
+        "hex": "#9a6e41"
+    },
+    {
+        "id": 572,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Crimson Red",
+        "productcode": 19001,
+        "hex": "#6e0f11"
+    },
+    {
+        "id": 573,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Dark Flesh",
+        "productcode": 19076,
+        "hex": "#392105"
+    },
+    {
+        "id": 574,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Deadrose Red",
+        "productcode": 19005,
+        "hex": "#9a302a"
+    },
+    {
+        "id": 575,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Deep Yellow",
+        "productcode": 19013,
+        "hex": "#f9b813"
+    },
+    {
+        "id": 576,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Deepwater Blue",
+        "productcode": 19033,
+        "hex": "#02223e"
+    },
+    {
+        "id": 577,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Desert Tan",
+        "productcode": 19051,
+        "hex": "#ba925b"
+    },
+    {
+        "id": 578,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Desert Yellow",
+        "productcode": 19017,
+        "hex": "#c7ab2a"
+    },
+    {
+        "id": 579,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Dragon Blue",
+        "productcode": 19036,
+        "hex": "#026bb6"
+    },
+    {
+        "id": 580,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Dwarf Flesh",
+        "productcode": 19075,
+        "hex": "#b87d47"
+    },
+    {
+        "id": 581,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Elf Flesh",
+        "productcode": 19074,
+        "hex": "#eca05d"
+    },
+    {
+        "id": 582,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Elf Green",
+        "productcode": 19019,
+        "hex": "#03462b"
+    },
+    {
+        "id": 583,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Emerald Green",
+        "productcode": 19021,
+        "hex": "#4fb649"
+    },
+    {
+        "id": 584,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Entrail Pink",
+        "productcode": 19006,
+        "hex": "#b55c5c"
+    },
+    {
+        "id": 585,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Exotic Turquoise",
+        "productcode": 19032,
+        "hex": "#035a5b"
+    },
+    {
+        "id": 586,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Faded Black",
+        "productcode": 19093,
+        "hex": "#161417"
+    },
+    {
+        "id": 587,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Faded Brown",
+        "productcode": 19066,
+        "hex": "#64552d"
+    },
+    {
+        "id": 588,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Faded Olive",
+        "productcode": 19028,
+        "hex": "#64681f"
+    },
+    {
+        "id": 589,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Field Grey",
+        "productcode": 19085,
+        "hex": "#97a18f"
+    },
+    {
+        "id": 590,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Fireball Orange",
+        "productcode": 19009,
+        "hex": "#f06424"
+    },
+    {
+        "id": 591,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Firehawk Red",
+        "productcode": 19004,
+        "hex": "#ed3f23"
+    },
+    {
+        "id": 592,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Gemstone Purple",
+        "productcode": 19050,
+        "hex": "#724988"
+    },
+    {
+        "id": 593,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Ghost White",
+        "productcode": 19080,
+        "hex": "#e2f4fc"
+    },
+    {
+        "id": 594,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Golden Brown",
+        "productcode": 19060,
+        "hex": "#4a2907"
+    },
+    {
+        "id": 595,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Golden Flesh",
+        "productcode": 19072,
+        "hex": "#ba8d53"
+    },
+    {
+        "id": 596,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Goldenrod Yellow",
+        "productcode": 19016,
+        "hex": "#e7b517"
+    },
+    {
+        "id": 597,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Granite Grey",
+        "productcode": 19082,
+        "hex": "#bac2c5"
+    },
+    {
+        "id": 598,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Greyed Olive",
+        "productcode": 19026,
+        "hex": "#718c39"
+    },
+    {
+        "id": 599,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Icy Blue",
+        "productcode": 19037,
+        "hex": "#4195d0"
+    },
+    {
+        "id": 600,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Imperial Purple",
+        "productcode": 19046,
+        "hex": "#18105c"
+    },
+    {
+        "id": 601,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Ivy Green",
+        "productcode": 19030,
+        "hex": "#023f11"
+    },
+    {
+        "id": 602,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Kilt Green",
+        "productcode": 19020,
+        "hex": "#066d39"
+    },
+    {
+        "id": 603,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Leather Tan",
+        "productcode": 19052,
+        "hex": "#c4883f"
+    },
+    {
+        "id": 604,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Leather White",
+        "productcode": 19079,
+        "hex": "#f9f6f1"
+    },
+    {
+        "id": 605,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Linen White",
+        "productcode": 19078,
+        "hex": "#fcfcf2"
+    },
+    {
+        "id": 606,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Maiden Flesh",
+        "productcode": 19071,
+        "hex": "#e6d8cf"
+    },
+    {
+        "id": 607,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Military Grey",
+        "productcode": 19087,
+        "hex": "#526c78"
+    },
+    {
+        "id": 608,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Moody Indigo",
+        "productcode": 19043,
+        "hex": "#02203d"
+    },
+    {
+        "id": 609,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Mossy Green",
+        "productcode": 19031,
+        "hex": "#03330c"
+    },
+    {
+        "id": 610,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Neutral Grey",
+        "productcode": 19088,
+        "hex": "#808185"
+    },
+    {
+        "id": 611,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Nightmare Black",
+        "productcode": 19090,
+        "hex": "#020c1d"
+    },
+    {
+        "id": 612,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Nightsky Blue",
+        "productcode": 19042,
+        "hex": "#033a59"
+    },
+    {
+        "id": 613,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Ocean Blue",
+        "productcode": 19034,
+        "hex": "#03406f"
+    },
+    {
+        "id": 614,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Oiled Leather",
+        "productcode": 19055,
+        "hex": "#a95f2f"
+    },
+    {
+        "id": 615,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Olive Flesh",
+        "productcode": 19073,
+        "hex": "#a07a3e"
+    },
+    {
+        "id": 616,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Olive Green",
+        "productcode": 19024,
+        "hex": "#5b7a27"
+    },
+    {
+        "id": 617,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Pale Yellow",
+        "productcode": 19015,
+        "hex": "#fcf15f"
+    },
+    {
+        "id": 618,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Poison Green",
+        "productcode": 19022,
+        "hex": "#28a44b"
+    },
+    {
+        "id": 619,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Ruddy Brown",
+        "productcode": 19063,
+        "hex": "#742312"
+    },
+    {
+        "id": 620,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Rusted Brown",
+        "productcode": 19062,
+        "hex": "#b43e1d"
+    },
+    {
+        "id": 621,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Rusty Red",
+        "productcode": 19007,
+        "hex": "#b72c1c"
+    },
+    {
+        "id": 622,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Sable Brown",
+        "productcode": 19059,
+        "hex": "#2b1823"
+    },
+    {
+        "id": 623,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Salamander Orange",
+        "productcode": 19008,
+        "hex": "#d83e23"
+    },
+    {
+        "id": 624,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Shield Brown",
+        "productcode": 19053,
+        "hex": "#866937"
+    },
+    {
+        "id": 625,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Slime Black",
+        "productcode": 19092,
+        "hex": "#011502"
+    },
+    {
+        "id": 626,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Soft Purple",
+        "productcode": 19049,
+        "hex": "#484e6a"
+    },
+    {
+        "id": 627,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Soiled Grey",
+        "productcode": 19086,
+        "hex": "#81766a"
+    },
+    {
+        "id": 628,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Solid Blue",
+        "productcode": 19040,
+        "hex": "#02585e"
+    },
+    {
+        "id": 629,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Sombre Blue",
+        "productcode": 19039,
+        "hex": "#033c3a"
+    },
+    {
+        "id": 630,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Stained Olive",
+        "productcode": 19027,
+        "hex": "#374009"
+    },
+    {
+        "id": 631,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Sunburn Flesh",
+        "productcode": 19068,
+        "hex": "#b86538"
+    },
+    {
+        "id": 632,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Sunlight Yellow",
+        "productcode": 19014,
+        "hex": "#f7e608"
+    },
+    {
+        "id": 633,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Sunset Purple",
+        "productcode": 19047,
+        "hex": "#45196d"
+    },
+    {
+        "id": 634,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Suntan Flesh",
+        "productcode": 19069,
+        "hex": "#b16a2f"
+    },
+    {
+        "id": 635,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Troll Olive",
+        "productcode": 19025,
+        "hex": "#444e14"
+    },
+    {
+        "id": 636,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Turf Green",
+        "productcode": 19018,
+        "hex": "#28803b"
+    },
+    {
+        "id": 637,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Tusk Ivory",
+        "productcode": 19081,
+        "hex": "#dcbe6f"
+    },
+    {
+        "id": 638,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Twilight Purple",
+        "productcode": 19045,
+        "hex": "#042966"
+    },
+    {
+        "id": 639,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Umber Brown",
+        "productcode": 19064,
+        "hex": "#1a0604"
+    },
+    {
+        "id": 640,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Uniform Blue",
+        "productcode": 19041,
+        "hex": "#2b6678"
+    },
+    {
+        "id": 641,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Uniform Brown",
+        "productcode": 19065,
+        "hex": "#8e6924"
+    },
+    {
+        "id": 642,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Volcano Brown",
+        "productcode": 19065,
+        "hex": "#604030"
+    },
+    {
+        "id": 643,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Walnut Brown",
+        "productcode": 19058,
+        "hex": "#220506"
+    },
+    {
+        "id": 644,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Weathered Brown",
+        "productcode": 19061,
+        "hex": "#716c47"
+    },
+    {
+        "id": 645,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Wicked Purple",
+        "productcode": 19044,
+        "hex": "#040b48"
+    },
+    {
+        "id": 646,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Winter Blue",
+        "productcode": 19038,
+        "hex": "#1c6c72"
+    },
+    {
+        "id": 647,
+        "brand": "Reaper",
+        "productline": "Pro",
+        "name": "Woodland Brown",
+        "productcode": 19054,
+        "hex": "#a07038"
+    },
+    {
+        "id": 648,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Dead White",
+        "productcode": 72.001,
+        "hex": "#ffffff"
+    },
+    {
+        "id": 649,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Pale Flesh",
+        "productcode": 72.003,
+        "hex": "#f6bdb3"
+    },
+    {
+        "id": 650,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Elf Skintone",
+        "productcode": 72.004,
+        "hex": "#f8a070"
+    },
+    {
+        "id": 651,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Moon Yellow",
+        "productcode": 72.005,
+        "hex": "#fff103"
+    },
+    {
+        "id": 652,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Sun Yellow",
+        "productcode": 72.006,
+        "hex": "#ffcf07"
+    },
+    {
+        "id": 653,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Gold Yellow",
+        "productcode": 72.007,
+        "hex": "#fdb318"
+    },
+    {
+        "id": 654,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Orange Fire",
+        "productcode": 72.008,
+        "hex": "#f1652e"
+    },
+    {
+        "id": 655,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Hot Orange",
+        "productcode": 72.009,
+        "hex": "#e43027"
+    },
+    {
+        "id": 656,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Bloody Red",
+        "productcode": 72.01,
+        "hex": "#bf282e"
+    },
+    {
+        "id": 657,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Gory Red",
+        "productcode": 72.011,
+        "hex": "#810504"
+    },
+    {
+        "id": 658,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Scarlet Red",
+        "productcode": 72.012,
+        "hex": "#741330"
+    },
+    {
+        "id": 659,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Squid Pink",
+        "productcode": 72.013,
+        "hex": "#da7fb5"
+    },
+    {
+        "id": 660,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Warlord Purple",
+        "productcode": 72.014,
+        "hex": "#7d1a44"
+    },
+    {
+        "id": 661,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Hexed Lichen",
+        "productcode": 72.015,
+        "hex": "#34274d"
+    },
+    {
+        "id": 662,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Royal Purple",
+        "productcode": 72.016,
+        "hex": "#23264f"
+    },
+    {
+        "id": 663,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Dark Blue",
+        "productcode": 72.017,
+        "hex": "#2b265d"
+    },
+    {
+        "id": 664,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Stormy Night",
+        "productcode": 72.018,
+        "hex": "#1f1a4f"
+    },
+    {
+        "id": 665,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Night Blue",
+        "productcode": 72.019,
+        "hex": "#19183f"
+    },
+    {
+        "id": 666,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Imperial Purple",
+        "productcode": 72.02,
+        "hex": "#211a4b"
+    },
+    {
+        "id": 667,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Magic Blue",
+        "productcode": 72.021,
+        "hex": "#024381"
+    },
+    {
+        "id": 668,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Ultramarine Blue",
+        "productcode": 72.022,
+        "hex": "#373592"
+    },
+    {
+        "id": 669,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Electric Blue",
+        "productcode": 72.023,
+        "hex": "#008cbf"
+    },
+    {
+        "id": 670,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Turquoise",
+        "productcode": 72.024,
+        "hex": "#03676f"
+    },
+    {
+        "id": 671,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Foul Green",
+        "productcode": 72.025,
+        "hex": "#239378"
+    },
+    {
+        "id": 672,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Jade Green",
+        "productcode": 72.026,
+        "hex": "#128379"
+    },
+    {
+        "id": 673,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Scurvy Green",
+        "productcode": 72.027,
+        "hex": "#09474e"
+    },
+    {
+        "id": 674,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Dark Green",
+        "productcode": 72.028,
+        "hex": "#083c2a"
+    },
+    {
+        "id": 675,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Sick Green",
+        "productcode": 72.029,
+        "hex": "#096638"
+    },
+    {
+        "id": 676,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Goblin Green",
+        "productcode": 72.03,
+        "hex": "#23743c"
+    },
+    {
+        "id": 677,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Camoflage Green",
+        "productcode": 72.031,
+        "hex": "#71753a"
+    },
+    {
+        "id": 678,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Scorpion Green",
+        "productcode": 72.032,
+        "hex": "#48b851"
+    },
+    {
+        "id": 679,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Livery Green",
+        "productcode": 72.033,
+        "hex": "#9ece65"
+    },
+    {
+        "id": 680,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Bone White",
+        "productcode": 72.034,
+        "hex": "#e8be86"
+    },
+    {
+        "id": 681,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Dead Flesh",
+        "productcode": 72.035,
+        "hex": "#bcb686"
+    },
+    {
+        "id": 682,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Bronze Fleshtone",
+        "productcode": 72.036,
+        "hex": "#db945c"
+    },
+    {
+        "id": 683,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Filthy Brown",
+        "productcode": 72.037,
+        "hex": "#f58d2b"
+    },
+    {
+        "id": 684,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Scrofulous Brown",
+        "productcode": 72.038,
+        "hex": "#d68030"
+    },
+    {
+        "id": 685,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Plague Brown",
+        "productcode": 72.039,
+        "hex": "#cc9b34"
+    },
+    {
+        "id": 686,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Leather Brown",
+        "productcode": 72.04,
+        "hex": "#7b5d2a"
+    },
+    {
+        "id": 687,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Dwarf Skin",
+        "productcode": 72.041,
+        "hex": "#cc7c67"
+    },
+    {
+        "id": 688,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Parasite Brown",
+        "productcode": 72.042,
+        "hex": "#b1481f"
+    },
+    {
+        "id": 689,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Beasty Brown",
+        "productcode": 72.043,
+        "hex": "#55432d"
+    },
+    {
+        "id": 690,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Dark Fleshtone",
+        "productcode": 72.044,
+        "hex": "#4f2b26"
+    },
+    {
+        "id": 691,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Charred Brown",
+        "productcode": 72.045,
+        "hex": "#39343b"
+    },
+    {
+        "id": 692,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Ghost Grey",
+        "productcode": 72.046,
+        "hex": "#a7c5db"
+    },
+    {
+        "id": 693,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Wolf Grey",
+        "productcode": 72.047,
+        "hex": "#90a2bc"
+    },
+    {
+        "id": 694,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Sombre Grey",
+        "productcode": 72.048,
+        "hex": "#4c5c7d"
+    },
+    {
+        "id": 695,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Stonewall Grey",
+        "productcode": 72.049,
+        "hex": "#828e95"
+    },
+    {
+        "id": 696,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Cold Grey",
+        "productcode": 72.05,
+        "hex": "#54646d"
+    },
+    {
+        "id": 697,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Black",
+        "productcode": 72.051,
+        "hex": "#000000"
+    },
+    {
+        "id": 698,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Khaki",
+        "productcode": 72.061,
+        "hex": "#8c806d"
+    },
+    {
+        "id": 699,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Earth",
+        "productcode": 72.062,
+        "hex": "#6f563d"
+    },
+    {
+        "id": 700,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Desert Yellow",
+        "productcode": 72.063,
+        "hex": "#8e7845"
+    },
+    {
+        "id": 701,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Yellow Olive",
+        "productcode": 72.064,
+        "hex": "#063b2f"
+    },
+    {
+        "id": 702,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Terracota",
+        "productcode": 72.065,
+        "hex": "#6b1306"
+    },
+    {
+        "id": 703,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Tan",
+        "productcode": 72.066,
+        "hex": "#9f4746"
+    },
+    {
+        "id": 704,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Cayman Green",
+        "productcode": 72.067,
+        "hex": "#285648"
+    },
+    {
+        "id": 705,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Glacier Blue",
+        "productcode": 72.095,
+        "hex": "#acd0ee"
+    },
+    {
+        "id": 706,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Verdigris",
+        "productcode": 72.096,
+        "hex": "#b3ceca"
+    },
+    {
+        "id": 707,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Pale Yellow",
+        "productcode": 72.097,
+        "hex": "#d5c179"
+    },
+    {
+        "id": 708,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Elfic Flesh",
+        "productcode": 72.098,
+        "hex": "#cdc29c"
+    },
+    {
+        "id": 709,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Cadmium Skin",
+        "productcode": 72.099,
+        "hex": "#fab78a"
+    },
+    {
+        "id": 710,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Rosy Flesh",
+        "productcode": 72.1,
+        "hex": "#f89e84"
+    },
+    {
+        "id": 711,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Offwhite",
+        "productcode": 72.101,
+        "hex": "#f5f4da"
+    },
+    {
+        "id": 712,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Steel Grey",
+        "productcode": 72.102,
+        "hex": "#64889d"
+    },
+    {
+        "id": 713,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Fluo Yellow",
+        "productcode": 72.103,
+        "hex": "#eeea50"
+    },
+    {
+        "id": 714,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Fluo Green",
+        "productcode": 72.104,
+        "hex": "#9dcd64"
+    },
+    {
+        "id": 715,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Mutation Green",
+        "productcode": 72.105,
+        "hex": "#296934"
+    },
+    {
+        "id": 716,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Skintone",
+        "productcode": 72.14,
+        "hex": "#aa7b62"
+    },
+    {
+        "id": 717,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Red",
+        "productcode": 72.141,
+        "hex": "#943238"
+    },
+    {
+        "id": 718,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Violet",
+        "productcode": 72.142,
+        "hex": "#4c2e65"
+    },
+    {
+        "id": 719,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Blue",
+        "productcode": 72.143,
+        "hex": "#29556d"
+    },
+    {
+        "id": 720,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Blue Grey",
+        "productcode": 72.144,
+        "hex": "#9ca7a7"
+    },
+    {
+        "id": 721,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Grey",
+        "productcode": 72.145,
+        "hex": "#626d54"
+    },
+    {
+        "id": 722,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Green",
+        "productcode": 72.146,
+        "hex": "#566840"
+    },
+    {
+        "id": 723,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Black Green",
+        "productcode": 72.147,
+        "hex": "#18433d"
+    },
+    {
+        "id": 724,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Warm Grey",
+        "productcode": 72.148,
+        "hex": "#939066"
+    },
+    {
+        "id": 725,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Khaki",
+        "productcode": 72.149,
+        "hex": "#9d965d"
+    },
+    {
+        "id": 726,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Ochre",
+        "productcode": 72.15,
+        "hex": "#a87536"
+    },
+    {
+        "id": 727,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Gold Brown",
+        "productcode": 72.151,
+        "hex": "#ba8636"
+    },
+    {
+        "id": 728,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Orange",
+        "productcode": 72.152,
+        "hex": "#ee5527"
+    },
+    {
+        "id": 729,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Brown",
+        "productcode": 72.153,
+        "hex": "#705d41"
+    },
+    {
+        "id": 730,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Sienna",
+        "productcode": 72.154,
+        "hex": "#744642"
+    },
+    {
+        "id": 731,
+        "brand": "Vallejo",
+        "productline": "Game Color",
+        "name": "Heavy Charcoal",
+        "productcode": 72.155,
+        "hex": "#1c2e2e"
+    },
+    {
+        "id": 732,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "White",
+        "productcode": 70.951,
+        "hex": "#ffffff"
+    },
+    {
+        "id": 733,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Offwhite",
+        "productcode": 70.82,
+        "hex": "#efeee2"
+    },
+    {
+        "id": 734,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Ivory",
+        "productcode": 70.918,
+        "hex": "#eff1d9"
+    },
+    {
+        "id": 735,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Light Flesh",
+        "productcode": 70.928,
+        "hex": "#feedd0"
+    },
+    {
+        "id": 736,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Pale Sand",
+        "productcode": 70.837,
+        "hex": "#d1c49c"
+    },
+    {
+        "id": 737,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Beige",
+        "productcode": 70.917,
+        "hex": "#dbc58e"
+    },
+    {
+        "id": 738,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Sand Yellow",
+        "productcode": 70.916,
+        "hex": "#d7bf75"
+    },
+    {
+        "id": 739,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Light Yellow",
+        "productcode": 70.949,
+        "hex": "#f7ea62"
+    },
+    {
+        "id": 740,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Lemon Yellow",
+        "productcode": 70.952,
+        "hex": "#fef10e"
+    },
+    {
+        "id": 741,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "German Yellow",
+        "productcode": 70.806,
+        "hex": "#e8e589"
+    },
+    {
+        "id": 742,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Ice Yellow",
+        "productcode": 70.949,
+        "hex": "#feef87"
+    },
+    {
+        "id": 743,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Deep Yellow",
+        "productcode": 70.915,
+        "hex": "#ffe30c"
+    },
+    {
+        "id": 744,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Flat Yellow",
+        "productcode": 70.953,
+        "hex": "#ffcd25"
+    },
+    {
+        "id": 745,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Golden Yellow",
+        "productcode": 70.948,
+        "hex": "#f7c65e"
+    },
+    {
+        "id": 746,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Basic Skintone",
+        "productcode": 70.815,
+        "hex": "#fbbc8c"
+    },
+    {
+        "id": 747,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Flat Flesh",
+        "productcode": 70.955,
+        "hex": "#d8a977"
+    },
+    {
+        "id": 748,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Dark Flesh",
+        "productcode": 70.927,
+        "hex": "#d9a262"
+    },
+    {
+        "id": 749,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Sunny Skintone",
+        "productcode": 70.845,
+        "hex": "#f4b171"
+    },
+    {
+        "id": 750,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Medium Fleshtone",
+        "productcode": 70.86,
+        "hex": "#c08245"
+    },
+    {
+        "id": 751,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Light Orange",
+        "productcode": 70.911,
+        "hex": "#f68627"
+    },
+    {
+        "id": 752,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "German Orange",
+        "productcode": 70.805,
+        "hex": "#f05426"
+    },
+    {
+        "id": 753,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Bright Orange",
+        "productcode": 70.851,
+        "hex": "#f26833"
+    },
+    {
+        "id": 754,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Clear Orange",
+        "productcode": 70.956,
+        "hex": "#f1552c"
+    },
+    {
+        "id": 755,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Scarlet",
+        "productcode": 70.817,
+        "hex": "#da3630"
+    },
+    {
+        "id": 756,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Orange Red",
+        "productcode": 70.91,
+        "hex": "#e34c26"
+    },
+    {
+        "id": 757,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Vermillion",
+        "productcode": 70.909,
+        "hex": "#d22b2d"
+    },
+    {
+        "id": 758,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Red",
+        "productcode": 70.947,
+        "hex": "#c32d2f"
+    },
+    {
+        "id": 759,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Carmine Red",
+        "productcode": 70.908,
+        "hex": "#b73035"
+    },
+    {
+        "id": 760,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Flat Red",
+        "productcode": 70.957,
+        "hex": "#aa3037"
+    },
+    {
+        "id": 761,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Dark Red",
+        "productcode": 70.946,
+        "hex": "#a24a46"
+    },
+    {
+        "id": 762,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Red",
+        "productcode": 70.926,
+        "hex": "#91323a"
+    },
+    {
+        "id": 763,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Burnt Cadmium Red",
+        "productcode": 70.814,
+        "hex": "#623535"
+    },
+    {
+        "id": 764,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Black Red [Cadmium Brown]",
+        "productcode": 70.859,
+        "hex": "#5f2e39"
+    },
+    {
+        "id": 765,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Beige Red",
+        "productcode": 70.804,
+        "hex": "#c79166"
+    },
+    {
+        "id": 766,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Salmon Rose",
+        "productcode": 70.835,
+        "hex": "#f89d87"
+    },
+    {
+        "id": 767,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Brown Rose",
+        "productcode": 70.803,
+        "hex": "#cf8774"
+    },
+    {
+        "id": 768,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Old Rose",
+        "productcode": 70.944,
+        "hex": "#d47b7d"
+    },
+    {
+        "id": 769,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Pink",
+        "productcode": 70.958,
+        "hex": "#d37497"
+    },
+    {
+        "id": 770,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Sunset Red",
+        "productcode": 70.802,
+        "hex": "#c22c5f"
+    },
+    {
+        "id": 771,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Magenta",
+        "productcode": 70.945,
+        "hex": "#a92a56"
+    },
+    {
+        "id": 772,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Violet Red",
+        "productcode": 70.812,
+        "hex": "#6b2946"
+    },
+    {
+        "id": 773,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Purple",
+        "productcode": 70.959,
+        "hex": "#834a6c"
+    },
+    {
+        "id": 774,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Royal Purple",
+        "productcode": 70.81,
+        "hex": "#4b2967"
+    },
+    {
+        "id": 775,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Blue Violet",
+        "productcode": 70.811,
+        "hex": "#795c9a"
+    },
+    {
+        "id": 776,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Violet",
+        "productcode": 70.86,
+        "hex": "#4b2f65"
+    },
+    {
+        "id": 777,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Dark Sea Blue",
+        "productcode": 70.898,
+        "hex": "#2a4048"
+    },
+    {
+        "id": 778,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Oxford Blue",
+        "productcode": 70.807,
+        "hex": "#3a465f"
+    },
+    {
+        "id": 779,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Dark Prussian Blue",
+        "productcode": 70.899,
+        "hex": "#192c43"
+    },
+    {
+        "id": 780,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Prussian Blue",
+        "productcode": 70.965,
+        "hex": "#2a546e"
+    },
+    {
+        "id": 781,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Blue",
+        "productcode": 70.925,
+        "hex": "#043667"
+    },
+    {
+        "id": 782,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Dark Blue",
+        "productcode": 70.93,
+        "hex": "#0d5a86"
+    },
+    {
+        "id": 783,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Royal Blue",
+        "productcode": 70.809,
+        "hex": "#41558d"
+    },
+    {
+        "id": 784,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Ultramarine",
+        "productcode": 70.839,
+        "hex": "#3b5da7"
+    },
+    {
+        "id": 785,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Flat Blue",
+        "productcode": 70.962,
+        "hex": "#336991"
+    },
+    {
+        "id": 786,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Medium Blue",
+        "productcode": 70.963,
+        "hex": "#066588"
+    },
+    {
+        "id": 787,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Field Blue",
+        "productcode": 70.964,
+        "hex": "#436872"
+    },
+    {
+        "id": 788,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "French Mirage Blue",
+        "productcode": 70.9,
+        "hex": "#557880"
+    },
+    {
+        "id": 789,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Intermediate Blue",
+        "productcode": 70.903,
+        "hex": "#607a80"
+    },
+    {
+        "id": 790,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Grey Blue",
+        "productcode": 70.943,
+        "hex": "#45708d"
+    },
+    {
+        "id": 791,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Azure",
+        "productcode": 70.902,
+        "hex": "#717cad"
+    },
+    {
+        "id": 792,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Pastel Blue",
+        "productcode": 70.901,
+        "hex": "#67859b"
+    },
+    {
+        "id": 793,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Pale Blue",
+        "productcode": 70.906,
+        "hex": "#83b5b2"
+    },
+    {
+        "id": 794,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Andrea Blue",
+        "productcode": 70.841,
+        "hex": "#008dc9"
+    },
+    {
+        "id": 795,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Deep Sky Blue",
+        "productcode": 70.844,
+        "hex": "#00a6da"
+    },
+    {
+        "id": 796,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Sky Blue",
+        "productcode": 70.961,
+        "hex": "#86d6f7"
+    },
+    {
+        "id": 797,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Light Turquoise",
+        "productcode": 70.84,
+        "hex": "#0094a5"
+    },
+    {
+        "id": 798,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Turquoise",
+        "productcode": 70.966,
+        "hex": "#008e9c"
+    },
+    {
+        "id": 799,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Blue Green",
+        "productcode": 70.808,
+        "hex": "#1a9496"
+    },
+    {
+        "id": 800,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Emerald",
+        "productcode": 70.838,
+        "hex": "#00906a"
+    },
+    {
+        "id": 801,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Deep Green",
+        "productcode": 70.97,
+        "hex": "#0a6b48"
+    },
+    {
+        "id": 802,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Park Green Flat",
+        "productcode": 70.969,
+        "hex": "#008c5d"
+    },
+    {
+        "id": 803,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Intermediate Green",
+        "productcode": 70.891,
+        "hex": "#49944f"
+    },
+    {
+        "id": 804,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Light Green",
+        "productcode": 70.942,
+        "hex": "#00a850"
+    },
+    {
+        "id": 805,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Green Sky",
+        "productcode": 70.974,
+        "hex": "#59ad84"
+    },
+    {
+        "id": 806,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Lime Green",
+        "productcode": 70.827,
+        "hex": "#6fae4e"
+    },
+    {
+        "id": 807,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Yellow Green",
+        "productcode": 70.954,
+        "hex": "#d9e02a"
+    },
+    {
+        "id": 808,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Golden Olive",
+        "productcode": 70.857,
+        "hex": "#78923b"
+    },
+    {
+        "id": 809,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "German Cam. Bright Green",
+        "productcode": 70.833,
+        "hex": "#528944"
+    },
+    {
+        "id": 810,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Medium Olive",
+        "productcode": 70.85,
+        "hex": "#226b2e"
+    },
+    {
+        "id": 811,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Olive Green",
+        "productcode": 70.967,
+        "hex": "#6a8b3a"
+    },
+    {
+        "id": 812,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Flat Green",
+        "productcode": 70.968,
+        "hex": "#2a6531"
+    },
+    {
+        "id": 813,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Uniform Green",
+        "productcode": 70.922,
+        "hex": "#577a38"
+    },
+    {
+        "id": 814,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "German Uniform",
+        "productcode": 70.92,
+        "hex": "#286254"
+    },
+    {
+        "id": 815,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Luftwaffe Cam. Green",
+        "productcode": 70.823,
+        "hex": "#596b3f"
+    },
+    {
+        "id": 816,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Yellow Olive",
+        "productcode": 70.892,
+        "hex": "#26392e"
+    },
+    {
+        "id": 817,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Gunship Green",
+        "productcode": 70.895,
+        "hex": "#3d685e"
+    },
+    {
+        "id": 818,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Military Green",
+        "productcode": 70.975,
+        "hex": "#3e5848"
+    },
+    {
+        "id": 819,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Reflective Green",
+        "productcode": 70.89,
+        "hex": "#496244"
+    },
+    {
+        "id": 820,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "USA Olive Drab",
+        "productcode": 70.889,
+        "hex": "#3b4947"
+    },
+    {
+        "id": 821,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Olive Grey",
+        "productcode": 70.888,
+        "hex": "#39584f"
+    },
+    {
+        "id": 822,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Brown Violet",
+        "productcode": 70.887,
+        "hex": "#4e5d4d"
+    },
+    {
+        "id": 823,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Russian Uniform WW2",
+        "productcode": 70.924,
+        "hex": "#606d53"
+    },
+    {
+        "id": 824,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "US Dark Green",
+        "productcode": 70.893,
+        "hex": "#5b6955"
+    },
+    {
+        "id": 825,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Cam. Olive Green",
+        "productcode": 70.894,
+        "hex": "#3c5549"
+    },
+    {
+        "id": 826,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "German Cam. Dark Green",
+        "productcode": 70.979,
+        "hex": "#2f4845"
+    },
+    {
+        "id": 827,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Bronce Green",
+        "productcode": 70.897,
+        "hex": "#2a534f"
+    },
+    {
+        "id": 828,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "German Cam. Extra Dark Green",
+        "productcode": 70.896,
+        "hex": "#30504a"
+    },
+    {
+        "id": 829,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Black Green",
+        "productcode": 70.98,
+        "hex": "#19423e"
+    },
+    {
+        "id": 830,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Green Grey",
+        "productcode": 70.886,
+        "hex": "#827e61"
+    },
+    {
+        "id": 831,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "German Field Grey WW2",
+        "productcode": 70.83,
+        "hex": "#595748"
+    },
+    {
+        "id": 832,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "German Cam. Beige WW2",
+        "productcode": 70.821,
+        "hex": "#9c8d70"
+    },
+    {
+        "id": 833,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Stone Grey",
+        "productcode": 70.884,
+        "hex": "#959980"
+    },
+    {
+        "id": 834,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Luftwaffe Uniform WW2",
+        "productcode": 70.816,
+        "hex": "#3d474f"
+    },
+    {
+        "id": 835,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Grey Grey",
+        "productcode": 70.971,
+        "hex": "#aecbbb"
+    },
+    {
+        "id": 836,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Light Green Blue",
+        "productcode": 70.972,
+        "hex": "#6d9a95"
+    },
+    {
+        "id": 837,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Light Sea Grey",
+        "productcode": 70.973,
+        "hex": "#97b4b5"
+    },
+    {
+        "id": 838,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Pastel Green",
+        "productcode": 70.885,
+        "hex": "#a4bb99"
+    },
+    {
+        "id": 839,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Deck Tan",
+        "productcode": 70.986,
+        "hex": "#bec5b3"
+    },
+    {
+        "id": 840,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Medium Grey",
+        "productcode": 70.987,
+        "hex": "#909b85"
+    },
+    {
+        "id": 841,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Yellow Green",
+        "productcode": 70.881,
+        "hex": "#91864b"
+    },
+    {
+        "id": 842,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Khaki Grey",
+        "productcode": 70.88,
+        "hex": "#8b7f5d"
+    },
+    {
+        "id": 843,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Green Brown",
+        "productcode": 70.879,
+        "hex": "#8d7b55"
+    },
+    {
+        "id": 844,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Khaki",
+        "productcode": 70.988,
+        "hex": "#969163"
+    },
+    {
+        "id": 845,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Dark Yellow",
+        "productcode": 70.978,
+        "hex": "#9d9059"
+    },
+    {
+        "id": 846,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Japan Uniform WW2",
+        "productcode": 70.923,
+        "hex": "#998546"
+    },
+    {
+        "id": 847,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Middlestone",
+        "productcode": 70.882,
+        "hex": "#9c9660"
+    },
+    {
+        "id": 848,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Green Ochre",
+        "productcode": 70.914,
+        "hex": "#a98969"
+    },
+    {
+        "id": 849,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Buff",
+        "productcode": 70.976,
+        "hex": "#d2ca9f"
+    },
+    {
+        "id": 850,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Yellow Ochre",
+        "productcode": 70.913,
+        "hex": "#c19448"
+    },
+    {
+        "id": 851,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Tan Yellow",
+        "productcode": 70.912,
+        "hex": "#b5915d"
+    },
+    {
+        "id": 852,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Dark Sand",
+        "productcode": 70.947,
+        "hex": "#d1b47e"
+    },
+    {
+        "id": 853,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Iraqi Sand",
+        "productcode": 70.819,
+        "hex": "#b89972"
+    },
+    {
+        "id": 854,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Desert Yellow",
+        "productcode": 70.977,
+        "hex": "#b19151"
+    },
+    {
+        "id": 855,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Gold Brown",
+        "productcode": 70.877,
+        "hex": "#ba8636"
+    },
+    {
+        "id": 856,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Ochre Brown",
+        "productcode": 70.856,
+        "hex": "#a77237"
+    },
+    {
+        "id": 857,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "German Cam. Orange Ochre",
+        "productcode": 70.824,
+        "hex": "#9d7e55"
+    },
+    {
+        "id": 858,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Light Brown",
+        "productcode": 70.929,
+        "hex": "#bf764e"
+    },
+    {
+        "id": 859,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Amaranth Red",
+        "productcode": 70.829,
+        "hex": "#cc4338"
+    },
+    {
+        "id": 860,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Orange Brown",
+        "productcode": 70.981,
+        "hex": "#b86f44"
+    },
+    {
+        "id": 861,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Brown Sand",
+        "productcode": 70.876,
+        "hex": "#b08064"
+    },
+    {
+        "id": 862,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Cork Brown",
+        "productcode": 70.843,
+        "hex": "#a57b63"
+    },
+    {
+        "id": 863,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Tan Earth",
+        "productcode": 70.874,
+        "hex": "#9c7962"
+    },
+    {
+        "id": 864,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Beige Brown",
+        "productcode": 70.875,
+        "hex": "#78584a"
+    },
+    {
+        "id": 865,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Red Leather",
+        "productcode": 70.818,
+        "hex": "#93453d"
+    },
+    {
+        "id": 866,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Cavalry Brown",
+        "productcode": 70.982,
+        "hex": "#853f3d"
+    },
+    {
+        "id": 867,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Saddle Brown",
+        "productcode": 70.94,
+        "hex": "#89584f"
+    },
+    {
+        "id": 868,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Mahogany Brown",
+        "productcode": 70.846,
+        "hex": "#804b47"
+    },
+    {
+        "id": 869,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Flat Brown",
+        "productcode": 70.984,
+        "hex": "#764841"
+    },
+    {
+        "id": 870,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "English Uniform",
+        "productcode": 70.921,
+        "hex": "#715833"
+    },
+    {
+        "id": 871,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "US Field Drab",
+        "productcode": 70.873,
+        "hex": "#705d43"
+    },
+    {
+        "id": 872,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Flat Earth",
+        "productcode": 70.983,
+        "hex": "#87643c"
+    },
+    {
+        "id": 873,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "German Cam. Pale Brown",
+        "productcode": 70.825,
+        "hex": "#82685e"
+    },
+    {
+        "id": 874,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "German Cam. Medium Brown",
+        "productcode": 70.826,
+        "hex": "#722b2f"
+    },
+    {
+        "id": 875,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Hull Red",
+        "productcode": 70.985,
+        "hex": "#522724"
+    },
+    {
+        "id": 876,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Leather Brown",
+        "productcode": 70.871,
+        "hex": "#4a4639"
+    },
+    {
+        "id": 877,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Burnt Umber",
+        "productcode": 70.941,
+        "hex": "#665148"
+    },
+    {
+        "id": 878,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Chocolate Brown",
+        "productcode": 70.872,
+        "hex": "#5f5047"
+    },
+    {
+        "id": 879,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "German Cam. Black Brown",
+        "productcode": 70.822,
+        "hex": "#553528"
+    },
+    {
+        "id": 880,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "White Grey",
+        "productcode": 70.993,
+        "hex": "#eef1ec"
+    },
+    {
+        "id": 881,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Silver Grey",
+        "productcode": 70.883,
+        "hex": "#d8dfd5"
+    },
+    {
+        "id": 882,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Pale Grey Blue",
+        "productcode": 70.907,
+        "hex": "#bacdd0"
+    },
+    {
+        "id": 883,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Sky Grey",
+        "productcode": 70.989,
+        "hex": "#b3b6b2"
+    },
+    {
+        "id": 884,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Light Grey",
+        "productcode": 70.99,
+        "hex": "#949c9a"
+    },
+    {
+        "id": 885,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Blue Grey Pale",
+        "productcode": 70.905,
+        "hex": "#9ea7a5"
+    },
+    {
+        "id": 886,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Dark Blue Grey",
+        "productcode": 70.904,
+        "hex": "#5c7476"
+    },
+    {
+        "id": 887,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Medium Sea Grey",
+        "productcode": 70.87,
+        "hex": "#869393"
+    },
+    {
+        "id": 888,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Dark Sea Grey",
+        "productcode": 70.991,
+        "hex": "#787d7a"
+    },
+    {
+        "id": 889,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Neutral Grey",
+        "productcode": 70.992,
+        "hex": "#64767a"
+    },
+    {
+        "id": 890,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "London Grey",
+        "productcode": 70.836,
+        "hex": "#4a555e"
+    },
+    {
+        "id": 891,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Basalt Grey",
+        "productcode": 70.869,
+        "hex": "#576860"
+    },
+    {
+        "id": 892,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Dark Sea Green",
+        "productcode": 70.868,
+        "hex": "#2f4844"
+    },
+    {
+        "id": 893,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Dark Blue Grey",
+        "productcode": 70.867,
+        "hex": "#4b5751"
+    },
+    {
+        "id": 894,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Grey Green",
+        "productcode": 70.866,
+        "hex": "#4b5755"
+    },
+    {
+        "id": 895,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Dark Grey",
+        "productcode": 70.994,
+        "hex": "#233e3d"
+    },
+    {
+        "id": 896,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "German Grey",
+        "productcode": 70.995,
+        "hex": "#192f30"
+    },
+    {
+        "id": 897,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Black Grey",
+        "productcode": 70.862,
+        "hex": "#2d373a"
+    },
+    {
+        "id": 898,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Black",
+        "productcode": 70.95,
+        "hex": "#252b31"
+    },
+    {
+        "id": 899,
+        "brand": "Vallejo",
+        "productline": "Model Color",
+        "name": "Glossy Black",
+        "productcode": 70.861,
+        "hex": "#010101"
+    }
+]
