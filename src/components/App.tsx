@@ -7,7 +7,13 @@ import SearchBar from './SearchBar';
 import FilterList from './FilterList';
 import CurrentColor from './CurrentColor';
 import SimilarColors from './SimilarColors';
-import { getFilters, getRandomColor, getSimilarColors } from '../helpers/generalHelper';
+import {
+    getFilters,
+    getRandomColor,
+    getSimilarColors,
+    resetMatchesScroll,
+    resetResultsScroll,
+} from '../helpers/generalHelper';
 
 import '../styles/App.css';
 
@@ -49,8 +55,10 @@ class App extends React.Component<{}, AppState> {
 
     componentDidUpdate() {
         // Remember state for the next mount
-        localStorage.clear();
-        localStorage.setItem(`appState${colorDataVersion}`, JSON.stringify(this.state));
+        if (this.state.currentColor != null) {
+            localStorage.clear();
+            localStorage.setItem(`appState${colorDataVersion}`, JSON.stringify(this.state));
+        }
     }
 
     setCurrentColor: SetCurrentColor = color => {
@@ -62,9 +70,8 @@ class App extends React.Component<{}, AppState> {
         });
 
         // Reset scroll position of Similar Colors
-        document.getElementsByClassName('similar-colors-wrapper')[0].scrollTo(0, 0);
-
-        document.getElementsByClassName('results')[0].scrollTo(0, 0);
+        resetMatchesScroll();
+        resetResultsScroll();
     };
 
     onSearchSubmit: SearchSubmit = color => {

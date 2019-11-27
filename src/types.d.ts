@@ -58,3 +58,5 @@ type GetFilters = (colors: Array<Color>) => Array<Filter>;
 type SetFilters = (filters: Array<Filter>) => void;
 
 type DimmerOpen = () => void;
+
+type ResetScroll = () => void;

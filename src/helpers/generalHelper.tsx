@@ -50,3 +50,17 @@ export const getSimilarColors: GetSimilarColors = (currentColor, colors, filters
         return null;
     }
 };
+
+export const resetResultsScroll: ResetScroll = () => {
+    const resultsElem = document.getElementsByClassName('results transition');
+    if (resultsElem != null && resultsElem != undefined && resultsElem.length > 0) {
+        resultsElem[0].scrollTo(0, 0);
+    }
+};
+
+export const resetMatchesScroll: ResetScroll = () => {
+    const resultsElem = document.getElementsByClassName('similar-colors-wrapper');
+    if (resultsElem != null && resultsElem != undefined && resultsElem.length > 0) {
+        resultsElem[0].scrollTo(0, 0);
+    }
+};

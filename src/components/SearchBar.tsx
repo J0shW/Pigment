@@ -3,6 +3,7 @@ import _ from 'lodash';
 import React from 'react';
 import { Search, SearchProps, SearchResultData, SearchResultProps } from 'semantic-ui-react';
 import { calcDeltas } from '../helpers/calcDeltas';
+import { resetResultsScroll } from '../helpers/generalHelper';
 
 // Semantic UI React Search Bar
 // https://react.semantic-ui.com/modules/search/#types-standard-custom
@@ -89,7 +90,7 @@ export default class SearchExampleCategory extends React.Component<SearchBarProp
             if (this.state.value.length < 1) return this.setState(this.initialState);
 
             // Reset Scroll position of results list
-            document.getElementsByClassName('results transition')[0].scrollTo(0, 0);
+            resetResultsScroll();
 
             // Step 1: Get everything that STARTS WITH the searched value
             const searchValue = _.escapeRegExp(this.state.value.toLowerCase());
