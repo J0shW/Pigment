@@ -64,6 +64,7 @@ Well now with **Pigment** you can find great alternative colors! You can search 
 ### Built With
 
 * [React](https://reactjs.org/)
+* [TypeScript](https://www.typescriptlang.org/)
 * [Semantic UI](https://semantic-ui.com/)
 
 
