@@ -1,5 +1,7 @@
 import React from 'react';
 import axios from 'axios';
+import * as firebase from 'firebase/app';
+import 'firebase/analytics';
 import { getDeltaE } from '../helpers/calcDeltas';
 import { Dimmer, Loader, Icon } from 'semantic-ui-react';
 
@@ -17,6 +19,17 @@ import {
 
 import '../styles/App.css';
 
+const firebaseConfig = {
+    apiKey: 'AIzaSyB2p6wKii_tTyGgFKYqp1dHDoPaYRzv-Rg',
+    authDomain: 'pigment-ninja.firebaseapp.com',
+    databaseURL: 'https://pigment-ninja.firebaseio.com',
+    projectId: 'pigment-ninja',
+    storageBucket: 'pigment-ninja.appspot.com',
+    messagingSenderId: '903961965489',
+    appId: '1:903961965489:web:28870dc52ef143242d8390',
+    measurementId: 'G-5HQNCQ103V',
+};
+
 const InitialState: AppState = {
     currentColor: null,
     similarColors: null,
@@ -26,6 +39,10 @@ const InitialState: AppState = {
 
 const colorDataVersion: number = 1;
 
+// Initialize Firebase and Analytics
+firebase.initializeApp(firebaseConfig);
+const analytics = firebase.analytics();
+
 class App extends React.Component<{}, AppState> {
     // Retrieve the last state from localStorage
     state: AppState = localStorage.getItem(`appState${colorDataVersion}`)
@@ -34,6 +51,9 @@ class App extends React.Component<{}, AppState> {
 
     async componentDidMount() {
         if (this.state.colors.length === 0) {
+            // Track New User
+            analytics.logEvent('new_user');
+
             // Load JSON color data
             axios
                 .get('./colorsMatched.json')
@@ -75,6 +95,9 @@ class App extends React.Component<{}, AppState> {
     };
 
     onSearchSubmit: SearchSubmit = color => {
+        // Track Search Submit
+        analytics.logEvent('search_submit', { colorid: color.id, colorname: color.name });
+
         this.setCurrentColor(color);
     };
 
