@@ -19,16 +19,20 @@ import {
 
 import '../styles/App.css';
 
+// Initialize Firebase and Analytics
+require('dotenv').config();
 const firebaseConfig = {
-    apiKey: 'AIzaSyB2p6wKii_tTyGgFKYqp1dHDoPaYRzv-Rg',
-    authDomain: 'pigment-ninja.firebaseapp.com',
-    databaseURL: 'https://pigment-ninja.firebaseio.com',
-    projectId: 'pigment-ninja',
-    storageBucket: 'pigment-ninja.appspot.com',
-    messagingSenderId: '903961965489',
-    appId: '1:903961965489:web:28870dc52ef143242d8390',
-    measurementId: 'G-5HQNCQ103V',
+    apiKey: process.env.REACT_APP_API_KEY!,
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN!,
+    databaseURL: process.env.REACT_APP_DATABASE_URL!,
+    projectId: process.env.REACT_APP_PROJECT_ID!,
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET!,
+    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID!,
+    appId: process.env.REACT_APP_APP_ID!,
+    measurementId: process.env.REACT_APP_MEASUREMENT_ID!,
 };
+firebase.initializeApp(firebaseConfig);
+const analytics = firebase.analytics();
 
 const InitialState: AppState = {
     currentColor: null,
@@ -39,10 +43,6 @@ const InitialState: AppState = {
 
 const colorDataVersion: number = 1;
 
-// Initialize Firebase and Analytics
-firebase.initializeApp(firebaseConfig);
-const analytics = firebase.analytics();
-
 class App extends React.Component<{}, AppState> {
     // Retrieve the last state from localStorage
     state: AppState = localStorage.getItem(`appState${colorDataVersion}`)
@@ -52,7 +52,9 @@ class App extends React.Component<{}, AppState> {
     async componentDidMount() {
         if (this.state.colors.length === 0) {
             // Track New User
-            analytics.logEvent('new_user');
+            if (process.env.NODE_ENV === 'production') {
+                analytics.logEvent('new_user');
+            }
 
             // Load JSON color data
             axios
@@ -96,7 +98,9 @@ class App extends React.Component<{}, AppState> {
 
     onSearchSubmit: SearchSubmit = color => {
         // Track Search Submit
-        analytics.logEvent('search_submit', { colorid: color.id, colorname: color.name });
+        if (process.env.NODE_ENV === 'production') {
+            analytics.logEvent('search_submit', { colorid: color.id, colorname: color.name });
+        }
 
         this.setCurrentColor(color);
     };
