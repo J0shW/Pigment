@@ -17,6 +17,11 @@ const dimmerOpen: DimmerOpen = () => {
     }, 3000);
 };
 
+const wheelEvent = (e: React.WheelEvent<HTMLElement>) => {
+    if (e.deltaY > 0) e.currentTarget.scrollLeft += 100;
+    else e.currentTarget.scrollLeft -= 100; 
+};
+
 const SimilarColors: React.FC<SimilarColorsProps> = ({ similarColors }) => {
     const renderColors = similarColors.map((color, index) => {
         const delta = color.delta ? Math.round(color.delta * 100) / 100 : 0;
@@ -36,7 +41,7 @@ const SimilarColors: React.FC<SimilarColorsProps> = ({ similarColors }) => {
         );
     });
 
-    return <section className="similar-colors-wrapper">{renderColors}</section>;
+    return <section className="similar-colors-wrapper" onWheel = {(e) => wheelEvent(e)}>{renderColors}</section>;
 };
 
 export default SimilarColors;
