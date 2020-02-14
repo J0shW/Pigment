@@ -43,19 +43,21 @@ type SearchBarState = {
 
 // Functions
 type GetSimilarColors = (
-    currentColor: Color | null,
+    currentColor: Color,
     colors: Array<Color>,
     filters: Array<Filter>,
-) => Array<Color> | null;
+) => Array<Color>;
 
-type SetCurrentColor = (color: Color) => void;
+type GetColors = () => Promise<Color[]>;
+
+type GetCurrentColor = (colors: Array<Color>) => Promise<Color>;
 
 type GetRandomColor = (colors: Array<Color>) => Color;
 
 type SearchSubmit = (color: Color) => void;
 
 type GetFilters = (colors: Array<Color>) => Array<Filter>;
-type SetFilters = (filters: Array<Filter>) => void;
+type FilterChange = (filters: Array<Filter>) => void;
 
 type DimmerOpen = () => void;
 

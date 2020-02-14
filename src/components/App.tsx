@@ -1,5 +1,4 @@
-import React from 'react';
-import axios from 'axios';
+import React, { useState, useEffect } from 'react';
 import * as firebase from 'firebase/app';
 import 'firebase/analytics';
 import { getDeltaE } from '../helpers/calcDeltas';
@@ -10,11 +9,13 @@ import FilterList from './FilterList';
 import CurrentColor from './CurrentColor';
 import SimilarColors from './SimilarColors';
 import {
+    getColors,
     getFilters,
     getRandomColor,
     getSimilarColors,
     resetMatchesScroll,
     resetResultsScroll,
+    getCurrentColor,
 } from '../helpers/generalHelper';
 
 import '../styles/App.css';
@@ -34,110 +35,95 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 const analytics = firebase.analytics();
 
-const InitialState: AppState = {
-    currentColor: null,
-    similarColors: null,
-    colors: [],
-    filters: [],
-};
-
 const colorDataVersion: number = 1;
 
-class App extends React.Component<{}, AppState> {
-    // Retrieve the last state from localStorage
-    state: AppState = localStorage.getItem(`appState${colorDataVersion}`)
-        ? JSON.parse(localStorage.getItem(`appState${colorDataVersion}`) + '')
-        : InitialState;
+const App: React.FC = () => {
+    const [currentColor, setCurrentColor] = useState<Color>();
+    const [similarColors, setSimilarColors] = useState<Color[]>();
+    const [colors, setColors] = useState<Color[]>();
+    const [filters, setFilters] = useState<Filter[]>();
 
-    async componentDidMount() {
-        if (this.state.colors.length === 0) {
-            // Track New User
-            if (process.env.NODE_ENV === 'production') {
-                analytics.logEvent('new_user');
+    useEffect(() => {
+        async function init() {
+            // Get JSON color data
+            const colorList = await getColors();
+            // Set color data
+            setColors([...colorList]);
+        }
+
+        init();      
+    }, []);
+
+    useEffect(() => {
+        async function getCurColor() {
+            const curColor = await getCurrentColor(colors!);
+            setCurrentColor(curColor);
+        }
+
+        if (colors) {
+            localStorage.setItem(`colors`, JSON.stringify(colors));
+
+            // Set Filters       
+            setFilters([...getFilters(colors)]);
+
+            // Set Current Color           
+            getCurColor();
+        }
+    }, [colors]);
+
+    useEffect(() => {
+        if (currentColor) {
+            localStorage.setItem(`currentColor`, JSON.stringify(currentColor));
+
+            //Get Similar Colors
+            if (colors && filters) {
+                setSimilarColors([...getSimilarColors(currentColor, colors, filters)]);
             }
 
-            // Load JSON color data
-            axios
-                .get('./colorsMatched.json')
-                .then(response => {
-                    // Load Color List
-                    this.setState({ colors: response.data }, () => {
-                        // Load Filter List
-                        this.setState({ filters: getFilters(this.state.colors) }, () => {
-                            // Set a random color
-                            this.setCurrentColor(getRandomColor(this.state.colors));
-                        });
-                    });
-                })
-                .catch(function(error) {
-                    console.log(error);
-                });
+            // Reset scroll position of Similar Colors
+            resetMatchesScroll();
+            resetResultsScroll();
         }
-    }
+    }, [currentColor]);
 
-    componentDidUpdate() {
-        // Remember state for the next mount
-        if (this.state.currentColor != null) {
-            localStorage.clear();
-            localStorage.setItem(`appState${colorDataVersion}`, JSON.stringify(this.state));
-        }
-    }
-
-    setCurrentColor: SetCurrentColor = color => {
-        this.setState({ currentColor: color }, () => {
-            // Set Similar Colors
-            this.setState({
-                similarColors: getSimilarColors(this.state.currentColor, this.state.colors, this.state.filters),
-            });
-        });
-
-        // Reset scroll position of Similar Colors
-        resetMatchesScroll();
-        resetResultsScroll();
-    };
-
-    onSearchSubmit: SearchSubmit = color => {
+    const onSearchSubmit: SearchSubmit = color => {
         // Track Search Submit
         if (process.env.NODE_ENV === 'production') {
             analytics.logEvent('search_submit', { colorid: color.id, colorname: color.name });
         }
 
-        this.setCurrentColor(color);
+        setCurrentColor(color);
     };
 
-    setFilters: SetFilters = filters => {
-        this.setState({ filters }, () => {
-            if (this.state.currentColor != null) {
-                this.setCurrentColor(this.state.currentColor);
-            }
-        });
-    };
+    const onFilterChange: FilterChange = (filters) => {
+        setFilters([...filters]);
+    }
 
-    renderHeader() {
+    const renderHeader = () => {
         return (
             <header>
                 <nav>
-                    <button onClick={() => this.setCurrentColor(getRandomColor(this.state.colors))}>
+                    <button onClick={() => setCurrentColor(getRandomColor(colors!))}>
                         <Icon name="random" />
                     </button>
-                    <SearchBar onSubmit={this.onSearchSubmit} colors={this.state.colors} />
-                    <FilterList filters={this.state.filters} setfilters={this.setFilters} />
+                    <SearchBar onSubmit={onSearchSubmit} colors={colors!} />
+                    <FilterList filters={filters} setfilters={onFilterChange} />
                 </nav>
             </header>
         );
     }
 
-    renderMain() {
-        var deltaWhite = this.state.currentColor ? getDeltaE(this.state.currentColor.hex, '#FFFFFF') : 100;
+    const renderMain = () => {
+        var deltaWhite = currentColor ? getDeltaE(currentColor.hex, '#FFFFFF') : 100;
         if (
-            this.state.currentColor !== null &&
-            this.state.currentColor !== undefined &&
-            this.state.similarColors !== null
+            currentColor !== null &&
+            currentColor !== undefined &&
+            similarColors !== null
         ) {
             return (
                 <main className={deltaWhite < 33 ? 'dark' : ''}>
-                    <CurrentColor color={this.state.currentColor} />
-                    <SimilarColors similarColors={this.state.similarColors} />
+                    <CurrentColor color={currentColor} />
+                    <SimilarColors similarColors={similarColors} />
                 </main>
             );
         } else {
@@ -151,7 +137,7 @@ class App extends React.Component<{}, AppState> {
         }
     }
 
-    renderFooter() {
+    const renderFooter = () => {
         return (
             <footer>
                 <div>
@@ -165,21 +151,20 @@ class App extends React.Component<{}, AppState> {
         );
     }
 
-    render() {
-        return (
-            <div className="wrapper">
-                {this.renderHeader()}
-                {this.renderMain()}
-                {this.renderFooter()}
-                <div id="snackbar">
-                    <div>
-                        The Delta (Δ) value indicates the difference between two colors. The lower the number, the
-                        better the match!
-                    </div>
+    return (
+        
+        <div className="wrapper">
+            {renderHeader()}
+            {renderMain()}
+            {renderFooter()}
+            <div id="snackbar">
+                <div>
+                    The Delta (Δ) value indicates the difference between two colors. The lower the number, the
+                    better the match!
                 </div>
             </div>
-        );
-    }
+        </div>
+    );
 }
 
 export default App;

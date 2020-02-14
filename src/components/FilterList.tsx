@@ -3,32 +3,36 @@ import _ from 'lodash';
 import { Dropdown, DropdownItemProps } from 'semantic-ui-react';
 
 interface FilterListProps {
-    filters: Array<Filter>;
-    setfilters: SetFilters;
+    filters: Array<Filter> | undefined;
+    setfilters: FilterChange;
 }
 
 const FilterList: React.FC<FilterListProps> = ({ filters, setfilters }) => {
-    const renderFilterList = (filters: Array<Filter>) => {
-        return filters.map((filter, index) => {
-            return (
-                <Dropdown.Item
-                    key={index}
-                    icon={filter.active ? 'check square outline' : 'square outline'}
-                    text={filter.productline}
-                    onClick={onFilterClick}
-                />
-            );
-        });
+    const renderFilterList = (filters: Array<Filter> | undefined) => {
+        if (filters) {
+            return filters.map((filter, index) => {
+                return (
+                    <Dropdown.Item
+                        key={index}
+                        icon={filter.active ? 'check square outline' : 'square outline'}
+                        text={filter.productline}
+                        onClick={onFilterClick}
+                    />
+                );
+            });
+        }
     };
 
     const onFilterClick = (event: React.MouseEvent<HTMLDivElement, MouseEvent>, data: DropdownItemProps) => {
         event.stopPropagation();
-        const index = _.findIndex(filters, item => {
-            return item.productline.indexOf(data.text as string) > -1;
-        });
-        filters[index].active = !filters[index].active;
+        if (filters) {
+            const index = _.findIndex(filters, item => {
+                return item.productline.indexOf(data.text as string) > -1;
+            });
+            filters[index].active = !filters[index].active;
 
-        setfilters(filters);
+            setfilters(filters);
+        }
     };
 
     return (

@@ -1,4 +1,28 @@
 import _ from 'lodash';
+import axios from 'axios';
+
+export const getColors: GetColors = async () => {
+    let colorList: Color[];
+    if (localStorage.getItem(`colors`)) {
+        colorList = await JSON.parse(localStorage.getItem(`colors`)!);
+    }
+    else {
+        colorList = await axios.request<Color[]>({url: './colorsMatched.json'})
+        .then((response) => response.data);   
+    }
+    return colorList;
+};
+
+export const getCurrentColor: GetCurrentColor = async (colors) => {
+    let curColor: Color;
+    if (localStorage.getItem(`currentColor`)) {
+        curColor = await JSON.parse(localStorage.getItem(`currentColor`)!);
+    }
+    else {
+        curColor = getRandomColor(colors);
+    }
+    return curColor;
+}
 
 export const getFilters: GetFilters = colors => {
     // Get unique product lines
@@ -20,34 +44,30 @@ export const getRandomColor: GetRandomColor = colors => {
 };
 
 export const getSimilarColors: GetSimilarColors = (currentColor, colors, filters) => {
-    if (currentColor && currentColor.matches) {
-        let similarColors: Array<Color> = [];
+    let similarColors: Array<Color> = [];
 
-        _.forEach(currentColor.matches, match => {
-            const found: Color | undefined = _.find(colors, color => {
-                if (color.id === match.id) {
-                    const filterMatch: boolean = _.some(filters, {
-                        productline: `${color.brand} ${color.productline}`,
-                        active: true,
-                    });
-                    return filterMatch;
-                }
-                return false;
-            });
-
-            if (found) {
-                found.delta = match.deltaE;
-                similarColors.push(found);
+    _.forEach(currentColor.matches, match => {
+        const found: Color | undefined = _.find(colors, color => {
+            if (color.id === match.id) {
+                const filterMatch: boolean = _.some(filters, {
+                    productline: `${color.brand} ${color.productline}`,
+                    active: true,
+                });
+                return filterMatch;
             }
+            return false;
         });
 
-        if (similarColors.length >= 5) {
-            return similarColors.slice(0, 5);
-        } else {
-            return similarColors.slice(0, similarColors.length);
+        if (found) {
+            found.delta = match.deltaE;
+            similarColors.push(found);
         }
+    });
+
+    if (similarColors.length >= 5) {
+        return similarColors.slice(0, 5);
     } else {
-        return null;
+        return similarColors.slice(0, similarColors.length);
     }
 };
 
