@@ -24,16 +24,22 @@ export const getCurrentColor: GetCurrentColor = async (colors) => {
     return curColor;
 }
 
-export const getFilters: GetFilters = colors => {
-    // Get unique product lines
-    let productlines: any = _.uniqBy(colors, 'productline');
+export const getFilters: GetFilters = async (colors) => {
+    let filterList: Filter[];
+    if (localStorage.getItem(`filters`)) {
+        filterList = await JSON.parse(localStorage.getItem(`filters`)!);
+    }
+    else {
+        // Get unique product lines
+        let productlines: any = _.uniqBy(colors, 'productline');
 
-    // Create a list of filters from them with 'active' set to true
-    const filterlist: Array<Filter> = productlines.map((line: Color) => {
-        return { productline: `${line.brand} ${line.productline}`, active: true };
-    });
+        // Create a list of filters from them with 'active' set to true
+        filterList = productlines.map((line: Color) => {
+            return { productline: `${line.brand} ${line.productline}`, active: true };
+        });
+    }
 
-    return filterlist;
+    return filterList;
 };
 
 export const getRandomColor: GetRandomColor = colors => {

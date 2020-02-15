@@ -1,9 +1,9 @@
 // Objects
 type AppState = {
     currentColor: Color | null;
-    similarColors: Array<Color> | null;
-    colors: Array<Color>;
-    filters: Array<Filter>;
+    similarColors: Color[] | null;
+    colors: Color[];
+    filters: Filter[];
 };
 
 type Color = {
@@ -13,7 +13,7 @@ type Color = {
     name: string;
     productcode: string;
     hex: string;
-    matches?: Array<Match>;
+    matches?: Match[];
     delta?: number;
 };
 
@@ -38,26 +38,26 @@ type SearchBarState = {
     isLoading: boolean;
     results: Array;
     value: string;
-    colors: Array<Color>;
+    colors: Color[];
 };
 
 // Functions
 type GetSimilarColors = (
     currentColor: Color,
-    colors: Array<Color>,
-    filters: Array<Filter>,
+    colors: Color[],
+    filters: Filter[],
 ) => Array<Color>;
 
 type GetColors = () => Promise<Color[]>;
 
-type GetCurrentColor = (colors: Array<Color>) => Promise<Color>;
+type GetCurrentColor = (colors: Color[]) => Promise<Color>;
 
-type GetRandomColor = (colors: Array<Color>) => Color;
+type GetRandomColor = (colors: Color[]) => Color;
 
 type SearchSubmit = (color: Color) => void;
 
-type GetFilters = (colors: Array<Color>) => Array<Filter>;
-type FilterChange = (filters: Array<Filter>) => void;
+type GetFilters = (colors: Color[]) => Promise<Filter[]>;
+type FilterChange = (filters: Filter[]) => void;
 
 type DimmerOpen = () => void;
 

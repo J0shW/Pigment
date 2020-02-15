@@ -35,7 +35,7 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 const analytics = firebase.analytics();
 
-const colorDataVersion: number = 1;
+// const colorDataVersion: number = 1;
 
 const App: React.FC = () => {
     const [currentColor, setCurrentColor] = useState<Color>();
@@ -45,46 +45,43 @@ const App: React.FC = () => {
 
     useEffect(() => {
         async function init() {
-            // Get JSON color data
+            // Get and Set JSON color data
             const colorList = await getColors();
-            // Set color data
             setColors([...colorList]);
+
+            // Get and Set current color
+            const curColor = await getCurrentColor(colorList);
+            setCurrentColor(curColor);
+
+            // Get and Set filters
+            const filterList = await getFilters(colorList);
+            setFilters(filterList);
         }
 
         init();      
     }, []);
 
     useEffect(() => {
-        async function getCurColor() {
-            const curColor = await getCurrentColor(colors!);
-            setCurrentColor(curColor);
-        }
-
-        if (colors) {
-            localStorage.setItem(`colors`, JSON.stringify(colors));
-
-            // Set Filters       
-            setFilters([...getFilters(colors)]);
-
-            // Set Current Color           
-            getCurColor();
-        }
-    }, [colors]);
-
-    useEffect(() => {
-        if (currentColor) {
-            localStorage.setItem(`currentColor`, JSON.stringify(currentColor));
-
-            //Get Similar Colors
-            if (colors && filters) {
-                setSimilarColors([...getSimilarColors(currentColor, colors, filters)]);
-            }
-
+        //Set Similar Colors
+        if (colors && currentColor && filters) {
+            setSimilarColors([...getSimilarColors(currentColor, colors, filters)]);
+            
             // Reset scroll position of Similar Colors
             resetMatchesScroll();
             resetResultsScroll();
         }
+    }, [colors, currentColor, filters]);
+
+    useEffect(() => {
+        if (colors) { localStorage.setItem(`colors`, JSON.stringify(colors)); }
+    }, [colors]);
+
+    useEffect(() => {
+        if (currentColor) { localStorage.setItem(`currentColor`, JSON.stringify(currentColor)); }
     }, [currentColor]);
+
+    useEffect(() => { if(filters) { localStorage.setItem(`filters`, JSON.stringify(filters)); }
+    }, [filters]);
 
     const onSearchSubmit: SearchSubmit = color => {
         // Track Search Submit
