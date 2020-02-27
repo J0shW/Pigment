@@ -145,6 +145,8 @@ export default class SearchExampleCategory extends React.Component<SearchBarProp
                     results={results}
                     value={value}
                     resultRenderer={resultRenderer}
+                    noResultsMessage="No colors found."
+                    placeholder={"Search for a color"}
                     {...this.props}
                 />
             </div>
