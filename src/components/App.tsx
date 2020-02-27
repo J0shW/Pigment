@@ -57,7 +57,7 @@ const App: React.FC = () => {
             const filterList = await getFilters(colorList);
             setFilters(filterList);
         }
-
+        
         init();      
     }, []);
 
@@ -80,7 +80,8 @@ const App: React.FC = () => {
         if (currentColor) { localStorage.setItem(`currentColor`, JSON.stringify(currentColor)); }
     }, [currentColor]);
 
-    useEffect(() => { if(filters) { localStorage.setItem(`filters`, JSON.stringify(filters)); }
+    useEffect(() => { 
+        if(filters) { localStorage.setItem(`filters`, JSON.stringify(filters)); }
     }, [filters]);
 
     const onSearchSubmit: SearchSubmit = color => {
@@ -134,26 +135,11 @@ const App: React.FC = () => {
         }
     }
 
-    const renderFooter = () => {
-        return (
-            <footer>
-                <div>
-                    <h4>Best Match</h4>
-                </div>
-                <div id="footerline"></div>
-                <div>
-                    <h4>Good Match</h4>
-                </div>
-            </footer>
-        );
-    }
-
     return (
         
         <div className="wrapper">
             {renderHeader()}
             {renderMain()}
-            {renderFooter()}
             <div id="snackbar">
                 <div>
                     The Delta (Δ) value indicates the difference between two colors. The lower the number, the
