@@ -29,16 +29,15 @@ const SimilarColors: React.FC<SimilarColorsProps> = ({ similarColors }) => {
                 const delta = color.delta ? Math.round(color.delta * 100) / 100 : 0;
                 return (
                     <div key={index} className="similar-color" style={{ backgroundColor: color.hex }}>
-                        <div>
+                        <div className="color-header">
                             <h4>{`${color.brand} ${color.productline}`}</h4>
                             <h2>{color.name.charAt(0).toUpperCase() + color.name.slice(1)}</h2>
                         </div>
-                        {renderMatchStatus(index)}
-                        <div>
+                        <div className="delta-content">
                             <h4 className="delta" onClick={dimmerOpen}>
-                                {/* {`Δ=${parseFloat(Math.round(color.delta * 100) / 100).toFixed(2)}`} */}
-                                {`Δ=${parseFloat(delta.toString()).toFixed(2)}`}
+                                {`Δ = ${parseFloat(delta.toString()).toFixed(2)}`}
                             </h4>
+                            {renderMatchStatus(index, color.hex)}
                         </div>
                     </div>
                 );
@@ -46,23 +45,34 @@ const SimilarColors: React.FC<SimilarColorsProps> = ({ similarColors }) => {
         }
     } 
 
-    const renderMatchStatus = (index: number) => {
+    const renderMatchStatus = (index: number, hex: string) => {
         if (index === 0) {
             return (
-                <div className="match-status match-status-best">
+                <div className="match-status best-match">
+                    <div className=" hr transparent"></div> 
                     <h4>Best Match</h4>
+                    <div className="hr"></div>
                 </div>
             );
         }
         else if (index === similarColors!.length -1) {
             return (
-                <div className="match-status match-status-good">
+                <div className="match-status good-match">
+                    <div className="arrow-container">
+                        <div className=" hr"></div> 
+                        <span className="arrow"></span>
+                    </div>
                     <h4>Good Match</h4>
+                    <div className="hr transparent"></div>
                 </div>
             );
         }
         else {
-            return (<div className="match-status"></div>);
+            return (
+                <div className="match-status">
+                    <div className="hr"></div>
+                </div>
+            );
         }
     }
 

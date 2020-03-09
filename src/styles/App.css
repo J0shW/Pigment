@@ -1,3 +1,8 @@
+* {
+    margin:0;
+    padding:0;
+}
+
 html,
 body,
 #root {
@@ -18,19 +23,6 @@ header {
     height: 50px;
 }
 
-.brand {
-    display: flex;
-    align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-right: 1px solid rgba(34, 36, 38, 0.1);
-}
-
-.brand h3 {
-    font-family: 'Montserrat', sans-serif;
-    color: black !important;
-}
-
 button:focus {
     outline: 0;
 }
@@ -48,12 +40,8 @@ nav button {
     background-color: inherit;
 }
 
-nav i,
-nav h2,
-h3,
-h4,
-h5 {
-    color: black !important;
+nav i {
+    color: black;
 }
 
 nav button:hover,
@@ -185,6 +173,7 @@ main {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    color: white;
 }
 
 main.dark h1,
@@ -192,6 +181,22 @@ main.dark h2,
 main.dark h3,
 main.dark h4 {
     color: black !important;
+}
+
+main.dark .delta:hover {
+    background: black;
+    color: white !important;
+}
+
+main.dark .best-match h4,
+main.dark .good-match h4 {
+    background: black;
+    color: white !important;
+}
+
+main.dark .hr:not(.transparent),
+main.dark .arrow {
+    border-color: black;
 }
 
 /* CURRENT COLOR */
@@ -232,22 +237,28 @@ main.dark h4 {
 }
 
 .similar-color div {
-    height: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 5px;
+    width: 100%;
 }
 
-.similar-color div:first-child {
+.similar-color .color-header,
+.similar-color .delta-content {
+    height: 30%;
+}
+
+.similar-color .color-header {
     justify-content: flex-start;
+    padding: 0px 5px;
+    margin-top: 60px;
 }
 
-.similar-color div:last-child {
-    justify-content: center;
+.similar-color .delta-content {
+    justify-content: space-evenly;
 }
 
-.similar-color div:first-child h4 {
+.similar-color .color-header h4 {
     height: initial;
     margin-bottom: 10px !important;
 }
@@ -258,10 +269,9 @@ main.dark h4 {
     flex-basis: 0;
     flex-grow: 1;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     min-width: 160px;
-    padding-top: 65px;
 }
 
 .delta {
@@ -273,12 +283,13 @@ main.dark h4 {
     background: white;
     opacity: 0.7;
     cursor: pointer;
-    color: black !important;
+    color: black;
     transition: 0.3s ease-in-out;
 }
 
 .match-status {
     justify-content: center;
+    height: 35px;
 }
 
 .match-status h4 {
@@ -288,12 +299,45 @@ main.dark h4 {
     border-radius: 25px;
 }
 
-.match-status-best h4{
-    opacity: 0.9 !important;
+.best-match, .good-match {
+    flex-direction: row !important;
+    justify-content: space-between;
 }
 
-.match-status-good h4{
-    opacity: 0.7 !important;
+.hr {
+    border-bottom: 3px solid white;
+    margin: 0px;
+    width: 100%;
+}
+
+.best-match .hr,
+.good-match .hr {
+    width: 15%;
+}
+
+.arrow-container {
+    width: 15% !important;
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.arrow-container .hr {
+    width: 100% !important;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 5px;
+    margin: -12px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+.transparent {
+    background-color: transparent;
+    border-color: transparent;
 }
 
 /* END SIMILAR COLORS */
@@ -306,7 +350,6 @@ h3,
 h4,
 h5 {
     opacity: 0.7 !important;
-    color: white !important;
     margin-top: 0 !important;
     margin-bottom: 0 !important;
 }
@@ -338,7 +381,7 @@ i.icon {
     max-width: 95vw;
     width: max-content;
     background-color: #333;
-    color: #fff;
+    color: white;
     border-radius: 2px;
     padding: 16px;
 }
